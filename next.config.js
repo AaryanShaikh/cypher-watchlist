@@ -1,4 +1,7 @@
+const withGitHubPages = require('next-gh-pages');
 /** @type {import('next').NextConfig} */
 const nextConfig = {}
 
-module.exports = nextConfig
+module.exports = withGitHubPages({
+    basePath: '/cypher-watchlist', // Replace <repository-name> with your GitHub repository name
+  });
