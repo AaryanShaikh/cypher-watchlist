@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.heading {
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    align-self: self-start;
+    font-size: 30px;
+}
+
+@media (min-width: 301px) and (max-width: 567px) {
+    .heading {
+        font-family: 'Dancing Script', cursive;
+    }
+    .logo {
+        font-family: 'Dancing Script', cursive;
+        align-self: self-start;
+        font-size: 25px;
+    }
+}
