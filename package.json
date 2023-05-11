@@ -2,7 +2,6 @@
   "name": "cypher-watchlist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://aaryanshaikh.github.io/cypher-watchlist",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
