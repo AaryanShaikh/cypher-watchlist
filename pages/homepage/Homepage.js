@@ -7,7 +7,7 @@ const { Search } = Input
 const Homepage = () => {
     const [mainwidth, setwidth] = useState("")
     const widthRef = useRef(null)
-    const range = mainwidth > 300 && mainwidth < 500
+    const range = mainwidth > 300 && mainwidth < 500 
 
     useEffect(() => {
         setwidth(widthRef.current.offsetWidth)
