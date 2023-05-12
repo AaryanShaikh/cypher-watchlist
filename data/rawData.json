@@ -1,0 +1,452 @@
+[
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/66/Wednesday_Netflix_series_poster.png",
+        "title": "Wednesday",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Suits_season_7_dvd_cover.jpg/220px-Suits_season_7_dvd_cover.jpg",
+        "title": "Suits Season 7",
+        "eps": 16,
+        "total": 16,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/7e/Suits_Season_6_DVD_Cover.jpg",
+        "title": "Suits Season 6",
+        "eps": 16,
+        "total": 16,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/cf/Suits_season_5_dvd.jpg",
+        "title": "Suits Season 5",
+        "eps": 16,
+        "total": 16,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a7/Suits_season_4_dvd.jpg",
+        "title": "Suits Season 4",
+        "eps": 16,
+        "total": 16,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/43/Suits_season_3_dvd.jpg",
+        "title": "Suits Season 3",
+        "eps": 16,
+        "total": 16,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/19/Suits_season_2_dvd.jpg",
+        "title": "Suits Season 2",
+        "eps": 16,
+        "total": 16,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/2c/SuitsSeasn1DVDCover.jpg",
+        "title": "Suits Season 1",
+        "eps": 12,
+        "total": 12,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a7/The_Big_Bang_Theory_Season_12.jpg",
+        "title": "The Big Bang Theory Season 12",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/7a/The_Big_Bang_Theory_Season_11.jpg",
+        "title": "The Big Bang Theory Season 11",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/69/The_Big_Bang_Theory_Season_10.jpg",
+        "title": "The Big Bang Theory Season 10",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c7/The_Big_Bang_Theory_Season_9.jpg",
+        "title": "The Big Bang Theory Season 9",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5a/The_Big_Bang_Theory_Season_8.jpg",
+        "title": "The Big Bang Theory Season 8",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/4c/The_Big_Bang_Theory_Season_7.jpg",
+        "title": "The Big Bang Theory Season 7",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/eb/The_Big_Bang_Theory_Season_6.jpg",
+        "title": "The Big Bang Theory Season 6",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/6b/The_Big_Bang_Theory_Season_5.jpg",
+        "title": "The Big Bang Theory Season 5",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Big_Bang_Theory_Season_4.jpg",
+        "title": "The Big Bang Theory Season 4",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Big_Bang_Theory_Season_3.jpg",
+        "title": "The Big Bang Theory Season 3",
+        "eps": 23,
+        "total": 23,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/74/The_Big_Bang_Theory_Season_2.jpg",
+        "title": "The Big Bang Theory Season 2",
+        "eps": 23,
+        "total": 23,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/56/The_Big_Bang_Theory_Season_1.jpg",
+        "title": "The Big Bang Theory Season 1",
+        "eps": 17,
+        "total": 17,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/aa/How_I_Met_Your_Mother_S9.jpg",
+        "title": "How I met your mother Season 9",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/48/How_I_Met_Your_Mother_Season_8_DVD_Cover.jpg",
+        "title": "How I met your mother Season 8",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c5/How_I_Met_Your_Mother_Season_7_DVD.jpg",
+        "title": "How I met your mother Season 7",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d9/How_I_Met_Your_Mother_Season_6_DVD_Cover_Art.jpg",
+        "title": "How I met your mother Season 6",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/af/How_I_Met_Your_Mother_Season_5_DVD_Cover.jpg",
+        "title": "How I met your mother Season 5",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5c/How_I_Met_Your_Mother_Season_4_DVD_Cover.jpg",
+        "title": "How I met your mother Season 4",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/65/How_I_Met_Your_Mother_Season_3_DVD_Cover.jpg",
+        "title": "How I met your mother Season 3",
+        "eps": 20,
+        "total": 20,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d9/How_I_Met_Your_Mother_Season_2_DVD_Cover.jpg",
+        "title": "How I met your mother Season 2",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/2b/How_I_Met_Your_Mother_Season_1_DVD_Cover.jpg",
+        "title": "How I met your mother Season 1",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/20/Friends_Season_10_DVD.jpg",
+        "title": "Friends Season 10",
+        "eps": 17,
+        "total": 17,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/3/33/Friends_Season_9_DVD.jpg",
+        "title": "Friends Season 9",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/ec/Friends_Season_8_DVD.jpg",
+        "title": "Friends Season 8",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/ab/Friends_Season_7_DVD.jpg",
+        "title": "Friends Season 7",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b4/Friends_Season_6_DVD.jpg",
+        "title": "Friends Season 6",
+        "eps": 25,
+        "total": 25,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fb/Friends_Season_5_DVD.jpg",
+        "title": "Friends Season 5",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a6/Friends_Season_4_DVD.jpg",
+        "title": "Friends Season 4",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/22/Friends_Season_3_DVD.jpg",
+        "title": "Friends Season 3",
+        "eps": 25,
+        "total": 25,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a2/Friends_Season_2_DVD.jpg",
+        "title": "Friends Season 2",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/1c/Friends_Season_1_DVD.jpg",
+        "title": "Friends Season 1",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a0/Modern_Family_season_11_poster.jpg",
+        "title": "Modern Family Season 11",
+        "eps": 16,
+        "total": 16,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b6/Modern_Family_season_10_poster.jpg",
+        "title": "Modern Family Season 10",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a1/Modern_Family_season_9_DVD.jpg",
+        "title": "Modern Family Season 9",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/8/86/Modern_Family_S8_DVD.jpg",
+        "title": "Modern Family Season 8",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/1/15/Modern_Family_season_7_dvd.jpg/250px-Modern_Family_season_7_dvd.jpg",
+        "title": "Modern Family Season 7",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a5/Modern_Family_season_6_DVD.jpg",
+        "title": "Modern Family Season 6",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d7/Modern_Family_Season_5.jpg",
+        "title": "Modern Family Season 5",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/61/Modern_Family_Season_4.jpg",
+        "title": "Modern Family Season 4",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/9/9f/Modern_Family_Season_3.jpg",
+        "title": "Modern Family Season 3",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/09/Modern_Family_Season_Two_DVD_Cover.png",
+        "title": "Modern Family Season 2",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://images.justwatch.com/poster/8589542/s718/season-1.%7Bformat%7D",
+        "title": "Modern Family Season 1",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    }
+]
