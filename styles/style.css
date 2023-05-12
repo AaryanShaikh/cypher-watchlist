@@ -2,6 +2,8 @@
 
 body {
     overflow-y: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 .scrollVisible::-webkit-scrollbar {
@@ -25,30 +27,41 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 10px;
 }
 
 .logo {
     font-family: 'Dancing Script', cursive;
-    align-self: self-start;
     font-size: 30px;
 }
 
 .removeCard {
-    background: red;
-    display: none !important;
-    /* animation: removeit .5s ease-in-out; */
+    opacity: 0 !important;
+    position: absolute !important;
+    top: 1234px;
 }
 
-@keyframes removeit {
-    0% {
-        transform: scale(1);
-        display: flex;
-    }
+:where(.css-dev-only-do-not-override-ed5zg0).ant-switch .ant-switch-inner .ant-switch-inner-unchecked {
+    margin-top: -22px;
+}
 
-    100% {
-        transform: scale(0);
-        display: none;
-    }
+:where(.css-dev-only-do-not-override-ed5zg0).ant-switch .ant-switch-inner .ant-switch-inner-checked {
+    margin-top: 2px;
+}
+
+.dark :where(.css-dev-only-do-not-override-ed5zg0).ant-input-group>.ant-input:first-child,
+:where(.css-dev-only-do-not-override-ed5zg0).ant-input-group .ant-input-group-addon:first-child {
+    background: #1B1B1B;
+    color: white;
+}
+
+.dark ::placeholder {
+    color: white !important;
+}
+
+.dark:where(.css-dev-only-do-not-override-ed5zg0).ant-input-search >.ant-input-group >.ant-input-group-addon:last-child .ant-input-search-button {
+    background: #1B1B1B;
+    color: white;
 }
 
 @media (min-width: 301px) and (max-width: 567px) {
@@ -58,7 +71,6 @@ body {
 
     .logo {
         font-family: 'Dancing Script', cursive;
-        align-self: self-start;
-        font-size: 25px;
+        font-size: 20px;
     }
 }

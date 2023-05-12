@@ -1,5 +1,923 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/9259cdfc960f11edd8fde20ab469e548.jpg",
+        "title": "Dragon Ball Z",
+        "eps": 82,
+        "total": 291,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/c4/c457f3c55e57be3cbc75c70ba2a400d1.jpg",
+        "title": "Oshi No Ko",
+        "eps": 4,
+        "total": 11,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/b3/b357f8cffcae0239fcaef653031bcd83.jpg",
+        "title": "Pokémon Horizons: The Series",
+        "eps": 4,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/da/dae2decfa047de8a97c8c8658fcb8b38.jpg",
+        "title": "Ranking of Kings: The Treasure Chest of Courage",
+        "eps": 2,
+        "total": 10,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/3b/3b0e1432c6d7161ca52d4edf2c1129dc.jpg",
+        "title": "Ranking of Kings",
+        "eps": 23,
+        "total": 23,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/8a/8ac08e2422fa889873781ee9d5482b07.jpg",
+        "title": "Why Raeliana Ended Up at the Duke’s Mansion",
+        "eps": 5,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/1/13/133264b33934e01f3101dd83e3eaf31d.jpg",
+        "title": "Dead Mount Death Play",
+        "eps": 5,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/63/6368b77990009f2f67b05cbe05ed08ce.jpg",
+        "title": "Insomniacs after school",
+        "eps": 5,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f9/f9fc4a8ba85d427693c96c86b22c89c2.jpg",
+        "title": "Demon Slayer: Kimetsu no Yaiba Swordsmith Village Arc",
+        "eps": 5,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/69/690551e56cb426cc8faa6f617e6ec5aa.jpg",
+        "title": "My One-Hit Kill Sister",
+        "eps": 4,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/82/82c101b11f9c31d56487724dd94e1067.jpg",
+        "title": "MASHLE: MAGIC AND MUSCLES",
+        "eps": 4,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/31/312204a52b21e02f662b6d33510e3efb.jpg",
+        "title": "TONIKAWA: Over The Moon For You Season 2",
+        "eps": 4,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/79/79b962bd28148947daa3996c19cae007.jpg",
+        "title": "The Café Terrace and Its Goddesses",
+        "eps": 4,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/1/1e/1e8e5fac85889ea2d1d60e99536d73fd.jpg",
+        "title": "Otaku Elf",
+        "eps": 4,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9d/9da03f97cad84a5838adc76b643fb8bf.jpg",
+        "title": "A Galaxy Next Door",
+        "eps": 4,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/0/0b/0b33c18c0b10216548b93015c02210e0.jpg",
+        "title": "Summoned to Another World for a Second Time",
+        "eps": 4,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/3f/3f000d776bb4be665256eb0e2ccabb73.jpg",
+        "title": "The Legendary Hero is Dead!",
+        "eps": 3,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/89/896ff0ef4e21f3e9a0188251d3c72e5d.jpg",
+        "title": "Skip and Loafer",
+        "eps": 5,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/6f/6f99b557074932ca188284635d87506a.jpg",
+        "title": "KONOSUBA -An Explosion on This Wonderful World!",
+        "eps": 5,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/ea/ea82bf860735baec3d244cb53b1abf22.jpg",
+        "title": "KamiKatsu: Working for God in a Godless World",
+        "eps": 4,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/53/534f84337651cbf628b6b5763395b5ad.jpg",
+        "title": "The Aristocrat’s Otherworldly Adventure: Serving Gods Who Go Too Far",
+        "eps": 5,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f1/f154acfcd115840fcaa782e9365f1603.jpg",
+        "title": "My Clueless First Friend",
+        "eps": 5,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/1/14/14163f133456058528713331b8616ce6.jpg",
+        "title": "My Home Hero",
+        "eps": 6,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/2c/2c1726673f01a355c08a18c7a24985c4.jpg",
+        "title": "I Got a Cheat Skill in Another World and Became Unrivaled in The Real World, Too",
+        "eps": 6,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/24/243a19fcaddacb22f85fefb6ee9a6a3e.jpg",
+        "title": "Kuma Kuma Kuma Bear - Punch!",
+        "eps": 6,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/fd/fd3f2b04c727b95be1c7bd71830a2789.jpg",
+        "title": "In Another World With My Smartphone 2",
+        "eps": 6,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/eb2f8932dc42a3e6c65bc448ae0a2627.jpg",
+        "title": "In Another World With My Smartphone",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/a0/a030f051b9315690ce0b20b19e389f6b.jpg",
+        "title": "Tengoku Daimakyo",
+        "eps": 5,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/fd/fdb6b4d9593cd7917da734d44d1f1ca6.jpg",
+        "title": "Hell’s Paradise",
+        "eps": 5,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9c/9cf895ebada48f1ae468c2956eeaceb1.jpg",
+        "title": "My Love Story with Yamada-kun at Lv999",
+        "eps": 5,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/d3/d3470ad17a3eef0caad0eacc079da405.jpg",
+        "title": "The Dangers in My Heart",
+        "eps": 5,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/07/66f3e17a2d8c1c30d1609084612cbaef.jpg",
+        "title": "Bungo Stray Dogs 3",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/fe/fe2473f37d125f35ff6322f7093df555.jpg",
+        "title": "Record of Ragnarok",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f9/f9b8120f049e427c25c3dbfdc5205b1e.jpg",
+        "title": "Record of Ragnarok II",
+        "eps": 10,
+        "total": 15,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/54/541fb5e7cc9e70d9fa1549ab03cf5f44.jpg",
+        "title": "Kubo Won't Let Me Be Invisible",
+        "eps": 6,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/37/37e831a5324525887e7bedaaaa74ad51.jpg",
+        "title": "NieR:Automata Ver1.1a",
+        "eps": 7,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/5d/5db64032bf353fb1db835729bc8b9398.jpg",
+        "title": "The Seven Deadly Sins: Grudge of Edinburgh Part 1",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/8de50df72063b10422e3b5a2b6ec720c.jpg",
+        "title": "Bungo Stray Dogs 1",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/f53e097a765e5c8164b1571a5e03bf30.jpg",
+        "title": "Bungo Stray Dogs 2",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/f53e097a765e5c8164b1571a5e03bf30.jpg",
+        "title": "Bungo Stray Dogs 2: Walking Alone",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/a848ecc0f299a55a178533b9fec6ccd7.jpg",
+        "title": "Bungo Stray Dogs: DEAD APPLE",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/f44c65f80a154b5df28cc31ae734076c.jpg",
+        "title": "Chibi☆Devi!",
+        "eps": 75,
+        "total": 75,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/63/63d9d9a929d3148971a6815a900dc7ee.jpg",
+        "title": "The Way of the Househusband",
+        "eps": 5,
+        "total": 5,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/fa/fa7a279254567b819610849bde3ee904.jpg",
+        "title": "TONIKAWA: Over The Moon For You ~Uniform~",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e5/e5a9b92f7a68ad169b932306a7014c76.jpg",
+        "title": "TONIKAWA: Over The Moon For You",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/60/60102f3f79455d1721e1daf41d121e4d.jpg",
+        "title": "Suzume",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/39/395f290736d8bce9d77d7ca211c3743b.jpg",
+        "title": "Umi no Manimani",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/6d/6de58011dcb2ccbd46547205b746b417.jpg",
+        "title": "Idol",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/a92b4bbd0c4b6a1749f090a8f8707ce2.jpg",
+        "title": "Dragon Ball",
+        "eps": 153,
+        "total": 153,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9f/9f4855db98bb6923ea807bf2bdbdc3dd.jpg",
+        "title": "Buddy Daddies",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/ee/ee650ada56713d0f855919bce01e87da.jpg",
+        "title": "Kaina of the Great Snow Sea",
+        "eps": 11,
+        "total": 11,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/7b/7b36fd0445ecc2ebcf21c7a2797337c7.jpg",
+        "title": "Campfire Cooking in Another World with my Absurd Skill",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/1/11/116768003979919dfd693aa9baf87c13.jpg",
+        "title": "Malevolent Spirits: Mononogatari",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/c7/c775ea4abdb22c732bb357716413b691.jpg",
+        "title": "Ayakashi Triangle",
+        "eps": 3,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9e/9e805e1620edf8c8dfb5b83d36d22016.jpg",
+        "title": "Reborn to Master the Blade: From Hero-King to Extraordinary Squire",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/fd/fd993ea3beef6c0b84a672b97cbd344c.jpg",
+        "title": "HIGH CARD",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/45/4504c6d9fd6ce5339f4257760754b267.jpg",
+        "title": "Saving 80,000 Gold in Another World for My Retirement",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e0/e0d403e9fd7b962bbc053b2f461834e3.jpg",
+        "title": "The Reincarnation of the Strongest Exorcist in Another World",
+        "eps": 13,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/95/95336ca3d2d42e171660479ffb53f099.jpg",
+        "title": "DON'T TOY WITH ME, MISS NAGATORO 2nd Attack",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/20/2043ce994329cecc53b8fbfcf0080a55.jpg",
+        "title": "DON'T TOY WITH ME, MISS NAGATORO",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/fd/fd606d7b04415f36fa84b59780d799d7.jpg",
+        "title": "Chillin’ in My 30s after Getting Fired from the Demon King’s Army",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/a9/a9693eb681584499e829130edba48d02.jpg",
+        "title": "By the Grace of the Gods 2",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/4a/4a34337bedc91108ff4898b7eb990355.jpg",
+        "title": "By the Grace of the Gods",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/d6/d6b3a1a58077542a6782ea896adf932f.jpg",
+        "title": "The tale of outcasts",
+        "eps": 13,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/0/01/01729c50f64f8dcec4b9dc44891910db.jpg",
+        "title": "Handyman Saitou in Another World",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/ea/ea568325c46915dcff46685d768ec8bf.jpg",
+        "title": "GIANT BEASTS OF ARS",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/3f/3f60ccb376416b1301a39846fb5b6b13.jpg",
+        "title": "Endo and Kobayashi Live! The Latest on Tsundere Villainess Lieselotte",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/d7/d733c32e1bae35f3ca6b2bf998a33f99.jpg",
+        "title": "Demon Slayer: Kimetsu no Yaiba Entertainment District Arc",
+        "eps": 11,
+        "total": 11,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/a6/a61941ac6e3e723796393dd28bd4d869.jpg",
+        "title": "Demon Slayer: Kimetsu no Yaiba Mugen Train Arc",
+        "eps": 7,
+        "total": 7,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/04/961fbb823be55a3f4310c7cc944ec585.jpg",
+        "title": "Demon Slayer: Kimetsu no Yaiba",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/b0/b0d7c527fa9dbaeca864927baa5aa84e.jpg",
+        "title": "The Angel Next Door Spoils Me Rotten",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/c3/c374f3c0315cdd71da73116b19fbe51c.jpg",
+        "title": "Spy Classroom",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/1/1b/1bc5a4579ae5d92646305897d3612875.jpg",
+        "title": "Arknights: PRELUDE TO DAWN",
+        "eps": 8,
+        "total": 8,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/46/46d62d0113b54de0a13a50fd6c142f81.jpg",
+        "title": "Revenger",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/1/10/10ee424856b1204919bb8e305bc795ee.jpg",
+        "title": "The Iceblade Sorcerer Shall Rule the World",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/d7/d7df02a9eb201c123ce120d04570d0f5.jpg",
+        "title": "Farming Life in Another World",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/b9/b9977726cb4712b4d4dbb73bec57d48f.jpg",
+        "title": "The Legend of Heroes: Trails of Cold Steel - Northern War",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/ce/ce35f4414f3ad4ad632f318d061a22b0.jpg",
+        "title": "Sugar Apple Fairy Tale",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/0/00/00b422068826d0f708fd9f3c75be8de4.jpg",
+        "title": "The Ice Guy and His Cool Female Colleague",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/3b/3b699cf9109254118f51d5b00c36fbb8.jpg",
+        "title": "Pocket Monsters: Haruka Naru Aoi Sora",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/ac/ac100be13a11279c85962b13d9a1ec97.jpg",
+        "title": "The Greatest Demon Lord Is Reborn as a Typical Nobody",
+        "eps": 6,
+        "total": 6,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/40/40decd88a7bce1bc192a94d56412e0e1.jpg",
+        "title": "Tekken: Bloodline",
+        "eps": 6,
+        "total": 6,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/5d/5d770c9b6795ca54aeacd4a646cff760.jpg",
+        "title": "Kuma Kuma Kuma Bear",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/dd/ddb5c4ae4b3ec98aa19aea9bdebac947.jpg",
+        "title": "War God System! I’m Counting On You!",
+        "eps": 13,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/02bf161e5f08f98f690feac51f9844c9.jpg",
+        "title": "God Eater",
+        "eps": 13,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/fc/fc4fef63de61ec5929753c6b045a9f06.jpg",
+        "title": "Isekai Quartet The Movie: Another World",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2020/01/4e5f76c077694a763073d5b5d20b2ca5.jpg",
+        "title": "Isekai Quartet 2",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/04/824c792b71071646aac855f5d3594f2f.jpg",
+        "title": "ISEKAI QUARTET",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/52/522b8e00b4e05252c34a4274e6a9cf80.jpg",
+        "title": "Banished from the Hero’s Party, I Decided to Live a Quiet Life in the Countryside",
+        "eps": 13,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/ef81f17faa92edf10e39a19dda0e55b4.jpg",
+        "title": "Utawarerumono",
+        "eps": 26,
+        "total": 26,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/77/779358f45473e40f197516ad1f9c3ee3.jpg",
+        "title": "Tomo-chan Is a Girl!",
+        "eps": 13,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e5/e5a293ab4239d2ea578363fd4c75dc56.jpg",
+        "title": "Teasing Master Takagi-san Season 3",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/01/1f5723f7dab4e63be9ab1e672f5dff83.jpg",
+        "title": "Teasing Master Takagi-san Season 2",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/3274f99f129c99d021b9395a86459c99.jpg",
+        "title": "Teasing Master Takagi-san",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f3/f38713f4b0031dce5dd466c00468f277.jpg",
+        "title": "Teasing Master Takagi-san: The Movie",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/6d/6d88507edc94d96d39ddaa7f42c6e6e6.jpg",
+        "title": "Ningen Fushin: Adventurers Who Don’t Believe in Humanity Will Save the World",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/de/de5d558cf1733555d333ea808a2353f0.jpg",
+        "title": "The Magical Revolution of the Reincarnated Princess and the Genius Young Lady",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/c1/c169047620f225d1aca0b60071596d16.jpg",
+        "title": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense. Season 2",
+        "eps": 13,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2020/01/a17f0c312366e2e47d8ede79237c0b11.jpg",
+        "title": "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense.",
+        "eps": 13,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/7e/7ed66f5e9a943cdcad06f7acd7bc6b26.jpg",
+        "title": "Beast Tamer",
+        "eps": 13,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e1/e1b8380f6759f73ea3124e45582d32e8.jpg",
+        "title": "More than a Married Couple, but Not Lovers.",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/92/9267d9241a8df128a3f8f800b58699d8.jpg",
+        "title": "Love After World Domination",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/69/694c7b24fe973ef66e0199796c71ec09.jpg",
         "title": "Reincarnated as a Sword",
         "eps": 12,
@@ -648,7 +1566,7 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/43/431aba4b1eaa7b850144e3448c6bd793.jpg",
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/de/dea712f2ae4d02833068f0e9508d017c.jpg",
         "title": "The Irregular at Magic High School: Reminiscence Arc",
         "eps": 1,
         "total": 1,
@@ -729,7 +1647,7 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/03/a0af9ff57334d795dd2c0a62bfe001e8.jpg",
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f7/f77bdcd31b27113c256ec54ce5089883.jpg",
         "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? III",
         "eps": 12,
         "total": 12,
@@ -1111,15 +2029,6 @@
         "title": "Tales of Zestiria the X Season 2",
         "eps": 13,
         "total": 13,
-        "type": "Anime",
-        "category": "anime",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/988c5857d6adc37cada14949c97729f8.jpg",
-        "title": "Tales of Zestiria the X",
-        "eps": 12,
-        "total": 12,
         "type": "Anime",
         "category": "anime",
         "status": "completed"
