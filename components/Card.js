@@ -23,7 +23,9 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
                 </Tooltip>
                 <Text strong type="secondary">{type}</Text>
             </div>
-            <Text>{title}</Text>
+            <Tooltip title={title}>
+                <Text ellipsis>{title}</Text>
+            </Tooltip>
         </div>
     )
 }
