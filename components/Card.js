@@ -24,7 +24,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
                 <Text strong type="secondary" style={{ color: dark ? "white" : "black", transition: ".5s ease" }}>{type}</Text>
             </div>
             <Tooltip title={title}>
-                <Text ellipsis style={{ color: dark ? "white" : "black", transition: ".5s ease" }}>{title}</Text>
+                <Text ellipsis style={{ color: dark ? "white" : "black", transition: ".5s ease", padding: "5px" }}>{title}</Text>
             </Tooltip>
         </div>
     )
