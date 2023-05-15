@@ -7,7 +7,7 @@ const { Text } = Typography
 
 const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, status, dark }) => {
     return (
-        <div className={show ? "" : "removeCard"} style={{ boxShadow: "0px 0px 8px 2px #5454543d", height: range ? "300px" : "355px", width: range ? "" : "205px", borderRadius: "10px", overflow: "hidden", padding: "5px", display: "flex", justifyContent: "space-between", flexDirection: "column", transition: "all 1s ease-in-out", opacity: "1", position: "relative", background: dark ? "#3A3A3A" : "white" }}>
+        <div style={{ boxShadow: "0px 0px 8px 2px #5454543d", height: show ? range ? "300px" : "355px" : "0px", width: show ? range ? "" : "205px" : "0px", borderRadius: "10px", overflow: "hidden", padding: "5px", display: "flex", justifyContent: "space-between", flexDirection: "column", transition: ".5s ease", opacity: "1", position: "relative", background: dark ? "#3A3A3A" : "white" }}>
             <img
                 src={imgSrc}
                 alt='img'

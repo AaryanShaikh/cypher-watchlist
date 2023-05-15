@@ -4,8 +4,9 @@ import { GiPopcorn, GiAbstract060, GiTv } from 'react-icons/gi';
 import { BiCameraMovie, BiMoviePlay, BiScatterChart } from 'react-icons/bi'
 import { BsMoonStars, BsFillSunFill } from 'react-icons/bs';
 import CardItem from '../../components/Card';
-import rawData from "../../data/rawData.json"
+// import rawData from "../../data/rawData.json"
 import Loader from '../../components/Loader';
+import axios from 'axios';
 
 const { Text } = Typography
 const { Search } = Input
@@ -21,19 +22,46 @@ const Homepage = () => {
     const [isLoading, setisLoading] = useState(true)
     const [showStats, setshowStats] = useState(false)
     const [searchText, setsearchText] = useState("")
+    const [rawData, setrawData] = useState([])
+    const [loadingData, setloadingData] = useState("Arranging DOM elements...")
+    const [iniRender, setiniRender] = useState(true)
 
     useEffect(() => {
         setwidth(widthRef.current.offsetWidth)
     }, [widthRef])
 
     useEffect(() => {
-        setisLoading(false)
-    }, [])
+        setisLoading(true)
+    }, []);
+
+    useEffect(() => {
+        if (iniRender) {
+            setiniRender(false)
+            fetchData()
+        }
+    }, [isLoading])
+
+    const fetchData = async () => {
+        try {
+            setloadingData("Fetching Cypher's Watchlist...")
+            const response = await axios.get('https://raw.githubusercontent.com/AaryanShaikh/cypher-watchlist/main/data/rawData.json');
+            setrawData(response.data)
+            setisLoading(false)
+        } catch (error) {
+            setisLoading(false)
+            console.log('Error fetching JSON data:', error);
+        }
+    };
 
 
     return (<>
         {
             isLoading ? <Loader /> : ""
+        }
+        {
+            isLoading ? <div style={{ position: "absolute", height: "100vh", width: "100%", zIndex: "999", display: "flex", justifyContent: "center", alignItems: "flex-start" }}>
+                <Text strong>{loadingData}</Text>
+            </div> : ""
         }
         <Modal title="Watch Statistics" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal" }}>

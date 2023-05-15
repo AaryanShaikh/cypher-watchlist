@@ -38,7 +38,6 @@ body {
 .removeCard {
     opacity: 0 !important;
     position: absolute !important;
-    top: 1234px;
 }
 
 :where(.css-dev-only-do-not-override-ed5zg0).ant-switch .ant-switch-inner .ant-switch-inner-unchecked {
