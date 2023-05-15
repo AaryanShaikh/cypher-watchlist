@@ -1,8 +1,53 @@
 [
+     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/28576a13320efe3d5d4b2d93c7f0d57a.jpg",
+        "title": "Dragon Ball Z: Cooler's Revenge",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/4c5fdf3095cfeea103aef4f6e9ab6637.jpg",
+        "title": "Dragon Ball Z: Lord Slug",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/ac9152f17fba9d766f54c7fc26e742f7.jpg",
+        "title": "Dragon Ball Z: The Tree of Might",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/f63b556fca126f46f2aa382e93d218e4.jpg",
+        "title": "Dragon Ball Z: The World's Strongest",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/f5606909a61b7bf2d7f61deccc11cc99.jpg",
+        "title": "Dragon Ball Z: Dead Zone",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/9259cdfc960f11edd8fde20ab469e548.jpg",
         "title": "Dragon Ball Z",
-        "eps": 82,
+        "eps": 140,
         "total": 291,
         "type": "Anime",
         "category": "anime",
