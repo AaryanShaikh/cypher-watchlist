@@ -404,6 +404,15 @@ body {
 
 /* Loader ends */
 
+/* Search Box */
+
+.searchBx {
+    outline: none;
+    background: none;
+}
+
+/* Search Box ends */
+
 @media (min-width: 301px) and (max-width: 567px) {
     .heading {
         font-family: 'Dancing Script', cursive;

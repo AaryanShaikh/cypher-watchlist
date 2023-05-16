@@ -1,23 +1,24 @@
 import React, { useState, useEffect, useRef } from 'react'
-import { Input, Menu, Switch, Typography, FloatButton, Drawer, Radio, Space, Modal, Statistic } from 'antd'
+import { Input, Menu, Switch, Typography, FloatButton, Drawer, Radio, Space, Modal, Statistic, Tabs, List } from 'antd'
 import { GiPopcorn, GiAbstract060, GiTv } from 'react-icons/gi';
 import { BiCameraMovie, BiMoviePlay, BiScatterChart } from 'react-icons/bi'
 import { BsMoonStars, BsFillSunFill } from 'react-icons/bs';
+import { MdScreenSearchDesktop } from 'react-icons/md'
 import CardItem from '../../components/Card';
 // import rawData from "../../data/rawData.json"
 import Loader from '../../components/Loader';
 import axios from 'axios';
+import SearchBox from '../../components/SearchBox';
 
 const { Text } = Typography
 const { Search } = Input
+const { TabPane } = Tabs
 
 const Homepage = () => {
     const [mainwidth, setwidth] = useState("")
     const widthRef = useRef(null)
     const range = mainwidth > 300 && mainwidth < 500
     const [categorySel, setcategorySel] = useState("all")
-    const webListStyle = { display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: "89vh", padding: "10px 5px", transition: ".5s ease-in-out" }
-    const mobListStyle = { display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))", width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: "83vh", padding: "10px 5px" }
     const [isDark, setisDark] = useState(true)
     const [isLoading, setisLoading] = useState(true)
     const [showStats, setshowStats] = useState(false)
@@ -25,6 +26,12 @@ const Homepage = () => {
     const [rawData, setrawData] = useState([])
     const [loadingData, setloadingData] = useState("Arranging DOM elements...")
     const [iniRender, setiniRender] = useState(true)
+    const [viewScreenHeight, setviewScreenHeight] = useState(0)
+    const [isActive, setisActive] = useState(false)
+
+    useEffect(() => {
+        setcategorySel(isActive ? "search" : "all")
+    }, [isActive])
 
     useEffect(() => {
         setwidth(widthRef.current.offsetWidth)
@@ -32,6 +39,21 @@ const Homepage = () => {
 
     useEffect(() => {
         setisLoading(true)
+        const handleResize = () => {
+            const screenHeight = window.screen.height;
+            const windowHeight = window.innerHeight;
+            setviewScreenHeight(windowHeight)
+        };
+
+        // Attach the resize event listener
+        window.addEventListener('resize', handleResize);
+
+        // Call the handler once on component mount
+        handleResize();
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
     }, []);
 
     useEffect(() => {
@@ -79,33 +101,105 @@ const Homepage = () => {
         <div ref={widthRef} style={{ position: "absolute", width: "100%", height: "100vh", background: "transparent", backdropFilter: `blur(${isLoading ? "10" : "0"}px)`, zIndex: "100", transition: ".5s ease-in-out", pointerEvents: "none" }}></div>
         <div className='heading' style={{ background: !isDark ? "#1b1b1b" : "white" }}>
             <Text style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }} className='logo'>{range ? "CW" : "Cypher's WatchList"}</Text>
-            <Search className={!isDark ? "dark" : ""} style={{ width: range ? "55%" : "25%" }} placeholder={range ? "Search here" : "Try searching Anime, Series or Movie name"} value={searchText} onChange={(e) => setsearchText(e.target.value)} />
+            <SearchBox dark={!isDark} searchText={searchText} setsearchText={setsearchText} isActive={isActive} setisActive={setisActive} />
             <Switch checked={isDark} onChange={(e) => setisDark(e)} checkedChildren={<BsFillSunFill />} unCheckedChildren={<BsMoonStars />} />
         </div>
-        <div style={{ display: "flex", flexDirection: range ? "column" : "row", gap: "5px", background: !isDark ? "#1b1b1b" : "white" }}>
-            <Menu
-                style={{ width: range ? "100%" : "150px", background: !isDark ? "#1b1b1b" : "white", color: !isDark ? "white" : "black" }}
-                mode={range ? "horizontal" : "inline"}
-                inlineCollapsed={false}
-                selectedKeys={categorySel}
-            >
-                <Menu.Item key="all" onClick={() => setcategorySel("all")} icon={<GiPopcorn style={{ fontSize: "20px" }} />}>{range ? "" : "All"}</Menu.Item>
-                <Menu.Item key="ongoing" onClick={() => setcategorySel("ongoing")} icon={<GiTv style={{ fontSize: "20px" }} />}>{range ? "" : "Ongoing"}</Menu.Item>
-                <Menu.Item key="anime" onClick={() => setcategorySel("anime")} icon={<GiAbstract060 style={{ fontSize: "20px" }} />}>{range ? "" : "Anime"}</Menu.Item>
-                <Menu.Item key="series" onClick={() => setcategorySel("series")} icon={<BiMoviePlay style={{ fontSize: "20px" }} />}>{range ? "" : "Series"}</Menu.Item>
-                <Menu.Item key="movies" onClick={() => setcategorySel("movies")} icon={<BiCameraMovie style={{ fontSize: "20px" }} />}>{range ? "" : "Movies"}</Menu.Item>
-            </Menu>
-            <div className='scrollVisible' style={range ? mobListStyle : webListStyle}>
+        <div style={{ display: "flex", flexDirection: range ? "row" : "column", gap: "5px", background: !isDark ? "#1b1b1b" : "white" }}>
+            <Tabs defaultActiveKey='all' activeKey={categorySel} tabPosition={range ? "top" : "left"} style={{ padding: "10px" }} onChange={(e) => setcategorySel(e)}>
                 {
-                    searchText != "" ?
-                        rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).map((ele, ind) => {
-                            return <CardItem key={ind} dark={!isDark} range={range} show={(ele.status == "in progress" && categorySel == "ongoing") || categorySel == "all" || ele.category == categorySel} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
-                        }) :
-                        rawData.map((ele, ind) => {
-                            return <CardItem key={ind} dark={!isDark} range={range} show={(ele.status == "in progress" && categorySel == "ongoing") || categorySel == "all" || ele.category == categorySel} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
-                        })
+                    isActive ? <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "search" ? <MdScreenSearchDesktop style={{ color: "#1677ff", fontSize: "20px" }} /> : "Search"}</Text>} key="search" style={{ color: range ? "aliceblue" : "black" }}>
+                        <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
+                            <List
+                                grid={{ gutter: 16, column: range ? 2 : 6 }}
+                                header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).length}</span> records</Text>}
+                                dataSource={rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase()))}
+                                pagination={{ pageSize: 12 }}
+                                renderItem={(ele, ind) => (
+                                    <List.Item>
+                                        <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
+                                    </List.Item>
+                                )}
+                            />
+                        </div>
+                    </TabPane> : <>
+                        <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "all" ? <GiPopcorn style={{ color: "#1677ff", fontSize: "20px" }} /> : "All"}</Text>} key='all'>
+                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
+                                <List
+                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
+                                    header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.length}</span> records</Text>}
+                                    dataSource={rawData}
+                                    pagination={{ pageSize: 12 }}
+                                    renderItem={(ele, ind) => (
+                                        <List.Item>
+                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
+                                        </List.Item>
+                                    )}
+                                />
+                            </div>
+                        </TabPane>
+                        <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "ongoing" ? <GiTv style={{ color: "#1677ff", fontSize: "20px" }} /> : "Ongoing"}</Text>} key='ongoing'>
+                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
+                                <List
+                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
+                                    header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.status == "in progress").length}</span> records</Text>}
+                                    dataSource={rawData.filter(x => x.status == "in progress")}
+                                    pagination={{ pageSize: 12 }}
+                                    renderItem={(ele, ind) => (
+                                        <List.Item>
+                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
+                                        </List.Item>
+                                    )}
+                                />
+                            </div>
+                        </TabPane>
+                        <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "anime" ? <GiAbstract060 style={{ color: "#1677ff", fontSize: "20px" }} /> : "Anime"}</Text>} key='anime'>
+                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
+                                <List
+                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
+                                    header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "anime").length}</span> records</Text>}
+                                    dataSource={rawData.filter(x => x.category == "anime")}
+                                    pagination={{ pageSize: 12 }}
+                                    renderItem={(ele, ind) => (
+                                        <List.Item>
+                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
+                                        </List.Item>
+                                    )}
+                                />
+                            </div>
+                        </TabPane>
+                        <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "series" ? <BiMoviePlay style={{ color: "#1677ff", fontSize: "20px" }} /> : "Series"}</Text>} key='series'>
+                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
+                                <List
+                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
+                                    header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "series").length}</span> records</Text>}
+                                    dataSource={rawData.filter(x => x.category == "series")}
+                                    pagination={{ pageSize: 12 }}
+                                    renderItem={(ele, ind) => (
+                                        <List.Item>
+                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
+                                        </List.Item>
+                                    )}
+                                />
+                            </div>
+                        </TabPane>
+                        <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "movies" ? <BiCameraMovie style={{ color: "#1677ff", fontSize: "20px" }} /> : "Movies"}</Text>} key='movies'>
+                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
+                                <List
+                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
+                                    header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "movies").length}</span> records</Text>}
+                                    dataSource={rawData.filter(x => x.category == "movies")}
+                                    pagination={{ pageSize: 12 }}
+                                    renderItem={(ele, ind) => (
+                                        <List.Item>
+                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
+                                        </List.Item>
+                                    )}
+                                />
+                            </div>
+                        </TabPane>
+                    </>
                 }
-            </div>
+            </Tabs>
         </div>
     </>
     )
