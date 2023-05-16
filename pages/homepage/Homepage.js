@@ -111,7 +111,7 @@ const Homepage = () => {
                         <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                             <List
                                 grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).length}</span> records</Text>}
+                                header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).length}</span> records</Text>}
                                 dataSource={rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase()))}
                                 pagination={{ pageSize: 12 }}
                                 renderItem={(ele, ind) => (
@@ -126,7 +126,7 @@ const Homepage = () => {
                             <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                                 <List
                                     grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.length}</span> records</Text>}
+                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.length}</span> records</Text>}
                                     dataSource={rawData}
                                     pagination={{ pageSize: 12 }}
                                     renderItem={(ele, ind) => (
@@ -141,7 +141,7 @@ const Homepage = () => {
                             <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                                 <List
                                     grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.status == "in progress").length}</span> records</Text>}
+                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.status == "in progress").length}</span> records</Text>}
                                     dataSource={rawData.filter(x => x.status == "in progress")}
                                     pagination={{ pageSize: 12 }}
                                     renderItem={(ele, ind) => (
@@ -156,7 +156,7 @@ const Homepage = () => {
                             <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                                 <List
                                     grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "anime").length}</span> records</Text>}
+                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "anime").length}</span> records</Text>}
                                     dataSource={rawData.filter(x => x.category == "anime")}
                                     pagination={{ pageSize: 12 }}
                                     renderItem={(ele, ind) => (
@@ -171,7 +171,7 @@ const Homepage = () => {
                             <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                                 <List
                                     grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "series").length}</span> records</Text>}
+                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "series").length}</span> records</Text>}
                                     dataSource={rawData.filter(x => x.category == "series")}
                                     pagination={{ pageSize: 12 }}
                                     renderItem={(ele, ind) => (
@@ -186,7 +186,7 @@ const Homepage = () => {
                             <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                                 <List
                                     grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "movies").length}</span> records</Text>}
+                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Showing <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "movies").length}</span> records</Text>}
                                     dataSource={rawData.filter(x => x.category == "movies")}
                                     pagination={{ pageSize: 12 }}
                                     renderItem={(ele, ind) => (
