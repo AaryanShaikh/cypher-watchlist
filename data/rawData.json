@@ -1,5 +1,374 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTUyODgwMDU3M15BMl5BanBnXkFtZTcwOTM4MjcxOQ@@._V1_.jpg",
+        "title": "Monsters University",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean%2C_Dead_Men_Tell_No_Tales.jpg",
+        "title": "pirates of the caribbean dead men tell no tales",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5e/Pirates_of_the_Caribbean_-_On_Stranger_Tides.png",
+        "title": "Pirates of the Caribbean: On Stranger Tides",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5a/Pirates_AWE_Poster.jpg",
+        "title": "Pirates of the Caribbean: At World's End",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTcwODc1MTMxM15BMl5BanBnXkFtZTYwMDg1NzY3._V1_FMjpg_UX1000_.jpg",
+        "title": "Pirates of the Caribbean: Dead Man's Chest",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+        "title": "pirates of the caribbean the curse of the black pearl",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d8/The_Man_Who_Knew_Infinity_%28film%29.jpg",
+        "title": "The Man Who Knew Infinity",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/db/Spirited_Away_Japanese_poster.png",
+        "title": "Spirited Away",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/10/The_Greatest_Showman_poster.png",
+        "title": "The Greatest Showman",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/05/Up_%282009_film%29.jpg",
+        "title": "Up",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/49/Silicon_Valley_Season_6.jpg",
+        "title": "Silicon Valley Season 6",
+        "eps": 7,
+        "total": 7,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Silicon_Valley_Season_5.jpg/220px-Silicon_Valley_Season_5.jpg",
+        "title": "Silicon Valley Season 5",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Silicon_Valley_Season_4.jpg/220px-Silicon_Valley_Season_4.jpg",
+        "title": "Silicon Valley Season 4",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/16/Silicon_Valley_Season_3.jpg",
+        "title": "Silicon Valley Season 3",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/20/Silicon_Valley_Season_2.jpg",
+        "title": "Silicon Valley Season 2",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/44/Silicon_Valley_Season_1.jpg",
+        "title": "Silicon Valley",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Forrest_Gump_poster.jpg/220px-Forrest_Gump_poster.jpg",
+        "title": "Forrest Gump",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzJkNWRlYWMtYzBjZC00Yjg4LWEwYmQtMmE0MTNhODU5YTI4XkEyXkFqcGdeQXVyMTA5ODEyNTc5._V1_.jpg",
+        "title": "Kung Fu Panda 4",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e6/Kung_Fu_Panda_3_poster.jpg",
+        "title": "Kung Fu Panda 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Kung_Fu_Panda_2_Poster.jpg/220px-Kung_Fu_Panda_2_Poster.jpg",
+        "title": "Kung Fu Panda 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BODJkZTZhMWItMDI3Yy00ZWZlLTk4NjQtOTI1ZjU5NjBjZTVjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+        "title": "Kung Fu Panda",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/9/93/Whisper_of_the_Heart_%28Movie_Poster%29.jpg",
+        "title": "Whisper of the Heart",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/29/Finding_Nemo.jpg",
+        "title": "Finding Nemo",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYTc3ZTAwYTgtMmM4ZS00MDRiLWI2Y2EtYmRiZmE0YjkzMGY1XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_.jpg",
+        "title": "Venom: Let There Be Carnage",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTM4OGJmNWMtOTM4Ni00NTE3LTg3MDItZmQxYjc4N2JhNmUxXkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_FMjpg_UX1000_.jpg",
+        "title": "Avengers: Age of Ultron",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Spider-Man_3%2C_International_Poster.jpg/220px-Spider-Man_3%2C_International_Poster.jpg",
+        "title": "Spider-Man 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYzZkOGUwMzMtMTgyNS00YjFlLTg5NzYtZTE3Y2E5YTA5NWIyXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+        "title": "Black Adam",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_FMjpg_UX1000_.jpg",
+        "title": "Captain Marvel",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/54/Avatar_The_Way_of_Water_poster.jpg",
+        "title": "Avatar: The Way of Water",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/1e/Everything_Everywhere_All_at_Once.jpg",
+        "title": "Everything Everywhere All at Once",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+       {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTExZmVjY2ItYTAzYi00MDdlLWFlOWItNTJhMDRjMzQ5ZGY0XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_FMjpg_UX1000_.jpg",
+        "title": "Eternals",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+        "title": "Black Panther: Wakanda Forever",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://cdn.marvel.com/content/1x/spider-mannowayhome_lob_crd_03.jpg",
+        "title": "Spider-Man: No Way Home",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "title": "Thor: Love and Thunder",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+      {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg",
+        "title": "Doctor Strange",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMGQ1OWNlY2QtMGY1NC00ZDkxLWJhZTktMzg5Mzk5YWY1YzA1XkEyXkFqcGdeQXVyMTU5OTc2NTk@._V1_.jpg",
+        "title": "Hawkeye",
+        "eps": 6,
+        "total": 6,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg?region=0%2C0%2C540%2C810",
+        "title": "Avengers: Endgame",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_.jpg",
+        "title": "Avengers: Infinity War",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/0c/Last_Christmas_poster.jpeg",
+        "title": "Last Christmas",
+        "eps": 1,
+        "total": 1,
+        "type": "Movie",
+        "category": "movie",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/04/5e0f529527bf17747ffe75894fa6d62e.jpg",
         "title": "Why the hell are you here, Teacher!?",
         "eps": 12,
