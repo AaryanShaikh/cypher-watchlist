@@ -1,5 +1,23 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzZmOTU1ZTEtYzVhNi00NzQxLWI5ZjAtNWNhNjEwY2E3YmZjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+        "title": "Fast X",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/9/97/Bareilly_Ki_Barfi_Poster.jpg",
+        "title": "Bareilly Ki Barfi",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTUyODgwMDU3M15BMl5BanBnXkFtZTcwOTM4MjcxOQ@@._V1_.jpg",
         "title": "Monsters University",
         "eps": 1,
@@ -1865,7 +1883,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/9259cdfc960f11edd8fde20ab469e548.jpg",
         "title": "Dragon Ball Z",
-        "eps": 140,
+        "eps": 220,
         "total": 291,
         "type": "Anime",
         "category": "anime",
