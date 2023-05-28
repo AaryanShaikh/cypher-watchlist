@@ -1,5 +1,770 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/e62d2261a2ab704501957e3d0f634a18.jpg",
+        "title": "Dragon Ball Z: Broly - Second Coming",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/358c2137be01fd03d4f32e6de8f6a6a7.jpg",
+        "title": "Dragon Ball Z: Bojack Unbound",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/9fd310f6ca5ab0e8b67f6dea2b43eae8.jpg",
+        "title": "Dragon Ball Z: Broly - The Legendary Super Saiyan",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/5a578f18bb7776a1f90e8ae694315a60.jpg",
+        "title": "Dragon Ball Z: Super Android 13!",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/c6468cf7609e27cf85690bd67ae2d1ef.jpg",
+        "title": "Dragon Ball Z: The Return of Cooler",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/52/Call_of_Duty_Modern_Warfare_2_%282009%29_cover.png",
+        "title": "Call of Duty: Modern Warfare 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://rukminim1.flixcart.com/image/416/416/xif0q/code-in-the-box-game/m/u/b/pc-call-of-duty-modern-warfare-3-standard-edition-original-imagnhyfhuuzwxbu.jpeg?q=70",
+        "title": "Call of Duty: Modern Warfare 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/02/CoD_Black_Ops_cover.png",
+        "title": "Call of Duty: Black Ops",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://cheapokeys.com/wp-content/uploads/2020/03/P201609081840430739.jpg",
+        "title": "Call of Duty: Black Ops II",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/9/9c/Call_of_duty_ghosts_box_art.jpg",
+        "title": "Call of Duty: Ghosts",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/3/3b/Advanced_Warfare.jpg",
+        "title": "Call of Duty: Advanced Warfare",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b1/Black_Ops_3.jpg",
+        "title": "Call of Duty: Black Ops III",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://image.api.playstation.com/cdn/EP0002/CUSA05282_00/JhIXa8se54KKNhggEahiO0Oz78IITOGF.png",
+        "title": "Call of Duty: Infinite Warfare",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/18/Call_of_Duty_WWII_Cover_Art.jpg",
+        "title": "Call of Duty: WWII",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e3/Sifu_cover_art.jpg",
+        "title": "Sifu",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e3/Sifu_cover_art.jpg",
+        "title": "Sifu",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Assassins_Creed_brotherhood_cover.jpg/220px-Assassins_Creed_brotherhood_cover.jpg",
+        "title": "Assassin's Creed: Brotherhood",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Assassins_Creed_brotherhood_cover.jpg/220px-Assassins_Creed_brotherhood_cover.jpg",
+        "title": "Assassin's Creed: Brotherhood",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d9/Assassins_Creed_Revelations_Cover.jpg",
+        "title": "Assassin's Creed: Revelations",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/29/Assassin%27s_Creed_III_Game_Cover.jpg",
+        "title": "Assassin's Creed III",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZmI4ZDNmZTUtMjE2ZS00YjRjLWExMGEtODUyZTE3NDMzZjY0XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg",
+        "title": "Assassin's Creed IV: Black Flag",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/ae/Assassin%27s_Creed_Rogue.jpg",
+        "title": "Assassin's Creed Rogue",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/91r6NIzvl+L._AC_UF1000,1000_QL80_.jpg",
+        "title": "Assassin's Creed Unity",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/91oAiNxGpYL.jpg",
+        "title": "Assassin's Creed Syndicate",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/4a/Assassin%27s_Creed_Origins_Cover_Art.png",
+        "title": "Assassin's Creed Origins",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a0/Nfsu-win-cover.jpg",
+        "title": "Need for Speed: Underground",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/10/Nfsu2-win-cover.jpg",
+        "title": "Need for Speed: Underground 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg",
+        "title": "Need for Speed: Most Wanted",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b0/Nfs-most-wanted-2012-gen-packart.jpg",
+        "title": "Need for Speed: Most Wanted (2012)",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b0/Nfs-most-wanted-2012-gen-packart.jpg",
+        "title": "Need for Speed: Most Wanted (2012)",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/71jv7Mq3flL.jpg",
+        "title": "Need for Speed Payback",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/81TZ5GfS6-L._AC_UF350,350_QL50_.jpg",
+        "title": "Need for Speed Heat",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/71NvgxnVh7L._SL1500_.jpg",
+        "title": "Meteor Blade",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Project_I.G.I._I%27m_Going_In_%28cover%29.jpg/220px-Project_I.G.I._I%27m_Going_In_%28cover%29.jpg",
+        "title": "Project I.G.I.: I'm Going In",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Igi2box.jpg/220px-Igi2box.jpg",
+        "title": "I.G.I.-2: Covert Strike",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e9/Crysis_Cover.jpg",
+        "title": "Crysis",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/20/Crysis_Warhead_Boxart.jpg",
+        "title": "Crysis Warhead",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a1/Crysis_2_cover.png",
+        "title": "Crysis 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/20/Crysis_3_cover.jpg",
+        "title": "Crysis 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/2e/GTA2_Box_art.jpg",
+        "title": "Grand Theft Auto 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/GTA3boxcover.jpg/220px-GTA3boxcover.jpg",
+        "title": "Grand Theft Auto III",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b7/Grand_Theft_Auto_IV_cover.jpg",
+        "title": "Grand Theft Auto IV",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/4d/Grand_Theft_Auto_IV_coverart.jpg",
+        "title": "Grand Theft Auto IV: The Lost and Damned",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Ballad_of_Gay_Tony_cover.jpg",
+        "title": "Grand Theft Auto: The Ballad of Gay Tony",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c4/GTASABOX.jpg",
+        "title": "Grand Theft Auto: San Andreas",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/6f/Prince_of_Persia_-_Warrior_Within_Coverart.png",
+        "title": "Prince of Persia: Warrior Within",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/f8/Prince_of_Persia_-_The_Two_Thrones_%28game_box_art%29.jpg",
+        "title": "Prince of Persia: The Two Thrones",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b4/Prince_Of_Persia_Forgotten_Sands_Box_Artwork.jpg",
+        "title": "Prince of Persia: The Forgotten Sands",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://cdn.segmentnextimages.com/wp-content/uploads/2021/11/Pokemon-BDSP-Version-Differences.jpg",
+        "title": "pokemon BD / SP",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/f7/PokemonEmeraldBox.jpg",
+        "title": "Pokemon Emerald",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/81KRZeZAktL.jpg",
+        "title": "Pokémon Sword and Shield",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/9/9c/Pokemon_Legends_Arceus_cover.jpg",
+        "title": "Pokémon Legends: Arceus",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b2/PROTOTYPE.png",
+        "title": "Prototype",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b3/Battlefield_Bad_Company_2_cover.jpg",
+        "title": "Battlefield: Bad Company 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/91eN03EElSL.jpg",
+        "title": "Battlefield 4",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://image.api.playstation.com/vulcan/ap/rnd/202108/0410/2odx6gpsgR6qQ16YZ7YkEt2B.png",
+        "title": "Elden Ring",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b2/Attack_on_Titan_decalless_cover_art.jpg",
+        "title": "Attack on Titan",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/71h8Tm3izWL.jpg",
+        "title": "Attack on Titan 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/61NxhrXkX7L.jpg",
+        "title": "Darksiders",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5c/DarksidersII.jpg",
+        "title": "Darksiders II",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b6/Darksiders_3_Box_Art.png",
+        "title": "Darksiders III",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/56/Darksiders_Genesis_Box_Art_RP.png",
+        "title": "Darksiders Genesis",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/0c/Jumpforcegame.jpg",
+        "title": "JUMP FORCE",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/81HeoIfVtgL._SL1500_.jpg",
+        "title": "The Witcher",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/40/Witcher_2_cover.jpg",
+        "title": "The Witcher 2: Assassins of Kings",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Witcher_3_cover_art.jpg/220px-Witcher_3_cover_art.jpg",
+        "title": "The Witcher 3: Wild Hunt",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/81DQN1kaTXL.jpg",
+        "title": "Watch Dogs",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/812E6hdG+VL._SL1500_.jpg",
+        "title": "Watch Dogs 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/dc/Watch_Dogs_Legion_cover_art.webp",
+        "title": "Watch Dogs: Legion",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://i.gadgets360cdn.com/products/large/MV5BMmVjMzkyYWMtNDNhNi00ZWI3LTgxNGUtODRkMWYxNjZmNDI5XkEyXkFqcGdeQXVyMzY0MTE3NzU-.-V1-FMjpg-UX1000-1000x1500-1666698829.jpg",
+        "title": "God of War",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Sekiro_art.jpg/220px-Sekiro_art.jpg",
+        "title": "Sekiro: Shadows Die Twice",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+        "title": "Cyberpunk 2077",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
+        "title": "Cyberpunk 2077",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/cd/Hitman_2_artwork.jpg",
+        "title": "Hitman 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/91jHCMNen9L._AC_UF1000,1000_QL80_.jpg",
+        "title": "Rise of the Tomb Raider",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/81+r0MA26dS._SL1500_.jpg",
+        "title": "My Hero One's Justice",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/91ErCdjsiaL._SL1500_.jpg",
+        "title": "My Hero One's Justice 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/d/dc/Resident_Evil_3.jpg/220px-Resident_Evil_3.jpg",
+        "title": "Resident Evil 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/81EIwYa0AYL._SX385_.jpg",
+        "title": "One Punch Man: A Hero Nobody Knows",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/1e/DMC1FrontCover.jpg",
+        "title": "Devil May Cry",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b0/DMC2FrontCover.jpg",
+        "title": "Devil May Cry 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/76/Devil_May_Cry_3_boxshot.jpg",
+        "title": "Devil May Cry 3: Dante's Awakening",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/bb/DMC4COVER.jpg",
+        "title": "Devil May Cry 4",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/cb/Devil_May_Cry_5.jpg",
+        "title": "Devil May Cry 5",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/65/Elex_cover_art.jpg",
+        "title": "ELEX",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://img.soap2dayhd.co/t-max/w_200/h_300/the-super-mario-bros-movie-1630855048.jpg",
         "title": "The Super Mario Bros Movie",
         "eps": 1,
@@ -35,7 +800,7 @@
         "category": "movies",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/21/Pirates_of_the_Caribbean%2C_Dead_Men_Tell_No_Tales.jpg",
         "title": "pirates of the caribbean dead men tell no tales",
         "eps": 1,
@@ -44,7 +809,7 @@
         "category": "movies",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5e/Pirates_of_the_Caribbean_-_On_Stranger_Tides.png",
         "title": "Pirates of the Caribbean: On Stranger Tides",
         "eps": 1,
@@ -53,7 +818,7 @@
         "category": "movies",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5a/Pirates_AWE_Poster.jpg",
         "title": "Pirates of the Caribbean: At World's End",
         "eps": 1,
@@ -62,7 +827,7 @@
         "category": "movies",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTcwODc1MTMxM15BMl5BanBnXkFtZTYwMDg1NzY3._V1_FMjpg_UX1000_.jpg",
         "title": "Pirates of the Caribbean: Dead Man's Chest",
         "eps": 1,
@@ -71,7 +836,7 @@
         "category": "movies",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNGYyZGM5MGMtYTY2Ni00M2Y1LWIzNjQtYWUzM2VlNGVhMDNhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
         "title": "pirates of the caribbean the curse of the black pearl",
         "eps": 1,
@@ -179,7 +944,7 @@
         "category": "movie",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzJkNWRlYWMtYzBjZC00Yjg4LWEwYmQtMmE0MTNhODU5YTI4XkEyXkFqcGdeQXVyMTA5ODEyNTc5._V1_.jpg",
         "title": "Kung Fu Panda 4",
         "eps": 1,
@@ -188,7 +953,7 @@
         "category": "movie",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e6/Kung_Fu_Panda_3_poster.jpg",
         "title": "Kung Fu Panda 3",
         "eps": 1,
@@ -197,7 +962,7 @@
         "category": "movie",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Kung_Fu_Panda_2_Poster.jpg/220px-Kung_Fu_Panda_2_Poster.jpg",
         "title": "Kung Fu Panda 2",
         "eps": 1,
@@ -206,7 +971,7 @@
         "category": "movie",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BODJkZTZhMWItMDI3Yy00ZWZlLTk4NjQtOTI1ZjU5NjBjZTVjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
         "title": "Kung Fu Panda",
         "eps": 1,
@@ -215,7 +980,7 @@
         "category": "movie",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/9/93/Whisper_of_the_Heart_%28Movie_Poster%29.jpg",
         "title": "Whisper of the Heart",
         "eps": 1,
@@ -296,7 +1061,7 @@
         "category": "movie",
         "status": "completed"
     },
-       {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNTliYjlkNDQtMjFlNS00NjgzLWFmMWEtYmM2Mzc2Zjg3ZjEyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
         "title": "Shang-Chi and the Legend of the Ten Rings",
         "eps": 1,
@@ -314,7 +1079,7 @@
         "category": "movie",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNTM4NjIxNmEtYWE5NS00NDczLTkyNWQtYThhNmQyZGQzMjM0XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
         "title": "Black Panther: Wakanda Forever",
         "eps": 1,
@@ -323,7 +1088,7 @@
         "category": "movie",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://cdn.marvel.com/content/1x/spider-mannowayhome_lob_crd_03.jpg",
         "title": "Spider-Man: No Way Home",
         "eps": 1,
@@ -332,7 +1097,7 @@
         "category": "movie",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
         "title": "Thor: Love and Thunder",
         "eps": 1,
@@ -341,7 +1106,7 @@
         "category": "movie",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNWM0ZGJlMzMtZmYwMi00NzI3LTgzMzMtNjMzNjliNDRmZmFlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_.jpg",
         "title": "Doctor Strange in the Multiverse of Madness",
         "eps": 1,
@@ -350,7 +1115,7 @@
         "category": "movie",
         "status": "completed"
     },
-      {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_.jpg",
         "title": "Doctor Strange",
         "eps": 1,

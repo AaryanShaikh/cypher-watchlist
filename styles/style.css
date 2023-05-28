@@ -456,6 +456,10 @@ body {
 
     .logo {
         font-family: 'Dancing Script', cursive;
-        font-size: 20px;
+        font-size: 15px;
+    }
+
+    .ant-tour {
+        max-width: 250px;
     }
 }
