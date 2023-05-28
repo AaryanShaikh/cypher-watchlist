@@ -127,8 +127,8 @@ const Homepage = () => {
         }
         <Modal title="Watch Statistics" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal" }}>
-                <Statistic title="Total [All] Watched" value={rawData.length} />
-                <Statistic title="Total [All Eps] Watched" value={rawData.filter(x => x.category != "movies").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
+                <Statistic title="Total [All] Watched" value={rawData.length - rawData.filter(x => x.category == "game").length} />
+                <Statistic title="Total Games Completed" value={rawData.filter(x => x.category == "game").length} />
                 <Statistic title="Total Anime Watched" value={rawData.filter(x => x.category == "anime").length} />
                 <Statistic title="Total [Anime Eps] Watched" value={rawData.filter(x => x.category == "anime").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
                 <Statistic title="Total Series Watched" value={rawData.filter(x => x.category == "series").length} />
@@ -243,8 +243,8 @@ const Homepage = () => {
                             <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                                 <List
                                     grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "games").length}</span> records</Text>}
-                                    dataSource={rawData.filter(x => x.category == "games")}
+                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "game").length}</span> records</Text>}
+                                    dataSource={rawData.filter(x => x.category == "game")}
                                     pagination={{ pageSize: 12 }}
                                     renderItem={(ele, ind) => (
                                         <List.Item>

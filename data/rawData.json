@@ -135,15 +135,6 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e3/Sifu_cover_art.jpg",
-        "title": "Sifu",
-        "eps": 1,
-        "total": 1,
-        "type": "Game",
-        "category": "game",
-        "status": "completed"
-    },
-    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Assassins_Creed_brotherhood_cover.jpg/220px-Assassins_Creed_brotherhood_cover.jpg",
         "title": "Assassin's Creed: Brotherhood",
         "eps": 1,
@@ -632,15 +623,6 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Sekiro_art.jpg/220px-Sekiro_art.jpg",
         "title": "Sekiro: Shadows Die Twice",
-        "eps": 1,
-        "total": 1,
-        "type": "Game",
-        "category": "game",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
-        "title": "Cyberpunk 2077",
         "eps": 1,
         "total": 1,
         "type": "Game",
