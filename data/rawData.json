@@ -144,15 +144,6 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Assassins_Creed_brotherhood_cover.jpg/220px-Assassins_Creed_brotherhood_cover.jpg",
-        "title": "Assassin's Creed: Brotherhood",
-        "eps": 1,
-        "total": 1,
-        "type": "Game",
-        "category": "game",
-        "status": "completed"
-    },
-    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d9/Assassins_Creed_Revelations_Cover.jpg",
         "title": "Assassin's Creed: Revelations",
         "eps": 1,
@@ -236,15 +227,6 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg",
         "title": "Need for Speed: Most Wanted",
-        "eps": 1,
-        "total": 1,
-        "type": "Game",
-        "category": "game",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b0/Nfs-most-wanted-2012-gen-packart.jpg",
-        "title": "Need for Speed: Most Wanted (2012)",
         "eps": 1,
         "total": 1,
         "type": "Game",
