@@ -24,7 +24,6 @@ const Homepage = () => {
     const [showStats, setshowStats] = useState(false)
     const [searchText, setsearchText] = useState("")
     const [rawData, setrawData] = useState([])
-    const [loadingData, setloadingData] = useState("Arranging DOM elements...")
     const [iniRender, setiniRender] = useState(true)
     const [viewScreenHeight, setviewScreenHeight] = useState(0)
     const [isActive, setisActive] = useState(false)
@@ -105,7 +104,6 @@ const Homepage = () => {
 
     const fetchData = async () => {
         try {
-            setloadingData("Fetching Cypher's Watchlist...")
             const response = await axios.get('https://raw.githubusercontent.com/AaryanShaikh/cypher-watchlist/main/data/rawData.json');
             setrawData(response.data)
             setisLoading(false)
@@ -127,7 +125,7 @@ const Homepage = () => {
         }
         {
             isLoading ? <div style={{ position: "absolute", height: "100vh", width: "100%", zIndex: "999", display: "flex", justifyContent: "center", alignItems: "flex-start" }}>
-                <Text strong>{loadingData}</Text>
+                <Text className='loadingText'><span>Loading...&nbsp;</span></Text>
             </div> : ""
         }
         <Modal title="Watch Statistics" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>

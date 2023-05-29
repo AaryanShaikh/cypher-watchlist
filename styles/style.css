@@ -449,6 +449,80 @@ body {
     }
 }
 
+.loadingText {
+    display: inline-block;
+    transition: .5s ease-in-out;
+    font-weight:700;
+}
+
+.loadingText span::after {
+    content: 'Arranging DOM Elements';
+    display: inline-block;
+    animation-name: letterAnimation;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    font-weight:600;
+}
+
+@keyframes letterAnimation {
+    0% {
+        content: 'Arranging DOM Elements';
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    10% {
+        content: 'Arranging DOM Elements';
+        opacity: 1;
+        transform: translateY(0);
+    }
+    20% {
+        content: 'Arranging DOM Elements';
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    30% {
+        content: "Fetching Aaryan's Memoirs";
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    40% {
+        content: "Fetching Aaryan's Memoirs";
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        content: "Fetching Aaryan's Memoirs";
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    60% {
+        content: 'Stacking all items in order';
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    70% {
+        content: 'Stacking all items in order';
+        opacity: 1;
+        transform: translateY(0);
+    }
+    80% {
+        content: 'Stacking all items in order';
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    90%{
+        content: 'Arranging DOM Elements';
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100%{
+        content: 'Arranging DOM Elements';
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+}
+
 @media (min-width: 301px) and (max-width: 567px) {
     .heading {
         font-family: 'Dancing Script', cursive;
