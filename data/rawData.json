@@ -1,5 +1,23 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/29e01be12558a15fa234712c118a4772.jpg",
+        "title": "Dragon Ball Z: Fusion Reborn",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/6893e049c0b998380f4314f1d4c32c51.jpg",
+        "title": "Dragon Ball Z: Bio-Broly",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/e62d2261a2ab704501957e3d0f634a18.jpg",
         "title": "Dragon Ball Z: Broly - Second Coming",
         "eps": 1,
@@ -144,15 +162,6 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Assassins_Creed_brotherhood_cover.jpg/220px-Assassins_Creed_brotherhood_cover.jpg",
-        "title": "Assassin's Creed: Brotherhood",
-        "eps": 1,
-        "total": 1,
-        "type": "Game",
-        "category": "game",
-        "status": "completed"
-    },
-    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d9/Assassins_Creed_Revelations_Cover.jpg",
         "title": "Assassin's Creed: Revelations",
         "eps": 1,
@@ -236,15 +245,6 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/8/8e/Need_for_Speed_Most_Wanted_Box_Art.jpg",
         "title": "Need for Speed: Most Wanted",
-        "eps": 1,
-        "total": 1,
-        "type": "Game",
-        "category": "game",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b0/Nfs-most-wanted-2012-gen-packart.jpg",
-        "title": "Need for Speed: Most Wanted (2012)",
         "eps": 1,
         "total": 1,
         "type": "Game",
