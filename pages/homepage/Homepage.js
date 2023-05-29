@@ -8,6 +8,7 @@ import CardItem from '../../components/Card';
 import Loader from '../../components/Loader';
 import axios from 'axios';
 import SearchBox from '../../components/SearchBox';
+import Head from 'next/head';
 
 const { Text } = Typography
 const { Search } = Input
@@ -117,6 +118,10 @@ const Homepage = () => {
 
 
     return (<>
+        <Head>
+            <link rel="shortcut icon" href="/favicon.ico" />
+            <title>Aaryan's Memoirs</title>
+        </Head>
         {
             isLoading ? <Loader /> : ""
         }
