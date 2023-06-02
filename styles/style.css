@@ -452,7 +452,7 @@ body {
 .loadingText {
     display: inline-block;
     transition: .5s ease-in-out;
-    font-weight:700;
+    font-weight: 700;
 }
 
 .loadingText span::after {
@@ -462,7 +462,7 @@ body {
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-    font-weight:600;
+    font-weight: 600;
 }
 
 @keyframes letterAnimation {
@@ -471,56 +471,100 @@ body {
         opacity: 0;
         transform: translateY(-50%);
     }
+
     10% {
         content: 'Arranging DOM Elements';
         opacity: 1;
         transform: translateY(0);
     }
+
     20% {
         content: 'Arranging DOM Elements';
         opacity: 0;
         transform: translateY(50%);
     }
+
     30% {
         content: "Fetching Aaryan's Memoirs";
         opacity: 0;
         transform: translateY(-50%);
     }
+
     40% {
         content: "Fetching Aaryan's Memoirs";
         opacity: 1;
         transform: translateY(0);
     }
+
     50% {
         content: "Fetching Aaryan's Memoirs";
         opacity: 0;
         transform: translateY(50%);
     }
+
     60% {
         content: 'Stacking all items in order';
         opacity: 0;
         transform: translateY(-50%);
     }
+
     70% {
         content: 'Stacking all items in order';
         opacity: 1;
         transform: translateY(0);
     }
+
     80% {
         content: 'Stacking all items in order';
         opacity: 0;
         transform: translateY(50%);
     }
-    90%{
+
+    90% {
         content: 'Arranging DOM Elements';
         opacity: 0;
         transform: translateY(-50%);
     }
-    100%{
+
+    100% {
         content: 'Arranging DOM Elements';
         opacity: 0;
         transform: translateY(-50%);
     }
+}
+
+.ant-switch .ant-switch-inner .ant-switch-inner-checked {
+    margin-top: 2px;
+}
+
+.ant-pagination .ant-pagination-item-active {
+    background-color: transparent;
+}
+
+.ant-pagination .ant-pagination-item a {
+    color: #1677FF;
+}
+
+.ant-pagination .ant-pagination-jump-next .ant-pagination-item-container .ant-pagination-item-ellipsis {
+    color: #1677FF40;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: transparent;
+    color: #1677FF;
+    border: 1px solid #95c1ff;
+}
+
+.ant-pagination .ant-pagination-disabled .ant-pagination-item-link {
+    color: #1677FF40;
+}
+
+.ant-pagination .anticon svg {
+    color: #1677FF;
+}
+
+.ant-pagination .ant-pagination-options {
+    display: none;
 }
 
 @media (min-width: 301px) and (max-width: 567px) {

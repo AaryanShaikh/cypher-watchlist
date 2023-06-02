@@ -9,7 +9,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
     const [isImgLoading, setisImgLoading] = useState(true)
 
     return (
-        <div style={{ boxShadow: "0px 0px 8px 2px #5454543d", height: show ? range ? "300px" : "355px" : "0px", width: show ? range ? "" : "205px" : "0px", borderRadius: "10px", overflow: "hidden", padding: "5px", display: "flex", justifyContent: "space-between", flexDirection: "column", transition: ".5s ease", opacity: "1", position: "relative", background: dark ? "#3A3A3A" : "white", minWidth: range ? "150px" : "" }}>
+        <div style={{ boxShadow: dark ? "0px 0px 0px 0px #242424" : "0px 0px 8px 2px #5454543d", height: show ? range ? "300px" : "355px" : "0px", width: show ? range ? "" : "205px" : "0px", borderRadius: "10px", overflow: "hidden", padding: "5px", display: "flex", justifyContent: "space-between", flexDirection: "column", transition: ".5s ease", opacity: "1", position: "relative", background: dark ? "#242424" : "white", minWidth: range ? "150px" : "" }}>
             <div style={{ height: "80%", width: "100%", position: "relative" }}>
                 <div style={{ height: "100%", width: "100%", position: "absolute", opacity: isImgLoading ? "1" : "0", display: "flex", justifyContent: "center", alignItems: "center", transition: ".5s ease-in-out" }}>
                     <div class="spinner"></div>
@@ -29,10 +29,10 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
                 <Tooltip title={status == "in progress" ? "Currently Watching" : "Completed"}>
                     {status == "in progress" ? <FaPlayCircle style={{ color: "#389DEF" }} /> : <BsFillPatchCheckFill style={{ color: "#78F100" }} />}
                 </Tooltip>
-                <Text strong type="secondary" style={{ color: dark ? "white" : "black", transition: ".5s ease" }}>{type}</Text>
+                <Text strong type="secondary" style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease" }}>{type}</Text>
             </div>
             <Tooltip title={title}>
-                <Text ellipsis style={{ color: dark ? "white" : "black", transition: ".5s ease", padding: "5px" }}>{title}</Text>
+                <Text ellipsis style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", padding: "5px" }}>{title}</Text>
             </Tooltip>
         </div>
     )

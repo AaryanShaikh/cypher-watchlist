@@ -129,7 +129,7 @@ const Homepage = () => {
             </div> : ""
         }
         <Modal title="Watch Statistics" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", }}>
                 <Statistic title="Total [All] Watched" value={rawData.length - rawData.filter(x => x.category == "game").length} />
                 <Statistic title="Total Games Completed" value={rawData.filter(x => x.category == "game").length} />
                 <Statistic title="Total Anime Watched" value={rawData.filter(x => x.category == "anime").length} />
@@ -142,14 +142,14 @@ const Homepage = () => {
         </Modal>
         {isLoading ? "" : <FloatButton ref={step3} icon={<BiScatterChart />} onClick={() => setshowStats(true)} />}
         <div ref={widthRef} style={{ position: "absolute", width: "100%", height: "100vh", background: "transparent", backdropFilter: `blur(${isLoading ? "10" : "0"}px)`, zIndex: "100", transition: ".5s ease-in-out", pointerEvents: "none" }}></div>
-        <div ref={step1} className='heading' style={{ background: !isDark ? "#1b1b1b" : "white" }}>
-            {range ? <div style={{ display: "flex", flexDirection: "column" }}><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Aaryan's</Text><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Memoirs</Text></div> :
-                <Text style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }} className='logo'>Aaryan's Memoirs</Text>
+        <div className='heading' style={{ background: !isDark ? "#0E0E0E" : "white" }}>
+            {range ? <div ref={step1} style={{ display: "flex", flexDirection: "column" }}><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Aaryan's</Text><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Memoirs</Text></div> :
+                <Text ref={step1} style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }} className='logo'>Aaryan's Memoirs</Text>
             }
             <SearchBox refs={step4} dark={!isDark} searchText={searchText} setsearchText={setsearchText} isActive={isActive} setisActive={setisActive} />
             <Switch ref={step5} checked={isDark} onChange={(e) => setisDark(e)} checkedChildren={<BsFillSunFill />} unCheckedChildren={<BsMoonStars />} />
         </div>
-        <div style={{ display: "flex", flexDirection: range ? "row" : "column", gap: "5px", background: !isDark ? "#1b1b1b" : "white" }}>
+        <div style={{ display: "flex", flexDirection: range ? "row" : "column", gap: "5px", background: !isDark ? "#0E0E0E" : "white", minHeight: "100vh" }}>
             <Tabs defaultActiveKey='all' activeKey={categorySel} tabPosition={range ? "top" : "left"} style={{ padding: "10px", overflow: range ? "scroll" : "hidden" }} onChange={(e) => setcategorySel(e)}>
                 {
                     isActive ? <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "search" ? <MdScreenSearchDesktop style={{ color: "#1677ff", fontSize: "20px" }} /> : "Search"}</Text>} key="search" style={{ color: range ? "aliceblue" : "black" }}>
@@ -158,7 +158,7 @@ const Homepage = () => {
                                 grid={{ gutter: 16, column: range ? 2 : 6 }}
                                 header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Found <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).length}</span> records</Text>}
                                 dataSource={rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase()))}
-                                pagination={{ pageSize: 12 }}
+                                pagination={{ pageSize: 12, showSizeChanger: false }}
                                 renderItem={(ele, ind) => (
                                     <List.Item>
                                         <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
