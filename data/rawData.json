@@ -791,6 +791,15 @@
         "category": "game",
         "status": "completed"
     },
+        {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDE5NjQzMDkzOF5BMl5BanBnXkFtZTcwODI3ODI3MQ@@._V1_.jpg",
+        "title": "Tropic Thunder",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
     {
         "imgSrc": "https://img.soap2dayhd.co/t-max/w_200/h_300/the-super-mario-bros-movie-1630855048.jpg",
         "title": "The Super Mario Bros Movie",
