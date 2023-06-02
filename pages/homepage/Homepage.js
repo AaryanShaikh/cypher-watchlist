@@ -128,7 +128,7 @@ const Homepage = () => {
                 <Text className='loadingText'><span>Loading...&nbsp;</span></Text>
             </div> : ""
         }
-        <Modal title="Watch Statistics" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
+        <Modal title="Overall Statistics" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", }}>
                 <Statistic title="Total [All] Watched" value={rawData.length - rawData.filter(x => x.category == "game").length} />
                 <Statistic title="Total Games Completed" value={rawData.filter(x => x.category == "game").length} />
