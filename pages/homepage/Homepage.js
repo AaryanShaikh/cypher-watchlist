@@ -45,27 +45,57 @@ const Homepage = () => {
                     style={{ width: "50%" }}
                 />
             ),
+            mask: {
+                style: {
+                  backdropFilter: 'grayscale(1)',
+                  transition:".5s ease-in-out"
+                },
+              },
             target: () => step1.current,
         },
         {
             title: 'data.filter()',
             description: "Use this section to execute a very complex code which will filter out the data for you.",
             target: () => step2.current,
+            mask: {
+                style: {
+                  backdropFilter: 'grayscale(0.8)',
+                  transition:".5s ease-in-out"
+                },
+              },
         },
         {
             title: 'typeof number',
             description: "This will allow you to unravel the Melody of Statistics",
             target: () => step3.current,
+            mask: {
+                style: {
+                  backdropFilter: 'grayscale(0.6)',
+                  transition:".5s ease-in-out"
+                },
+              },
         },
         {
             title: '!google',
             description: "Traverse this vast realm of information effortlessly using this search!",
             target: () => step4.current,
+            mask: {
+                style: {
+                  backdropFilter: 'grayscale(0.4)',
+                  transition:".5s ease-in-out"
+                },
+              },
         },
         {
             title: "Now u see me, now u don't!",
             description: "Transform the atmosphere at your command, be it Light or Dark!",
             target: () => step5.current,
+            mask: {
+                style: {
+                  backdropFilter: 'grayscale(0)',
+                  transition:".5s ease-in-out"
+                },
+              },
         },
     ];
 
