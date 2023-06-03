@@ -23,8 +23,8 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
             </div>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
                 <Space size="" style={{ opacity: total == 1 ? "0" : "1", transition: ".5s ease-in-out" }}>
-                    <Tag color="green">{eps}</Tag>
-                    <Tag color="purple">{total}</Tag>
+                    <Tag style={{ color: dark ? "#6abe39" : "#389e0d", background: dark ? "#162312" : "#f6ffed", borderColor: dark ? "#274916" : "#b7eb8f", transition: ".5s ease-in-out" }}>{eps}</Tag>
+                    <Tag style={{ color: dark ? "#854eca" : "#531dab", background: dark ? "#1a1325" : "#f9f0ff", borderColor: dark ? "#301c4d" : "#d3adf7", transition: ".5s ease-in-out" }}>{total}</Tag>
                 </Space>
                 <Tooltip title={status == "in progress" ? "Currently Watching" : "Completed"}>
                     {status == "in progress" ? <FaPlayCircle style={{ color: "#389DEF" }} /> : <BsFillPatchCheckFill style={{ color: "#78F100" }} />}

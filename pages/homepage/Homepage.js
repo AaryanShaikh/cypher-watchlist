@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect, useRef, lazy } from 'react'
 import { Input, Switch, Typography, FloatButton, Modal, Statistic, Tabs, List, Tour } from 'antd'
 import { Gi3DGlasses, GiAbstract060, GiGamepad, GiTv } from 'react-icons/gi';
 import { BiCameraMovie, BiMoviePlay, BiScatterChart } from 'react-icons/bi'
@@ -9,6 +9,7 @@ import Loader from '../../components/Loader';
 import axios from 'axios';
 import SearchBox from '../../components/SearchBox';
 import Head from 'next/head';
+import NumberCounter from '../../components/NumberCounter';
 
 const { Text } = Typography
 const { Search } = Input
@@ -130,14 +131,14 @@ const Homepage = () => {
         }
         <Modal title="Overall Statistics" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", }}>
-                <Statistic title="Total [All] Watched" value={rawData.length - rawData.filter(x => x.category == "game").length} />
-                <Statistic title="Total Games Completed" value={rawData.filter(x => x.category == "game").length} />
-                <Statistic title="Total Anime Watched" value={rawData.filter(x => x.category == "anime").length} />
-                <Statistic title="Total [Anime Eps] Watched" value={rawData.filter(x => x.category == "anime").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
-                <Statistic title="Total Series Watched" value={rawData.filter(x => x.category == "series").length} />
-                <Statistic title="Total [Series Eps] Watched" value={rawData.filter(x => x.category == "series").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
-                <Statistic title="Total Movies Watched" value={rawData.filter(x => x.category == "movies").length} />
-                <Statistic title="Total Currently Watching" value={rawData.filter(x => x.status == "in progress").length} />
+                <NumberCounter title="Total [All] Watched" end={rawData.length - rawData.filter(x => x.category == "game").length} />
+                <NumberCounter title="Total Games Completed" end={rawData.filter(x => x.category == "game").length} />
+                <NumberCounter title="Total Anime Watched" end={rawData.filter(x => x.category == "anime").length} />
+                <NumberCounter title="Total [Anime Eps] Watched" end={rawData.filter(x => x.category == "anime").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
+                <NumberCounter title="Total Series Watched" end={rawData.filter(x => x.category == "series").length} />
+                <NumberCounter title="Total [Series Eps] Watched" end={rawData.filter(x => x.category == "series").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
+                <NumberCounter title="Total Movies Watched" end={rawData.filter(x => x.category == "movies").length} />
+                <NumberCounter title="Total Currently Watching" end={rawData.filter(x => x.status == "in progress").length} />
             </div>
         </Modal>
         {isLoading ? "" : <FloatButton ref={step3} icon={<BiScatterChart />} onClick={() => setshowStats(true)} />}
