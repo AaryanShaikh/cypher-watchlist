@@ -533,6 +533,25 @@ body {
     }
 }
 
+.menuIconAnimate {
+    animation: flicker 2s ease-in-out infinite;
+    color: #1677ff !important;
+}
+
+@keyframes flicker {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .ant-switch .ant-switch-inner .ant-switch-inner-checked {
     margin-top: 2px;
 }

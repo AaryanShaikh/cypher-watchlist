@@ -28,6 +28,7 @@ const Homepage = () => {
     const [iniRender, setiniRender] = useState(true)
     const [viewScreenHeight, setviewScreenHeight] = useState(0)
     const [isActive, setisActive] = useState(false)
+    const [allCats, setallCats] = useState(["all", "ongoing"])
     const [showTour, setshowTour] = useState(false)
     const step1 = useRef(null)
     const step2 = useRef(null)
@@ -47,10 +48,10 @@ const Homepage = () => {
             ),
             mask: {
                 style: {
-                  backdropFilter: 'grayscale(1)',
-                  transition:".5s ease-in-out"
+                    backdropFilter: 'grayscale(1)',
+                    transition: ".5s ease-in-out"
                 },
-              },
+            },
             target: () => step1.current,
         },
         {
@@ -59,10 +60,10 @@ const Homepage = () => {
             target: () => step2.current,
             mask: {
                 style: {
-                  backdropFilter: 'grayscale(0.8)',
-                  transition:".5s ease-in-out"
+                    backdropFilter: 'grayscale(0.8)',
+                    transition: ".5s ease-in-out"
                 },
-              },
+            },
         },
         {
             title: 'typeof number',
@@ -70,10 +71,10 @@ const Homepage = () => {
             target: () => step3.current,
             mask: {
                 style: {
-                  backdropFilter: 'grayscale(0.6)',
-                  transition:".5s ease-in-out"
+                    backdropFilter: 'grayscale(0.6)',
+                    transition: ".5s ease-in-out"
                 },
-              },
+            },
         },
         {
             title: '!google',
@@ -81,10 +82,10 @@ const Homepage = () => {
             target: () => step4.current,
             mask: {
                 style: {
-                  backdropFilter: 'grayscale(0.4)',
-                  transition:".5s ease-in-out"
+                    backdropFilter: 'grayscale(0.4)',
+                    transition: ".5s ease-in-out"
                 },
-              },
+            },
         },
         {
             title: "Now u see me, now u don't!",
@@ -92,10 +93,10 @@ const Homepage = () => {
             target: () => step5.current,
             mask: {
                 style: {
-                  backdropFilter: 'grayscale(0)',
-                  transition:".5s ease-in-out"
+                    backdropFilter: 'grayscale(0)',
+                    transition: ".5s ease-in-out"
                 },
-              },
+            },
         },
     ];
 
@@ -137,6 +138,10 @@ const Homepage = () => {
         try {
             const response = await axios.get('https://raw.githubusercontent.com/AaryanShaikh/cypher-watchlist/main/data/rawData.json');
             setrawData(response.data)
+            const uniqueArray = Array.from(
+                new Set(response.data.map((obj) => obj.category))
+            );
+            setallCats([...allCats, ...uniqueArray])
             setisLoading(false)
             setshowTour(true)
         } catch (error) {
@@ -145,6 +150,13 @@ const Homepage = () => {
         }
     };
 
+    const capitalizeFirstLetter = (str) => {
+        if (typeof str !== 'string' || str.length === 0) {
+            return str;
+        }
+
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
 
     return (<>
         <Head>
@@ -183,7 +195,12 @@ const Homepage = () => {
         <div style={{ display: "flex", flexDirection: range ? "row" : "column", gap: "5px", background: !isDark ? "#0E0E0E" : "white", minHeight: "100vh" }}>
             <Tabs defaultActiveKey='all' activeKey={categorySel} tabPosition={range ? "top" : "left"} style={{ padding: "10px", overflow: range ? "scroll" : "hidden" }} onChange={(e) => setcategorySel(e)}>
                 {
-                    isActive ? <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "search" ? <MdScreenSearchDesktop style={{ color: "#1677ff", fontSize: "20px" }} /> : "Search"}</Text>} key="search" style={{ color: range ? "aliceblue" : "black" }}>
+                    isActive ? <TabPane tab={
+                        <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+                            <MdScreenSearchDesktop style={{ color: "#1677ff", fontSize: "20px" }} />
+                            <Text style={{ color: isDark ? "black" : "aliceblue" }}>Search</Text>
+                        </div>
+                    } key="search" style={{ color: range ? "aliceblue" : "black" }}>
                         <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(200px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                             <List
                                 grid={{ gutter: 16, column: range ? 2 : 6 }}
@@ -198,96 +215,45 @@ const Homepage = () => {
                             />
                         </div>
                     </TabPane> : <>
-                        <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "all" ? <Gi3DGlasses style={{ color: "#1677ff", fontSize: "20px" }} /> : "All"}</Text>} key='all'>
-                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
-                                <List
-                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.length}</span> records</Text>}
-                                    dataSource={rawData}
-                                    pagination={{ pageSize: 12 }}
-                                    renderItem={(ele, ind) => (
-                                        <List.Item>
-                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
-                                        </List.Item>
-                                    )}
-                                />
-                            </div>
-                        </TabPane>
-                        <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "ongoing" ? <GiTv style={{ color: "#1677ff", fontSize: "20px" }} /> : "Ongoing"}</Text>} key='ongoing'>
-                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
-                                <List
-                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.status == "in progress").length}</span> currently watching</Text>}
-                                    dataSource={rawData.filter(x => x.status == "in progress")}
-                                    pagination={{ pageSize: 12 }}
-                                    renderItem={(ele, ind) => (
-                                        <List.Item>
-                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
-                                        </List.Item>
-                                    )}
-                                />
-                            </div>
-                        </TabPane>
-                        <TabPane tab={<Text ref={step2} style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "anime" ? <GiAbstract060 style={{ color: "#1677ff", fontSize: "20px" }} /> : "Anime"}</Text>} key='anime'>
-                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
-                                <List
-                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "anime").length}</span> records</Text>}
-                                    dataSource={rawData.filter(x => x.category == "anime")}
-                                    pagination={{ pageSize: 12 }}
-                                    renderItem={(ele, ind) => (
-                                        <List.Item>
-                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
-                                        </List.Item>
-                                    )}
-                                />
-                            </div>
-                        </TabPane>
-                        <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "series" ? <BiMoviePlay style={{ color: "#1677ff", fontSize: "20px" }} /> : "Series"}</Text>} key='series'>
-                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
-                                <List
-                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "series").length}</span> records</Text>}
-                                    dataSource={rawData.filter(x => x.category == "series")}
-                                    pagination={{ pageSize: 12 }}
-                                    renderItem={(ele, ind) => (
-                                        <List.Item>
-                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
-                                        </List.Item>
-                                    )}
-                                />
-                            </div>
-                        </TabPane>
-                        <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "movies" ? <BiCameraMovie style={{ color: "#1677ff", fontSize: "20px" }} /> : "Movies"}</Text>} key='movies'>
-                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
-                                <List
-                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "movies").length}</span> records</Text>}
-                                    dataSource={rawData.filter(x => x.category == "movies")}
-                                    pagination={{ pageSize: 12 }}
-                                    renderItem={(ele, ind) => (
-                                        <List.Item>
-                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
-                                        </List.Item>
-                                    )}
-                                />
-                            </div>
-                        </TabPane>
-                        <TabPane tab={<Text style={{ color: isDark ? "black" : "aliceblue" }}>{categorySel == "games" ? <GiGamepad style={{ color: "#1677ff", fontSize: "20px" }} /> : "Games"}</Text>} key='games'>
-                            <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
-                                <List
-                                    grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                    header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(x => x.category == "game").length}</span> records</Text>}
-                                    dataSource={rawData.filter(x => x.category == "game")}
-                                    pagination={{ pageSize: 12 }}
-                                    renderItem={(ele, ind) => (
-                                        <List.Item>
-                                            <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
-                                        </List.Item>
-                                    )}
-                                />
-                            </div>
-                        </TabPane>
+                        {
+                            allCats.map((ele, ind) => {
+                                return <TabPane key={ele} tab={
+                                    <div style={{ display: "flex", gap: "10px", alignItems: "center", flexDirection: range ? "column" : "row" }}>
+                                        {
+                                            ele == "all" ? <Gi3DGlasses className={categorySel == "all" ? 'menuIconAnimate' : ""} style={{ opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue" }} /> :
+                                                ele == "ongoing" ? <GiTv className={categorySel == "ongoing" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> :
+                                                    ele == "anime" ? <GiAbstract060 className={categorySel == "anime" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> :
+                                                        ele == "series" ? <BiMoviePlay className={categorySel == "series" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> :
+                                                            ele == "movies" ? <BiCameraMovie className={categorySel == "movies" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> :
+                                                                ele == "game" ? <GiGamepad className={categorySel == "game" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> : ""
+                                        }
+                                        <Text style={{ color: isDark ? categorySel == { ele } ? "#1677ff" : "black" : "aliceblue" }}>{capitalizeFirstLetter(ele)}</Text>
+                                    </div>
+                                }>
+                                    <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
+                                        <List
+                                            grid={{ gutter: 16, column: range ? 2 : 6 }}
+                                            header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{
+                                                ele == "all" ? rawData.length :
+                                                    ele == "ongoing" ? rawData.filter(x => x.status == "in progress").length :
+                                                        rawData.filter(x => x.category == ele).length
+                                            }</span> records</Text>}
+                                            dataSource={
+                                                ele == "all" ? rawData :
+                                                    ele == "ongoing" ? rawData.filter(x => x.status == "in progress") :
+                                                        rawData.filter(x => x.category == ele)
+                                            }
+                                            pagination={{ pageSize: 12 }}
+                                            renderItem={(ele, ind) => (
+                                                <List.Item>
+                                                    <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
+                                                </List.Item>
+                                            )}
+                                        />
+                                    </div>
+                                </TabPane>
+                            })
+                        }
                     </>
                 }
             </Tabs>
