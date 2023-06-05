@@ -1,12 +1,30 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/df/dfe76cadc2971b1fa5cfd12c045035ee.jpg",
+        "title": "Super Dragon Ball Heroes Ultra God Mission",
+        "eps": 8,
+        "total": 8,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/35/3518af4500e18b18186155eaaac3a602.jpg",
         "title": "Super Dragon Ball Heroes Big Bang Mission",
-        "eps": 1,
+        "eps": 19,
         "total": 19,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/40/40e10470621ea07aa9b2e54bc47acfca.jpg",
+        "title": "Super Dragon Ball Heroes Universe Mission",
+        "eps": 19,
+        "total": 19,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/0/0f/0f3b8d8dd107af9c401fe75b4936fa61.jpg",
