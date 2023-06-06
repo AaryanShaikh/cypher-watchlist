@@ -66,9 +66,9 @@ const Homepage = () => {
             },
         },
         {
-            title: 'typeof number',
-            description: "This will allow you to unravel the Melody of Statistics",
-            target: () => step3.current,
+            title: '!google',
+            description: "Traverse this vast realm of information effortlessly using this search!",
+            target: () => step4.current,
             mask: {
                 style: {
                     backdropFilter: 'grayscale(0.6)',
@@ -77,9 +77,9 @@ const Homepage = () => {
             },
         },
         {
-            title: '!google',
-            description: "Traverse this vast realm of information effortlessly using this search!",
-            target: () => step4.current,
+            title: "Now u see me, now u don't!",
+            description: "Transform the atmosphere at your command, be it Light or Dark!",
+            target: () => step5.current,
             mask: {
                 style: {
                     backdropFilter: 'grayscale(0.4)',
@@ -88,9 +88,9 @@ const Homepage = () => {
             },
         },
         {
-            title: "Now u see me, now u don't!",
-            description: "Transform the atmosphere at your command, be it Light or Dark!",
-            target: () => step5.current,
+            title: 'typeof number',
+            description: "This will allow you to unravel the Melody of Statistics",
+            target: () => step3.current,
             mask: {
                 style: {
                     backdropFilter: 'grayscale(0)',
@@ -196,12 +196,12 @@ const Homepage = () => {
             <Tabs defaultActiveKey='all' activeKey={categorySel} tabPosition={range ? "top" : "left"} style={{ padding: "10px", overflow: range ? "scroll" : "hidden" }} onChange={(e) => setcategorySel(e)}>
                 {
                     isActive ? <TabPane tab={
-                        <div style={{ display: "flex", gap: "10px", alignItems: "center" }}>
+                        <div style={{ display: "flex", gap: "10px", alignItems: "center", flexDirection: range ? "column" : "row" }}>
                             <MdScreenSearchDesktop style={{ color: "#1677ff", fontSize: "20px" }} />
                             <Text style={{ color: isDark ? "black" : "aliceblue" }}>Search</Text>
                         </div>
                     } key="search" style={{ color: range ? "aliceblue" : "black" }}>
-                        <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(200px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
+                        <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(200px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 197 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                             <List
                                 grid={{ gutter: 16, column: range ? 2 : 6 }}
                                 header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Found <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).length}</span> records</Text>}
@@ -218,7 +218,7 @@ const Homepage = () => {
                         {
                             allCats.map((ele, ind) => {
                                 return <TabPane key={ele} tab={
-                                    <div style={{ display: "flex", gap: "10px", alignItems: "center", flexDirection: range ? "column" : "row" }}>
+                                    <div ref={ind == 0 ? step2 : null} style={{ display: "flex", gap: "10px", alignItems: "center", flexDirection: range ? "column" : "row" }}>
                                         {
                                             ele == "all" ? <Gi3DGlasses className={categorySel == "all" ? 'menuIconAnimate' : ""} style={{ opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue" }} /> :
                                                 ele == "ongoing" ? <GiTv className={categorySel == "ongoing" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> :
@@ -230,7 +230,7 @@ const Homepage = () => {
                                         <Text style={{ color: isDark ? categorySel == { ele } ? "#1677ff" : "black" : "aliceblue" }}>{capitalizeFirstLetter(ele)}</Text>
                                     </div>
                                 }>
-                                    <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 166 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
+                                    <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 197 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                                         <List
                                             grid={{ gutter: 16, column: range ? 2 : 6 }}
                                             header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{

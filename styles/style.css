@@ -6,6 +6,11 @@ body {
     margin: 0;
 }
 
+html {
+    touch-action: manipulation;
+    zoom: reset;
+  }
+
 .scrollVisible::-webkit-scrollbar {
     width: 10px;
     margin-left: 5px;
