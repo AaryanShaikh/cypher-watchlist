@@ -9,7 +9,11 @@ body {
 html {
     touch-action: manipulation;
     zoom: reset;
-  }
+}
+
+:root {
+    --ti-cursor-color: #ECE9E6;
+}
 
 .scrollVisible::-webkit-scrollbar {
     width: 10px;
@@ -589,6 +593,10 @@ html {
 
 .ant-pagination .ant-pagination-options {
     display: none;
+}
+
+.atMark{
+    color: red;
 }
 
 @media (min-width: 301px) and (max-width: 567px) {

@@ -10,6 +10,7 @@ import axios from 'axios';
 import SearchBox from '../../components/SearchBox';
 import Head from 'next/head';
 import NumberCounter from '../../components/NumberCounter';
+import Profile from '../../components/Profile';
 
 const { Text } = Typography
 const { Search } = Input
@@ -30,6 +31,7 @@ const Homepage = () => {
     const [isActive, setisActive] = useState(false)
     const [allCats, setallCats] = useState(["all", "ongoing"])
     const [showTour, setshowTour] = useState(false)
+    const [showProfile, setshowProfile] = useState(false)
     const step1 = useRef(null)
     const step2 = useRef(null)
     const step3 = useRef(null)
@@ -91,6 +93,17 @@ const Homepage = () => {
             title: 'typeof number',
             description: "This will allow you to unravel the Melody of Statistics",
             target: () => step3.current,
+            mask: {
+                style: {
+                    backdropFilter: 'grayscale(0.2)',
+                    transition: ".5s ease-in-out"
+                },
+            },
+        },
+        {
+            title: 'Who is Aaryan?',
+            description: "This will allow you to access my profile & my other handles!",
+            target: () => step1.current,
             mask: {
                 style: {
                     backdropFilter: 'grayscale(0)',
@@ -171,6 +184,7 @@ const Homepage = () => {
                 <Text className='loadingText'><span>Loading...&nbsp;</span></Text>
             </div> : ""
         }
+        {showProfile ? <Profile showProfile={showProfile} setshowProfile={setshowProfile} range={range} /> : ""}
         <Modal title="Overall Statistics" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", }}>
                 <NumberCounter title="Total [All] Watched" end={rawData.length - rawData.filter(x => x.category == "game").length} />
@@ -186,8 +200,8 @@ const Homepage = () => {
         {isLoading ? "" : <FloatButton ref={step3} icon={<BiScatterChart />} onClick={() => setshowStats(true)} />}
         <div ref={widthRef} style={{ position: "absolute", width: "100%", height: "100vh", background: "transparent", backdropFilter: `blur(${isLoading ? "10" : "0"}px)`, zIndex: "100", transition: ".5s ease-in-out", pointerEvents: "none" }}></div>
         <div className='heading' style={{ background: !isDark ? "#0E0E0E" : "white" }}>
-            {range ? <div ref={step1} style={{ display: "flex", flexDirection: "column" }}><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Aaryan's</Text><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Memoirs</Text></div> :
-                <Text ref={step1} style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }} className='logo'>Aaryan's Memoirs</Text>
+            {range ? <div onClick={() => { setshowProfile(true) }} ref={step1} style={{ display: "flex", flexDirection: "column", cursor: "pointer" }}><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Aaryan's</Text><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Memoirs</Text></div> :
+                <Text onClick={() => { setshowProfile(true) }} ref={step1} style={{ color: !isDark ? "white" : "black", transition: ".5s ease", cursor: "pointer" }} className='logo'>Aaryan's Memoirs</Text>
             }
             <SearchBox refs={step4} dark={!isDark} searchText={searchText} setsearchText={setsearchText} isActive={isActive} setisActive={setisActive} />
             <Switch ref={step5} checked={isDark} onChange={(e) => setisDark(e)} checkedChildren={<BsFillSunFill />} unCheckedChildren={<BsMoonStars />} />
