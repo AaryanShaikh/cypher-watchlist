@@ -872,6 +872,51 @@
         "category": "game",
         "status": "completed"
     },
+         {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYzE4ZWE3ZTQtMzk2Yy00YjdhLWJkYjQtYTY1YzdjMGVhZWYxXkEyXkFqcGdeQXVyMTU0OTQ0NjM0._V1_.jpg",
+        "title": "I am Groot: magnum opus",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+         {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmJlNDJlNTUtZmMyOS00YTkzLWE3OTktOTRiZDVkODc5OWE4XkEyXkFqcGdeQXVyMTUxOTg5ODE5._V1_.jpg",
+        "title": "I am Groot: groot takes a bath",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+         {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjE2YjY2MDMtNmM2Yy00ZmM3LWEyZmMtN2MwOTZhMzU2NTBhXkEyXkFqcGdeQXVyMTUxOTg5ODE5._V1_FMjpg_UX1000_.jpg",
+        "title": "I am Groot: groot's pursuit",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+         {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjZhY2YxZWMtNDMxYS00NDdlLTljMmEtMTYzZGI4NDE0YTNjXkEyXkFqcGdeQXVyMTUxOTg5ODE5._V1_FMjpg_UX1000_.jpg",
+        "title": "I am Groot: the little guy",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+      {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BODI5MTZiN2EtYmJkMS00MTk3LTg1M2UtYzIyNTRlYmViZDMwXkEyXkFqcGdeQXVyMTUxOTg5ODE5._V1_.jpg",
+        "title": "I am Groot: groot's first steps",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzJlM2NmZTItOGQyYS00MmE2LTkwZGUtNDFkNmJmZjRjZjcxXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_.jpg",
         "title": "Shazam! Fury of the Gods",
