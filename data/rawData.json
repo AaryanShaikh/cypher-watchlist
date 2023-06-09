@@ -963,15 +963,6 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_.jpg",
-        "title": "Furious 7",
-        "eps": 1,
-        "total": 1,
-        "type": "Movies",
-        "category": "movies",
-        "status": "completed"
-    },
-    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/3/30/Fast_%26_Furious_6_film_poster.jpg",
         "title": "Fast & Furious 6",
         "eps": 1,
@@ -1188,7 +1179,7 @@
         "status": "completed"
     },
          {
-        "imgSrc": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/2/24/Def_Poster_S1_Final.JPG/revision/latest?cb=20170801185050",
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYjFhZDAzYzgtYzMyMS00Mjk1LWI5YWQtZmFlZGQ4MjViMDkwL2ltYWdlXkEyXkFqcGdeQXVyNzEyOTQ5MDk@._V1_.jpg",
         "title": "The Defenders Season 1",
         "eps": 8,
         "total": 8,
@@ -1269,7 +1260,7 @@
         "status": "in progress"
     },
         {
-        "imgSrc": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/cf/Daredevil_Season_2_Trio_Poster.png/revision/latest?cb=20160321064404",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5f/Daredevil_season_2_poster.jpg",
         "title": "Daredevil Season 2",
         "eps": 13,
         "total": 13,
