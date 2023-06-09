@@ -972,7 +972,7 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://static.wikia.nocookie.net/fastandfurious/images/8/87/Fast_One_Poster.jpg/revision/latest?cb=20200205060103",
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
         "title": "The Fast and the Furious",
         "eps": 1,
         "total": 1,
@@ -1131,6 +1131,114 @@
         "total": 1,
         "type": "Movies",
         "category": "movies",
+        "status": "completed"
+    },
+          {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Punisher_season_1_poster.jpg",
+        "title": "The Punisher Season 1",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+         {
+        "imgSrc": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/2/24/Def_Poster_S1_Final.JPG/revision/latest?cb=20170801185050",
+        "title": "The Defenders Season 1",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+         {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Iron_Fist_season_2_poster.jpg/220px-Iron_Fist_season_2_poster.jpg",
+        "title": "Iron Fist Season 2",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+        {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/ef/Iron_Fist_season_1_poster.jpg",
+        "title": "Iron Fist Season 1",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+          {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d3/Luke_Cage_season_2_poster.jpg",
+        "title": "Luke Cage Season 2",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+          {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Luke_Cage_season_1_poster.jpeg/220px-Luke_Cage_season_1_poster.jpeg",
+        "title": "Luke Cage Season 1",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+         {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Jessica_Jones_season_3_poster.jpg/220px-Jessica_Jones_season_3_poster.jpg",
+        "title": "Jessica Jones Season 3",
+        "eps": 1,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+         {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/f0/Jessica_Jones_season_2_poster.jpg",
+        "title": "Jessica Jones Season 2",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+          {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c1/Jessica_Jones_season_1_poster.jpg",
+        "title": "Jessica Jones Season 1",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+         {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Daredevil_season_3_poster.jpg/220px-Daredevil_season_3_poster.jpg",
+        "title": "Daredevil Season 3",
+        "eps": 3,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+        {
+        "imgSrc": "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/cf/Daredevil_Season_2_Trio_Poster.png/revision/latest?cb=20160321064404",
+        "title": "Daredevil Season 2",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+       {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/1b/Daredevil_season_1_poster.jpg",
+        "title": "Daredevil Season 1",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
         "status": "completed"
     },
     {
