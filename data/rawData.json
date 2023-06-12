@@ -1,13 +1,21 @@
 [
-      
       {
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Flash_season_3.jpg",
-        "title": "The Flash - Season 3",
-        "eps": 18,
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/6c/The_Flash_season_4.jpg",
+        "title": "The Flash - Season 4",
+        "eps": 2,
         "total": 23,
         "type": "Series",
         "category": "series",
         "status": "in progress"
+    }, 
+      {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Flash_season_3.jpg",
+        "title": "The Flash - Season 3",
+        "eps": 23,
+        "total": 23,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
     },
       {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/cd/The_Flash_season_2.jpg",
