@@ -1,6 +1,5 @@
 [
-      
-      {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/ad/The_Flash_season_5.jpg",
         "title": "The Flash - Season 5",
         "eps": 1,
@@ -8,8 +7,8 @@
         "type": "Series",
         "category": "series",
         "status": "in progress"
-    }, 
-      {
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/6c/The_Flash_season_4.jpg",
         "title": "The Flash - Season 4",
         "eps": 23,
@@ -17,8 +16,8 @@
         "type": "Series",
         "category": "series",
         "status": "completed"
-    }, 
-      {
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Flash_season_3.jpg",
         "title": "The Flash - Season 3",
         "eps": 23,
@@ -27,7 +26,7 @@
         "category": "series",
         "status": "completed"
     },
-      {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/cd/The_Flash_season_2.jpg",
         "title": "The Flash - Season 2",
         "eps": 23,
@@ -36,7 +35,7 @@
         "category": "series",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BOWQ2ZTQxYzctZDI2Yy00YzU1LTkyYWUtNDdlNzBkOWQzMTkxXkEyXkFqcGdeQXVyMTU2Mjg2NjE2._V1_.jpg",
         "title": "65",
         "eps": 1,
@@ -900,7 +899,7 @@
         "category": "game",
         "status": "completed"
     },
-                          {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
         "title": "Pulp Fiction",
         "eps": 1,
@@ -909,7 +908,7 @@
         "category": "movies",
         "status": "completed"
     },
-                         {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
         "title": "The Lord of the Rings: The Return of the King",
         "eps": 1,
@@ -918,7 +917,7 @@
         "category": "movies",
         "status": "completed"
     },
-                         {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
         "title": "The Lord of the Rings: The Two Towers",
         "eps": 1,
@@ -927,7 +926,7 @@
         "category": "movies",
         "status": "completed"
     },
-                        {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_.jpg",
         "title": "The Lord of the Rings: The Fellowship of the Ring",
         "eps": 1,
@@ -936,7 +935,7 @@
         "category": "movies",
         "status": "completed"
     },
-                     {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
         "title": "Schindler’s List",
         "eps": 1,
@@ -945,7 +944,7 @@
         "category": "movies",
         "status": "completed"
     },
-                  {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg",
         "title": "12 Angry Men",
         "eps": 1,
@@ -954,7 +953,7 @@
         "category": "movies",
         "status": "completed"
     },
-             {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg",
         "title": "The Shawshank Redemption",
         "eps": 1,
@@ -963,7 +962,7 @@
         "category": "movies",
         "status": "completed"
     },
-         {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BYzE4ZWE3ZTQtMzk2Yy00YjdhLWJkYjQtYTY1YzdjMGVhZWYxXkEyXkFqcGdeQXVyMTU0OTQ0NjM0._V1_.jpg",
         "title": "I am Groot: magnum opus",
         "eps": 1,
@@ -972,7 +971,7 @@
         "category": "movies",
         "status": "completed"
     },
-         {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmJlNDJlNTUtZmMyOS00YTkzLWE3OTktOTRiZDVkODc5OWE4XkEyXkFqcGdeQXVyMTUxOTg5ODE5._V1_.jpg",
         "title": "I am Groot: groot takes a bath",
         "eps": 1,
@@ -981,7 +980,7 @@
         "category": "movies",
         "status": "completed"
     },
-         {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjE2YjY2MDMtNmM2Yy00ZmM3LWEyZmMtN2MwOTZhMzU2NTBhXkEyXkFqcGdeQXVyMTUxOTg5ODE5._V1_FMjpg_UX1000_.jpg",
         "title": "I am Groot: groot's pursuit",
         "eps": 1,
@@ -990,7 +989,7 @@
         "category": "movies",
         "status": "completed"
     },
-         {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjZhY2YxZWMtNDMxYS00NDdlLTljMmEtMTYzZGI4NDE0YTNjXkEyXkFqcGdeQXVyMTUxOTg5ODE5._V1_FMjpg_UX1000_.jpg",
         "title": "I am Groot: the little guy",
         "eps": 1,
@@ -999,7 +998,7 @@
         "category": "movies",
         "status": "completed"
     },
-      {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BODI5MTZiN2EtYmJkMS00MTk3LTg1M2UtYzIyNTRlYmViZDMwXkEyXkFqcGdeQXVyMTUxOTg5ODE5._V1_.jpg",
         "title": "I am Groot: groot's first steps",
         "eps": 1,
@@ -1260,7 +1259,7 @@
         "category": "movies",
         "status": "completed"
     },
-          {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Punisher_season_1_poster.jpg",
         "title": "The Punisher Season 1",
         "eps": 13,
@@ -1269,7 +1268,7 @@
         "category": "series",
         "status": "completed"
     },
-         {
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BYjFhZDAzYzgtYzMyMS00Mjk1LWI5YWQtZmFlZGQ4MjViMDkwL2ltYWdlXkEyXkFqcGdeQXVyNzEyOTQ5MDk@._V1_.jpg",
         "title": "The Defenders Season 1",
         "eps": 8,
@@ -1278,7 +1277,7 @@
         "category": "series",
         "status": "completed"
     },
-         {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Iron_Fist_season_2_poster.jpg/220px-Iron_Fist_season_2_poster.jpg",
         "title": "Iron Fist Season 2",
         "eps": 10,
@@ -1287,7 +1286,7 @@
         "category": "series",
         "status": "completed"
     },
-        {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/ef/Iron_Fist_season_1_poster.jpg",
         "title": "Iron Fist Season 1",
         "eps": 13,
@@ -1296,7 +1295,7 @@
         "category": "series",
         "status": "completed"
     },
-          {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d3/Luke_Cage_season_2_poster.jpg",
         "title": "Luke Cage Season 2",
         "eps": 13,
@@ -1305,7 +1304,7 @@
         "category": "series",
         "status": "completed"
     },
-          {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/3/37/Luke_Cage_season_1_poster.jpeg/220px-Luke_Cage_season_1_poster.jpeg",
         "title": "Luke Cage Season 1",
         "eps": 13,
@@ -1314,7 +1313,7 @@
         "category": "series",
         "status": "completed"
     },
-         {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Jessica_Jones_season_3_poster.jpg/220px-Jessica_Jones_season_3_poster.jpg",
         "title": "Jessica Jones Season 3",
         "eps": 1,
@@ -1323,7 +1322,7 @@
         "category": "series",
         "status": "in progress"
     },
-         {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/f0/Jessica_Jones_season_2_poster.jpg",
         "title": "Jessica Jones Season 2",
         "eps": 13,
@@ -1332,7 +1331,7 @@
         "category": "series",
         "status": "completed"
     },
-          {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c1/Jessica_Jones_season_1_poster.jpg",
         "title": "Jessica Jones Season 1",
         "eps": 13,
@@ -1341,7 +1340,7 @@
         "category": "series",
         "status": "completed"
     },
-         {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Daredevil_season_3_poster.jpg/220px-Daredevil_season_3_poster.jpg",
         "title": "Daredevil Season 3",
         "eps": 3,
@@ -1350,7 +1349,7 @@
         "category": "series",
         "status": "in progress"
     },
-        {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5f/Daredevil_season_2_poster.jpg",
         "title": "Daredevil Season 2",
         "eps": 13,
@@ -1359,7 +1358,7 @@
         "category": "series",
         "status": "completed"
     },
-       {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/1b/Daredevil_season_1_poster.jpg",
         "title": "Daredevil Season 1",
         "eps": 13,
