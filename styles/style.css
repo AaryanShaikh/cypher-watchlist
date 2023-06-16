@@ -595,23 +595,42 @@ html {
     display: none;
 }
 
-.atMark{
+.atMark {
     color: red;
 }
 
-.markText{
-    color:#1677FF;
+.markText {
+    color: #1677FF;
     font-weight: bold;
     opacity: 1;
     animation: markText 1s ease-in-out infinite;
 }
 
 @keyframes markText {
-    0%,100%{
+
+    0%,
+    100% {
         opacity: 1;
     }
-    50%{
+
+    50% {
         opacity: 0;
+    }
+}
+
+.selICon {
+    animation: selIcon 5s ease-in-out infinite;
+}
+
+@keyframes selIcon {
+
+    0%,
+    100% {
+        font-size: 14px;
+    }
+
+    70% {
+        font-size: 0px;
     }
 }
 

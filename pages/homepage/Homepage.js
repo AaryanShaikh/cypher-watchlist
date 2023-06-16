@@ -210,9 +210,10 @@ const Homepage = () => {
             <Tabs defaultActiveKey='all' activeKey={categorySel} tabPosition={range ? "top" : "left"} style={{ padding: "10px", overflow: range ? "scroll" : "hidden" }} onChange={(e) => setcategorySel(e)}>
                 {
                     isActive ? <TabPane tab={
-                        <div style={{ display: "flex", gap: "10px", alignItems: "center", flexDirection: range ? "column" : "row" }}>
-                            <MdScreenSearchDesktop style={{ color: "#1677ff", fontSize: "20px" }} />
-                            <Text style={{ color: isDark ? "black" : "aliceblue" }}>Search</Text>
+                        <div style={{ display: "flex", gap: "0px", alignItems: "center", flexDirection: "column", width: "50px", height: "60px" }}>
+                            <MdScreenSearchDesktop style={{ opacity: "0.5", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
+                            <Text className="selICon" style={{ color: isDark ? "black" : "aliceblue", fontSize: "14px", transition: ".5s ease-in-out" }}>Search</Text>
+                            <MdScreenSearchDesktop style={{ opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
                         </div>
                     } key="search" style={{ color: range ? "aliceblue" : "black" }}>
                         <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(200px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 197 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
@@ -232,16 +233,41 @@ const Homepage = () => {
                         {
                             allCats.map((ele, ind) => {
                                 return <TabPane key={ele} tab={
-                                    <div ref={ind == 0 ? step2 : null} style={{ display: "flex", gap: "10px", alignItems: "center", flexDirection: range ? "column" : "row" }}>
+                                    <div ref={ind == 0 ? step2 : null} style={{ display: "flex", gap: "0px", alignItems: "center", flexDirection: "column", width: "50px" }}>
                                         {
-                                            ele == "all" ? <Gi3DGlasses className={categorySel == "all" ? 'menuIconAnimate' : ""} style={{ opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue" }} /> :
-                                                ele == "ongoing" ? <GiTv className={categorySel == "ongoing" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> :
-                                                    ele == "anime" ? <GiAbstract060 className={categorySel == "anime" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> :
-                                                        ele == "series" ? <BiMoviePlay className={categorySel == "series" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> :
-                                                            ele == "movies" ? <BiCameraMovie className={categorySel == "movies" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> :
-                                                                ele == "game" ? <GiGamepad className={categorySel == "game" ? 'menuIconAnimate' : ""} style={{ color: isDark ? "black" : "aliceblue", opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", }} /> : ""
+                                            ele == "all" ? <>
+                                                <Gi3DGlasses style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
+                                                <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                <Gi3DGlasses style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
+                                            </> :
+                                                ele == "ongoing" ?
+                                                    <>
+                                                        <GiTv style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
+                                                        <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                        <GiTv style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
+                                                    </> :
+                                                    ele == "anime" ? <>
+                                                        <GiAbstract060 style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
+                                                        <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                        <GiAbstract060 style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
+                                                    </> :
+                                                        ele == "series" ? <>
+                                                            <BiMoviePlay style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
+                                                            <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                            <BiMoviePlay style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
+                                                        </> :
+                                                            ele == "movies" ? <>
+                                                                <BiCameraMovie style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
+                                                                <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                                <BiCameraMovie style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
+                                                            </> :
+                                                                ele == "game" ? <>
+                                                                    <GiGamepad style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
+                                                                    <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                                    <GiGamepad style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
+                                                                </> : ""
                                         }
-                                        <Text style={{ color: isDark ? categorySel == { ele } ? "#1677ff" : "black" : "aliceblue" }}>{capitalizeFirstLetter(ele)}</Text>
+
                                     </div>
                                 }>
                                     <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 197 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
