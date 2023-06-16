@@ -223,7 +223,7 @@ const Homepage = () => {
                                 pagination={{ pageSize: 12, showSizeChanger: false }}
                                 renderItem={(ele, ind) => (
                                     <List.Item>
-                                        <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
+                                        <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} isSearch={isActive} searchText={searchText} />
                                     </List.Item>
                                 )}
                             />

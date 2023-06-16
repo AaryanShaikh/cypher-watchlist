@@ -599,6 +599,22 @@ html {
     color: red;
 }
 
+.markText{
+    color:#1677FF;
+    font-weight: bold;
+    opacity: 1;
+    animation: markText 1s ease-in-out infinite;
+}
+
+@keyframes markText {
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+
 @media (min-width: 301px) and (max-width: 567px) {
     .heading {
         font-family: 'Dancing Script', cursive;

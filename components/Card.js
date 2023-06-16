@@ -5,8 +5,26 @@ import { BsFillPatchCheckFill } from 'react-icons/bs'
 
 const { Text } = Typography
 
-const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, status, dark }) => {
+function HighlightedString({ text, search }) {
+    const regex = new RegExp(`(${search})`, 'gi');
+    const parts = text.split(regex);
+
+    return (
+        <span>
+            {parts.map((part, index) =>
+                part.toLowerCase() === search.toLowerCase() ? (
+                    <span className='markText' key={index}>{part}</span>
+                ) : (
+                    <span key={index}>{part}</span>
+                )
+            )}
+        </span>
+    );
+}
+
+const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, status, dark, isSearch, searchText }) => {
     const [isImgLoading, setisImgLoading] = useState(true)
+    const highlightedTitle = <HighlightedString text={title} search={searchText} />;
 
     return (
         <div style={{ boxShadow: dark ? "0px 0px 0px 0px #242424" : "0px 0px 8px 2px #5454543d", height: show ? range ? "300px" : "355px" : "0px", width: show ? range ? "" : "205px" : "0px", borderRadius: "10px", overflow: "hidden", padding: "5px", display: "flex", justifyContent: "space-between", flexDirection: "column", transition: ".5s ease", opacity: "1", position: "relative", background: dark ? "#242424" : "white", minWidth: range ? "150px" : "" }}>
@@ -32,7 +50,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
                 <Text strong type="secondary" style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease" }}>{type}</Text>
             </div>
             <Tooltip title={title}>
-                <Text ellipsis style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", padding: "5px" }}>{title}</Text>
+                <Text ellipsis style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", padding: "5px" }}>{isSearch ? highlightedTitle : title}</Text>
             </Tooltip>
         </div>
     )
