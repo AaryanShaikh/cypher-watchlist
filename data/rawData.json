@@ -1,12 +1,21 @@
 [
     {
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/ad/The_Flash_season_5.jpg",
-        "title": "The Flash - Season 5",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/The_Flash_season_6.jpg/220px-The_Flash_season_6.jpg",
+        "title": "The Flash - Season 6",
         "eps": 1,
-        "total": 22,
+        "total": 19,
         "type": "Series",
         "category": "series",
         "status": "in progress"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/ad/The_Flash_season_5.jpg",
+        "title": "The Flash - Season 5",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/6c/The_Flash_season_4.jpg",
