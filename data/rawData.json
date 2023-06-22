@@ -1,4 +1,13 @@
 [
+       {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/84a9b8a2101dde206760517f7bbd2448.jpg",
+        "title": "A Certain Magical Index",
+        "eps": 1,
+        "total": 24,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
      {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/45/4537381252f8b60459f554da6c6f80af.jpg",
         "title": "86-Eighty Six- Special Edition - Coquelicots Blooming Across the Battlefield",
@@ -11,11 +20,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/a8/a85d07f9c60c8953c8636ee5483ff5df.jpg",
         "title": "86 EIGHTY-SIX Season 2",
-        "eps": 1,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/ac/ac0de6ca91b36664bbea80a7122ed94f.jpg",
