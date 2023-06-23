@@ -10,6 +10,19 @@ import TypeIt from "typeit-react";
 const Profile = ({ setshowProfile, showProfile, range }) => {
     const [isHovered, setisHovered] = useState(false)
     const [isImgLoading, setisImgLoading] = useState(true)
+    const [showLoader, setshowLoader] = useState(true)
+
+    useEffect(() => {
+        if (!isImgLoading) {
+            const timeoutId = setTimeout(() => {
+                setshowLoader(false);
+            }, 500);
+
+            return () => {
+                clearTimeout(timeoutId);
+            };
+        }
+    }, [isImgLoading])
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -27,9 +40,22 @@ const Profile = ({ setshowProfile, showProfile, range }) => {
                     <div style={{ minHeight: "70vh", width: range ? "70vw" : "30vw", maxWidth: "70vw", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "space-between", transition: ".5s ease-in -out", position: "relative", overflow: "clip", borderRadius: "10px", backdropFilter: "blur(2px) grayscale(1) brightness(0.5)" }}>
                         <Button onClick={() => { setshowProfile(false) }} type='text' icon={<GiCrossedBones />} style={{ position: "absolute", height: "20px", zIndex: "11", right: "10px", top: "10px" }}></Button>
                         <div style={{ width: "110%", background: "#ECE9E6", height: isHovered ? "130px" : "0px", position: "absolute", top: 0, borderBottomLeftRadius: "50%", borderBottomRightRadius: "50%", transition: ".5s ease-in-out" }}></div>
-                        <Spin spinning={isImgLoading}>
+                        <div style={{ position: "relative" }}>
+                            <div style={{ height: "100%", width: "100%", position: "absolute", opacity: isImgLoading ? "1" : "0", display: "flex", justifyContent: "center", alignItems: "center", transition: ".5s ease-in-out" }}>
+                                {showLoader ? <div class="dot-spinner">
+                                    <div class="dot-spinner__dot"></div>
+                                    <div class="dot-spinner__dot"></div>
+                                    <div class="dot-spinner__dot"></div>
+                                    <div class="dot-spinner__dot"></div>
+                                    <div class="dot-spinner__dot"></div>
+                                    <div class="dot-spinner__dot"></div>
+                                    <div class="dot-spinner__dot"></div>
+                                    <div class="dot-spinner__dot"></div>
+                                </div> : ""}
+
+                            </div>
                             <img onLoad={() => setisImgLoading(false)} src="https://github.com/AaryanShaikh/My-Stock/raw/main/dpcircle.png" style={{ height: isHovered ? "150px" : "200px", width: isHovered ? "150px" : "200px", transition: ".5s ease-in-out", zIndex: 1, marginTop: "50px", border: `${isHovered ? "10px" : "0px"} solid #ECE9E6`, borderRadius: "50%" }} />
-                        </Spin>
+                        </div>
                         <TypeIt
                             style={{ color: "#ECE9E6", padding: "20px", fontSize: "17px" }}
                             getBeforeInit={(instance) => {

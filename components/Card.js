@@ -1,5 +1,5 @@
 import { Typography, Tag, Space, Tooltip } from 'antd'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaPlayCircle } from 'react-icons/fa'
 import { BsFillPatchCheckFill } from 'react-icons/bs'
 
@@ -25,12 +25,25 @@ function HighlightedString({ text, search }) {
 const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, status, dark, isSearch, searchText }) => {
     const [isImgLoading, setisImgLoading] = useState(true)
     const highlightedTitle = <HighlightedString text={title} search={searchText} />;
+    const [showLoader, setshowLoader] = useState(true)
+
+    useEffect(() => {
+        if (!isImgLoading) {
+            const timeoutId = setTimeout(() => {
+                setshowLoader(false);
+            }, 500);
+
+            return () => {
+                clearTimeout(timeoutId);
+            };
+        }
+    }, [isImgLoading])
 
     return (
         <div style={{ boxShadow: dark ? "0px 0px 0px 0px #242424" : "0px 0px 8px 2px #5454543d", height: show ? range ? "300px" : "355px" : "0px", width: show ? range ? "" : "205px" : "0px", borderRadius: "10px", overflow: "hidden", padding: "5px", display: "flex", justifyContent: "space-between", flexDirection: "column", transition: ".5s ease", opacity: "1", position: "relative", background: dark ? "#242424" : "white", minWidth: range ? "150px" : "" }}>
-            <div style={{ height: "80%", width: "100%", position: "relative" }}>
+            <div style={{ height: "80%", width: "100%", position: "relative", overflow: "clip" }}>
                 <div style={{ height: "100%", width: "100%", position: "absolute", opacity: isImgLoading ? "1" : "0", display: "flex", justifyContent: "center", alignItems: "center", transition: ".5s ease-in-out" }}>
-                    <div class="spinner"></div>
+                    {showLoader ? <div class="spinner"></div> : ""}
                 </div>
                 <img
                     src={imgSrc}

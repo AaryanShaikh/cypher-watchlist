@@ -185,7 +185,7 @@ const Homepage = () => {
             </div> : ""
         }
         {showProfile ? <Profile showProfile={showProfile} setshowProfile={setshowProfile} range={range} /> : ""}
-        <Modal title="Overall Statistics" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
+        <Modal title="Overall Statistics (2021 - Present)" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", }}>
                 <NumberCounter title="Total [All] Watched" end={rawData.length - rawData.filter(x => x.category == "game").length} />
                 <NumberCounter title="Total Games Completed" end={rawData.filter(x => x.category == "game").length} />
