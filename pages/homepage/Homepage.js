@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, lazy } from 'react'
-import { Input, Switch, Typography, FloatButton, Modal, Statistic, Tabs, List, Tour } from 'antd'
+import { Input, Switch, Typography, FloatButton, Modal, Statistic, Tabs, List, Tour, message } from 'antd'
 import { Gi3DGlasses, GiAbstract060, GiGamepad, GiTv } from 'react-icons/gi';
 import { BiCameraMovie, BiMoviePlay, BiScatterChart } from 'react-icons/bi'
 import { BsMoonStars, BsFillSunFill } from 'react-icons/bs';
@@ -11,6 +11,7 @@ import SearchBox from '../../components/SearchBox';
 import Head from 'next/head';
 import NumberCounter from '../../components/NumberCounter';
 import Profile from '../../components/Profile';
+import CircularProgress from '../../components/CircularProgress';
 
 const { Text } = Typography
 const { Search } = Input
@@ -21,7 +22,7 @@ const Homepage = () => {
     const widthRef = useRef(null)
     const range = mainwidth > 300 && mainwidth < 500
     const [categorySel, setcategorySel] = useState("all")
-    const [isDark, setisDark] = useState(true)
+    const [isDark, setisDark] = useState(false)
     const [isLoading, setisLoading] = useState(true)
     const [showStats, setshowStats] = useState(false)
     const [searchText, setsearchText] = useState("")
@@ -32,6 +33,8 @@ const Homepage = () => {
     const [allCats, setallCats] = useState(["all", "ongoing"])
     const [showTour, setshowTour] = useState(false)
     const [showProfile, setshowProfile] = useState(false)
+    const [loadStep, setloadStep] = useState(1)
+    const [ProgLoad, setProgLoad] = useState(0)
     const step1 = useRef(null)
     const step2 = useRef(null)
     const step3 = useRef(null)
@@ -122,30 +125,27 @@ const Homepage = () => {
     }, [widthRef])
 
     useEffect(() => {
-        setisLoading(true)
+        const timeoutId = setTimeout(() => {
+            setloadStep(2)
+        }, 1000);
+        const timeoutId3 = setTimeout(() => {
+            setloadStep(3)
+            fetchData()
+        }, 2000);
         const handleResize = () => {
             const screenHeight = window.screen.height;
             const windowHeight = window.innerHeight;
             setviewScreenHeight(windowHeight)
         };
-
-        // Attach the resize event listener
         window.addEventListener('resize', handleResize);
-
-        // Call the handler once on component mount
         handleResize();
 
         return () => {
             window.removeEventListener('resize', handleResize);
+            clearTimeout(timeoutId);
+            clearTimeout(timeoutId3);
         };
     }, []);
-
-    useEffect(() => {
-        if (iniRender) {
-            setiniRender(false)
-            fetchData()
-        }
-    }, [isLoading])
 
     const fetchData = async () => {
         try {
@@ -155,10 +155,26 @@ const Homepage = () => {
                 new Set(response.data.map((obj) => obj.category))
             );
             setallCats([...allCats, ...uniqueArray])
-            setisLoading(false)
-            setshowTour(true)
+            setTimeout(() => {
+                setloadStep(4)
+                setTimeout(() => {
+                    setProgLoad(100)
+                    setTimeout(() => {
+                        setloadStep(5)
+                        setTimeout(() => {
+                            setloadStep(6)
+                            setTimeout(() => {
+                                setloadStep(7)
+                                setTimeout(() => {
+                                    setshowTour(true)
+                                }, 1000)
+                            }, 2000)
+                        }, 1500)
+                    }, 2000)
+                }, 1000)
+            }, 2000);
         } catch (error) {
-            setisLoading(false)
+            setloadStep(5)
             console.log('Error fetching JSON data:', error);
         }
     };
@@ -176,14 +192,6 @@ const Homepage = () => {
             <link rel="shortcut icon" href="/favicon.ico" />
             <title>Aaryan's Memoirs</title>
         </Head>
-        {
-            isLoading ? <Loader /> : ""
-        }
-        {
-            isLoading ? <div style={{ position: "absolute", height: "100vh", width: "100%", zIndex: "999", display: "flex", justifyContent: "center", alignItems: "flex-start" }}>
-                <Text className='loadingText'><span>Loading...&nbsp;</span></Text>
-            </div> : ""
-        }
         {showProfile ? <Profile showProfile={showProfile} setshowProfile={setshowProfile} range={range} /> : ""}
         <Modal title="Overall Statistics (2021 - Present)" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", }}>
@@ -197,23 +205,34 @@ const Homepage = () => {
                 <NumberCounter title="Total Currently Watching" end={rawData.filter(x => x.status == "in progress").length} />
             </div>
         </Modal>
-        {isLoading ? "" : <FloatButton ref={step3} icon={<BiScatterChart />} onClick={() => setshowStats(true)} />}
-        <div ref={widthRef} style={{ position: "absolute", width: "100%", height: "100vh", background: "transparent", backdropFilter: `blur(${isLoading ? "10" : "0"}px)`, zIndex: "100", transition: ".5s ease-in-out", pointerEvents: "none" }}></div>
-        <div className='heading' style={{ background: !isDark ? "#0E0E0E" : "white" }}>
-            {range ? <div onClick={() => { setshowProfile(true) }} ref={step1} style={{ display: "flex", flexDirection: "column", cursor: "pointer" }}><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Aaryan's</Text><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Memoirs</Text></div> :
-                <Text onClick={() => { setshowProfile(true) }} ref={step1} style={{ color: !isDark ? "white" : "black", transition: ".5s ease", cursor: "pointer" }} className='logo'>Aaryan's Memoirs</Text>
+        <FloatButton style={{ transition: ".5s ease-in-out", opacity: loadStep == 7 ? "1" : "0" }} ref={step3} icon={<BiScatterChart />} onClick={() => setshowStats(true)} />
+
+        {/* loading stuff */}
+
+        <div ref={widthRef} style={{ position: "absolute", width: "100%", height: "100vh", background: loadStep == 7 ? "transparent" : "#232526", zIndex: "100", transition: ".5s ease-in-out", pointerEvents: "none", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center" }}>
+            <CircularProgress show={loadStep == 4} value={ProgLoad} maxValue={100} />
+            <Text style={{ transition: ".5s ease-in-out", fontSize: loadStep == 1 ? "15px" : "0px", color: "#e6e6e6" }}>Loading DOM...</Text>
+            <Text style={{ transition: ".5s ease-in-out", fontSize: loadStep == 2 ? "15px" : "0px", color: "#e6e6e6" }}>DOM Loaded...</Text>
+            <Text style={{ transition: ".5s ease-in-out", fontSize: loadStep == 3 || loadStep == 4 ? "15px" : "0px", color: "#e6e6e6" }}>Fetching Aaryan's Memoirs...</Text>
+        </div>
+
+        {/* loading stuff end */}
+
+        <div className='heading' style={{ background: !isDark ? "#232526" : "white", transition: ".5s ease-in-out", }}>
+            {range ? <div onClick={() => { setshowProfile(true) }} ref={step1} style={{ display: "flex", flexDirection: "column", cursor: "pointer", zIndex: "101", position: "relative", top: loadStep == 7 ? "0%" : "43vh", left: loadStep == 7 ? "0%" : "43vw", opacity: loadStep == 6 || loadStep == 7 ? "1" : "0", transition: ".5s ease-in-out" }}><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Aaryan's</Text><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Memoirs</Text></div> :
+                <Text onClick={() => { setshowProfile(true) }} ref={step1} style={{ color: !isDark ? "white" : "black", transition: ".5s ease-in-out", cursor: "pointer", zIndex: "101", position: "relative", top: loadStep == 7 ? "0%" : "43vh", left: loadStep == 7 ? "0%" : "43vw", opacity: loadStep == 6 || loadStep == 7 ? "1" : "0" }} className='logo'>Aaryan's Memoirs</Text>
             }
             <SearchBox refs={step4} dark={!isDark} searchText={searchText} setsearchText={setsearchText} isActive={isActive} setisActive={setisActive} />
             <Switch ref={step5} checked={isDark} onChange={(e) => setisDark(e)} checkedChildren={<BsFillSunFill />} unCheckedChildren={<BsMoonStars />} />
         </div>
-        <div style={{ display: "flex", flexDirection: range ? "row" : "column", gap: "5px", background: !isDark ? "#0E0E0E" : "white", minHeight: "100vh" }}>
+        <div style={{ display: "flex", flexDirection: range ? "row" : "column", gap: "5px", background: !isDark ? "#232526" : "white", minHeight: "100vh", transition: ".5s ease-in-out" }}>
             <Tabs defaultActiveKey='all' activeKey={categorySel} tabPosition={range ? "top" : "left"} style={{ padding: "10px", overflow: range ? "scroll" : "hidden" }} onChange={(e) => setcategorySel(e)}>
                 {
                     isActive ? <TabPane tab={
                         <div style={{ display: "flex", gap: "0px", alignItems: "center", flexDirection: "column", width: "50px", height: "60px" }}>
                             <MdScreenSearchDesktop style={{ opacity: "0.5", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
                             <Text className="selICon" style={{ color: isDark ? "black" : "aliceblue", fontSize: "14px", transition: ".5s ease-in-out" }}>Search</Text>
-                            <MdScreenSearchDesktop style={{ opacity: "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
+                            <MdScreenSearchDesktop style={{ opacity: "0.5", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
                         </div>
                     } key="search" style={{ color: range ? "aliceblue" : "black" }}>
                         <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(200px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 197 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>

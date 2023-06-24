@@ -40,7 +40,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
     }, [isImgLoading])
 
     return (
-        <div style={{ boxShadow: dark ? "0px 0px 0px 0px #242424" : "0px 0px 8px 2px #5454543d", height: show ? range ? "300px" : "355px" : "0px", width: show ? range ? "" : "205px" : "0px", borderRadius: "10px", overflow: "hidden", padding: "5px", display: "flex", justifyContent: "space-between", flexDirection: "column", transition: ".5s ease", opacity: "1", position: "relative", background: dark ? "#242424" : "white", minWidth: range ? "150px" : "" }}>
+        <div className='itmCard' style={{ boxShadow: dark ? "0px 0px 0px 0px #414345" : "0px 0px 8px 2px #5454543d", height: show ? range ? "300px" : "355px" : "0px", width: show ? range ? "" : "205px" : "0px", borderRadius: "10px", overflow: "hidden", padding: "5px", display: "flex", justifyContent: "space-between", flexDirection: "column", transition: ".5s ease", opacity: "1", position: "relative", background: dark ? "#414345" : "white", minWidth: range ? "150px" : "" }}>
             <div style={{ height: "80%", width: "100%", position: "relative", overflow: "clip" }}>
                 <div style={{ height: "100%", width: "100%", position: "absolute", opacity: isImgLoading ? "1" : "0", display: "flex", justifyContent: "center", alignItems: "center", transition: ".5s ease-in-out" }}>
                     {showLoader ? <div class="spinner"></div> : ""}
@@ -52,7 +52,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
                     onLoad={() => setisImgLoading(false)}
                 />
             </div>
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", zIndex: "2" }}>
                 <Space size="" style={{ opacity: total == 1 ? "0" : "1", transition: ".5s ease-in-out" }}>
                     <Tag style={{ color: dark ? "#6abe39" : "#389e0d", background: dark ? "#162312" : "#f6ffed", borderColor: dark ? "#274916" : "#b7eb8f", transition: ".5s ease-in-out" }}>{eps}</Tag>
                     <Tag style={{ color: dark ? "#854eca" : "#531dab", background: dark ? "#1a1325" : "#f9f0ff", borderColor: dark ? "#301c4d" : "#d3adf7", transition: ".5s ease-in-out" }}>{total}</Tag>
@@ -63,7 +63,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
                 <Text strong type="secondary" style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease" }}>{type}</Text>
             </div>
             <Tooltip title={title}>
-                <Text ellipsis style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", padding: "5px" }}>{isSearch ? highlightedTitle : title}</Text>
+                <Text ellipsis style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", padding: "5px", zIndex: "2" }}>{isSearch ? highlightedTitle : title}</Text>
             </Tooltip>
         </div>
     )

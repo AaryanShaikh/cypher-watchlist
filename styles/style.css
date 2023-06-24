@@ -458,90 +458,6 @@ html {
     }
 }
 
-.loadingText {
-    display: inline-block;
-    transition: .5s ease-in-out;
-    font-weight: 700;
-}
-
-.loadingText span::after {
-    content: 'Arranging DOM Elements';
-    display: inline-block;
-    animation-name: letterAnimation;
-    animation-duration: 10s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    font-weight: 600;
-}
-
-@keyframes letterAnimation {
-    0% {
-        content: 'Arranging DOM Elements';
-        opacity: 0;
-        transform: translateY(-50%);
-    }
-
-    10% {
-        content: 'Arranging DOM Elements';
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    20% {
-        content: 'Arranging DOM Elements';
-        opacity: 0;
-        transform: translateY(50%);
-    }
-
-    30% {
-        content: "Fetching Aaryan's Memoirs";
-        opacity: 0;
-        transform: translateY(-50%);
-    }
-
-    40% {
-        content: "Fetching Aaryan's Memoirs";
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    50% {
-        content: "Fetching Aaryan's Memoirs";
-        opacity: 0;
-        transform: translateY(50%);
-    }
-
-    60% {
-        content: 'Stacking all items in order';
-        opacity: 0;
-        transform: translateY(-50%);
-    }
-
-    70% {
-        content: 'Stacking all items in order';
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    80% {
-        content: 'Stacking all items in order';
-        opacity: 0;
-        transform: translateY(50%);
-    }
-
-    90% {
-        content: 'Arranging DOM Elements';
-        opacity: 0;
-        transform: translateY(-50%);
-    }
-
-    100% {
-        content: 'Arranging DOM Elements';
-        opacity: 0;
-        transform: translateY(-50%);
-    }
-}
-
 .menuIconAnimate {
     animation: flicker 2s ease-in-out infinite;
     color: #1677ff !important;
@@ -632,6 +548,56 @@ html {
     70% {
         font-size: 0px;
     }
+}
+
+/* circular progress */
+.circular-progress {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-ring {
+    transform: rotate(-90deg);
+}
+
+.progress-ring__circle {
+    fill: none;
+    stroke: #e6e6e6;
+    /* Progress bar color */
+    stroke-width: 10;
+    stroke-linecap: round;
+    transition: stroke-dasharray 2.5s ease;
+}
+
+.progress-text {
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    color: #e6e6e6;
+    /* Progress text color */
+}
+
+/* circular progress end */
+
+.itmCard::before {
+    content: "";
+    background: #ffffff17;
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    z-index: 0;
+    transform: skew(15deg, 231deg);
+    transition: .5s ease-in-out;
+}
+
+.itmCard:hover::before {
+    transform: skew(180deg, 180deg);
 }
 
 .dot-spinner {
@@ -738,7 +704,6 @@ html {
         opacity: 1;
     }
 }
-
 
 @media (min-width: 301px) and (max-width: 567px) {
     .heading {
