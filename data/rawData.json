@@ -1,4 +1,40 @@
 [
+   {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/953642b3c62bf7746fb905d3800bc235.jpg",
+        "title": "A Certain Magical Index II",
+        "eps": 1,
+        "total": 24,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+        {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/631502b4a4d1d97c5dc694954e8c1b12.jpg",
+        "title": "Toaru Kagaku no Railgun: Misaka-san wa Ima Chuumoku no Mato Desukara",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+         {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/ddc08b284d33730347e38b1ac31a89d3.jpg",
+        "title": "Toaru Kagaku no Railgun: Entenka no Satsuei Model mo Raku ja Arimasen wa ne.",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+          {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/6248b476761782a9932586f328bc9635.jpg",
+        "title": "Toaru Kagaku no Railgun: Motto Marutto Railgun",
+        "eps": 2,
+        "total": 2,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
   {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/38/38ff94f67716c0e1fcc579e4254d81a5.jpg",
         "title": "Sword Art Online the Movie -Progressive- Scherzo of Deep Night",
@@ -11,11 +47,11 @@
              {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/f6ddc98ca04fcac90ef5e1b95eed524a.jpg",
         "title": "A Certain Scientific Railgun",
-        "eps": 1,
+        "eps": 24,
         "total": 24,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
          {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/3322c28fb80e150fb7864b45570bf29c.jpg",
