@@ -211,9 +211,9 @@ const Homepage = () => {
 
         <div ref={widthRef} style={{ position: "absolute", width: "100%", height: "100vh", background: loadStep == 7 ? "transparent" : "#232526", zIndex: "100", transition: ".5s ease-in-out", pointerEvents: "none", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center" }}>
             <CircularProgress show={loadStep == 4} value={ProgLoad} maxValue={100} />
-            <Text style={{ transition: ".5s ease-in-out", fontSize: loadStep == 1 ? "15px" : "0px", color: "#e6e6e6" }}>Loading DOM...</Text>
-            <Text style={{ transition: ".5s ease-in-out", fontSize: loadStep == 2 ? "15px" : "0px", color: "#e6e6e6" }}>DOM Loaded...</Text>
-            <Text style={{ transition: ".5s ease-in-out", fontSize: loadStep == 3 || loadStep == 4 ? "15px" : "0px", color: "#e6e6e6" }}>Fetching records of Aaryan's Memoirs...</Text>
+            <Text className='loadFont' style={{ transition: ".5s ease-in-out", fontSize: loadStep == 1 ? "15px" : "0px", color: "#e6e6e6", fontStyle: "'Ysabeau Infant', sans-serif" }}>Loading DOM...</Text>
+            <Text className='loadFont' style={{ transition: ".5s ease-in-out", fontSize: loadStep == 2 ? "15px" : "0px", color: "#e6e6e6", fontStyle: "'Ysabeau Infant', sans-serif" }}>DOM Loaded...</Text>
+            <Text className='loadFont' style={{ transition: ".5s ease-in-out", fontSize: loadStep == 3 || loadStep == 4 ? "15px" : "0px", color: "#e6e6e6", fontStyle: "'Ysabeau Infant', sans-serif" }}>Fetching records of Aaryan's Memoirs...</Text>
         </div>
 
         {/* loading stuff end */}
@@ -231,14 +231,14 @@ const Homepage = () => {
                     isActive ? <TabPane tab={
                         <div style={{ display: "flex", gap: "0px", alignItems: "center", flexDirection: "column", width: "50px", height: "60px" }}>
                             <MdScreenSearchDesktop style={{ opacity: "0.5", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
-                            <Text className="selICon" style={{ color: isDark ? "black" : "aliceblue", fontSize: "14px", transition: ".5s ease-in-out" }}>Search</Text>
+                            <Text  className="selICon textFont" style={{ color: isDark ? "black" : "aliceblue", fontSize: "14px", transition: ".5s ease-in-out" }}>Search</Text>
                             <MdScreenSearchDesktop style={{ opacity: "0.5", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
                         </div>
                     } key="search" style={{ color: range ? "aliceblue" : "black" }}>
                         <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(200px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 197 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                             <List
                                 grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Found <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).length}</span> records</Text>}
+                                header={<Text className='textFont' style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Found <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).length}</span> records</Text>}
                                 dataSource={rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase()))}
                                 pagination={{ pageSize: 12, showSizeChanger: false }}
                                 renderItem={(ele, ind) => (
@@ -256,33 +256,33 @@ const Homepage = () => {
                                         {
                                             ele == "all" ? <>
                                                 <Gi3DGlasses style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
-                                                <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                <Text className='textFont' style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
                                                 <Gi3DGlasses style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
                                             </> :
                                                 ele == "ongoing" ?
                                                     <>
                                                         <GiTv style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
-                                                        <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                        <Text className='textFont' style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
                                                         <GiTv style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
                                                     </> :
                                                     ele == "anime" ? <>
                                                         <GiAbstract060 style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
-                                                        <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                        <Text className='textFont' style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
                                                         <GiAbstract060 style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
                                                     </> :
                                                         ele == "series" ? <>
                                                             <BiMoviePlay style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
-                                                            <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                            <Text className='textFont' style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
                                                             <BiMoviePlay style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
                                                         </> :
                                                             ele == "movies" ? <>
                                                                 <BiCameraMovie style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
-                                                                <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                                <Text className='textFont' style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
                                                                 <BiCameraMovie style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
                                                             </> :
                                                                 ele == "game" ? <>
                                                                     <GiGamepad style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
-                                                                    <Text style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                                    <Text className='textFont' style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s ease-in-out" }}>{capitalizeFirstLetter(ele)}</Text>
                                                                     <GiGamepad style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s ease-in-out", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
                                                                 </> : ""
                                         }
@@ -292,7 +292,7 @@ const Homepage = () => {
                                     <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(${range ? "150" : "200"}px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 197 : "86vh", padding: "10px 5px", transition: ".5s ease-in-out" }}>
                                         <List
                                             grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                            header={<Text style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{
+                                            header={<Text className='textFont' style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{
                                                 ele == "all" ? rawData.length :
                                                     ele == "ongoing" ? rawData.filter(x => x.status == "in progress").length :
                                                         rawData.filter(x => x.category == ele).length

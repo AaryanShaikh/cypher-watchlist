@@ -54,16 +54,16 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
             </div>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", zIndex: "2" }}>
                 <Space size="" style={{ opacity: total == 1 ? "0" : "1", transition: ".5s ease-in-out" }}>
-                    <Tag style={{ color: dark ? "#6abe39" : "#389e0d", background: dark ? "#162312" : "#f6ffed", borderColor: dark ? "#274916" : "#b7eb8f", transition: ".5s ease-in-out" }}>{eps}</Tag>
-                    <Tag style={{ color: dark ? "#854eca" : "#531dab", background: dark ? "#1a1325" : "#f9f0ff", borderColor: dark ? "#301c4d" : "#d3adf7", transition: ".5s ease-in-out" }}>{total}</Tag>
+                    <Tag className='textFont' style={{ color: dark ? "#6abe39" : "#389e0d", background: dark ? "#162312" : "#f6ffed", borderColor: dark ? "#274916" : "#b7eb8f", transition: ".5s ease-in-out" }}>{eps}</Tag>
+                    <Tag className='textFont' style={{ color: dark ? "#854eca" : "#531dab", background: dark ? "#1a1325" : "#f9f0ff", borderColor: dark ? "#301c4d" : "#d3adf7", transition: ".5s ease-in-out" }}>{total}</Tag>
                 </Space>
                 <Tooltip title={status == "in progress" ? "Currently Watching" : "Completed"}>
                     {status == "in progress" ? <FaPlayCircle style={{ color: "#389DEF" }} /> : <BsFillPatchCheckFill style={{ color: "#78F100" }} />}
                 </Tooltip>
-                <Text strong type="secondary" style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease" }}>{type}</Text>
+                <Text className='textFont' strong type="secondary" style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease" }}>{type}</Text>
             </div>
             <Tooltip title={title}>
-                <Text ellipsis style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", padding: "5px", zIndex: "2" }}>{isSearch ? highlightedTitle : title}</Text>
+                <Text className='textFont' ellipsis style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", padding: "5px", zIndex: "2" }}>{isSearch ? highlightedTitle : title}</Text>
             </Tooltip>
         </div>
     )

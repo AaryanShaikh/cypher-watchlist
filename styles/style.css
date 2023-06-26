@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&family=Ysabeau+Infant&display=swap');
 
 body {
     overflow-y: hidden;
@@ -13,6 +13,18 @@ html {
 
 :root {
     --ti-cursor-color: #ECE9E6;
+}
+
+.textFont {
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.profileFont{
+    font-family: 'Handlee', cursive;
+}
+
+.loadFont{
+    font-family: 'Ysabeau Infant', sans-serif;
 }
 
 .scrollVisible::-webkit-scrollbar {

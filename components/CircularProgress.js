@@ -33,7 +33,7 @@ const CircularProgress = ({ value, maxValue, show }) => {
                     r="50"
                 />
             </svg>
-            <h2 className="progress-text">{count}%</h2>
+            <h2 className="progress-text loadText">{count}%</h2>
         </div>
     );
 };
