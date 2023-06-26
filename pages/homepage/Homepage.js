@@ -213,7 +213,7 @@ const Homepage = () => {
             <CircularProgress show={loadStep == 4} value={ProgLoad} maxValue={100} />
             <Text style={{ transition: ".5s ease-in-out", fontSize: loadStep == 1 ? "15px" : "0px", color: "#e6e6e6" }}>Loading DOM...</Text>
             <Text style={{ transition: ".5s ease-in-out", fontSize: loadStep == 2 ? "15px" : "0px", color: "#e6e6e6" }}>DOM Loaded...</Text>
-            <Text style={{ transition: ".5s ease-in-out", fontSize: loadStep == 3 || loadStep == 4 ? "15px" : "0px", color: "#e6e6e6" }}>Fetching Aaryan's Memoirs...</Text>
+            <Text style={{ transition: ".5s ease-in-out", fontSize: loadStep == 3 || loadStep == 4 ? "15px" : "0px", color: "#e6e6e6" }}>Fetching records of Aaryan's Memoirs...</Text>
         </div>
 
         {/* loading stuff end */}
