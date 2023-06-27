@@ -570,6 +570,10 @@ html {
     transform: rotate(-90deg);
 }
 
+.itmCard img {
+    -webkit-mask-image: linear-gradient(to top, transparent, black 45%);
+}
+
 .progress-ring__circle {
     fill: none;
     stroke: #e6e6e6;
@@ -591,14 +595,14 @@ html {
 
 .itmCard::before {
     content: "";
-    background: #ffffff17;
+    /* background: #ffffff17; */
     position: absolute;
     top: -4px;
     left: -4px;
     right: -4px;
     bottom: -4px;
     z-index: 0;
-    transform: skew(15deg, 231deg);
+    /* transform: skew(15deg, 231deg); */
     transition: .5s ease-in-out;
 }
 

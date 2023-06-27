@@ -46,9 +46,10 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
                     {showLoader ? <div class="spinner"></div> : ""}
                 </div>
                 <img
+                    className='cardImg'
                     src={imgSrc}
                     alt='Loading Badass Image...'
-                    style={{ height: "100%", width: "100%", opacity: isImgLoading ? "0" : "1", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", transition: ".5s ease-in-out" }}
+                    style={{ height: "100%", width: "100%", opacity: isImgLoading ? "0" : "1", borderTopLeftRadius: "10px", borderTopRightRadius: "10px", transition: ".5s ease-in-out", }}
                     onLoad={() => setisImgLoading(false)}
                 />
             </div>
