@@ -40,7 +40,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
     }, [isImgLoading])
 
     return (
-        <div className='itmCard' style={{ boxShadow: dark ? "0px 0px 0px 0px #414345" : "0px 0px 8px 2px #5454543d", height: show ? range ? "300px" : "355px" : "0px", width: show ? range ? "" : "205px" : "0px", borderRadius: "10px", overflow: "hidden", padding: "5px", display: "flex", justifyContent: "space-between", flexDirection: "column", transition: ".5s ease", opacity: "1", position: "relative", background: dark ? "#414345" : "white", minWidth: range ? "150px" : "" }}>
+        <div className='itmCard' style={{ boxShadow: dark ? "0px 0px 0px 0px #343434" : "0px 0px 8px 2px #5454543d", height: show ? range ? "300px" : "355px" : "0px", width: show ? range ? "" : "205px" : "0px", borderRadius: "10px", overflow: "hidden", padding: "5px", display: "flex", justifyContent: "space-between", flexDirection: "column", transition: ".5s ease", opacity: "1", position: "relative", background: dark ? "#343434" : "white", minWidth: range ? "150px" : "" }}>
             <div style={{ height: "80%", width: "100%", position: "relative", overflow: "clip" }}>
                 <div style={{ height: "100%", width: "100%", position: "absolute", opacity: isImgLoading ? "1" : "0", display: "flex", justifyContent: "center", alignItems: "center", transition: ".5s ease-in-out" }}>
                     {showLoader ? <div class="spinner"></div> : ""}
