@@ -26,7 +26,7 @@ const SearchBox = ({ searchText, setsearchText, isActive, setisActive, dark, ref
     return (<>
         <div ref={refs} style={{ display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center" }}>
             <BiSearchAlt style={{ color: dark ? "#fff" : "#000", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)" }} />
-            <div style={{ height: "30px", width: isInputFocused || text != "" ? "190px" : "100px", border: "solid #999", borderBottomRightRadius: "20px", borderTop: "transparent", borderLeft: "transparent", borderRight: "transparent", position: "relative", padding: "0px 5px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)", borderImage: `linear-gradient(to right, ${dark ? "#999" : "#000"}, ${dark ? "#222222" : "#fff"}) 1` }}>
+            <div style={{ height: "30px", width: isInputFocused || text != "" ? "190px" : "100px", border: "solid #999", borderBottomRightRadius: "20px", borderTop: "transparent", borderLeft: "transparent", borderRight: "transparent", position: "relative", padding: "0px 5px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)", borderImage: `linear-gradient(to right, ${dark ? "#999" : "#000"}, ${dark ? "#212121" : "#fff"}) 1` }}>
                 <div style={{ position: "absolute", display: "flex", justifyContent: 'flex-start', width: "100%" }}>
                     <div className='searchLabel'>
                         {
