@@ -50,7 +50,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
                 onLoadStart={() => setisImgLoading(true)}
                 onLoad={() => setisImgLoading(false)}
                 src={imgSrc}
-                style={{ height: "100%", width: "100%", WebkitMaskImage: "linear-gradient(to top, transparent 10%, black 50%)", position: "absolute" }}
+                style={{ height: "100%", width: "100%", WebkitMaskImage: "linear-gradient(to top, transparent 10%, black 50%)", position: "absolute", transition: ".5s ease-in-out", opacity: isImgLoading ? "0" : "1" }}
             />
             <div style={{ position: "absolute", display: "flex", flexDirection: "column", width: "100%", height: "100%", justifyContent: "flex-end" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0px 10px" }}>
