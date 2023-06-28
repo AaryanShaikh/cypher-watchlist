@@ -189,8 +189,16 @@ const Homepage = () => {
 
     return (<>
         <Head>
-            <link rel="shortcut icon" href="/favicon.ico" />
-            <title>Aaryan's Memoirs</title>
+            <link rel="shortcut icon" href="https://raw.githubusercontent.com/AaryanShaikh/cypher-watchlist/main/public/favicon.ico" />
+            <title>{
+                categorySel == "all" ? "Aaryan's Memoirs" :
+                    categorySel == "search" ? "Search Aaryan's Memoirs" :
+                        categorySel == "ongoing" ? "Aaryan's current watching" :
+                            categorySel == "anime" ? "Aaryan's watched anime" :
+                                categorySel == "series" ? "Aaryan's watched series" :
+                                    categorySel == "movies" ? "Aaryan's watched movies" :
+                                        "Aaryan's played games"
+            }</title>
         </Head>
         {showProfile ? <Profile showProfile={showProfile} setshowProfile={setshowProfile} range={range} /> : ""}
         <Modal title="Overall Statistics (2021 - Present)" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
@@ -231,7 +239,7 @@ const Homepage = () => {
                     isActive ? <TabPane tab={
                         <div style={{ display: "flex", gap: "0px", alignItems: "center", flexDirection: "column", width: "50px", height: "60px" }}>
                             <MdScreenSearchDesktop style={{ opacity: "0.5", fontSize: "20px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
-                            <Text  className="selICon textFont" style={{ color: isDark ? "black" : "aliceblue", fontSize: "14px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)" }}>Search</Text>
+                            <Text className="selICon textFont" style={{ color: isDark ? "black" : "aliceblue", fontSize: "14px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)" }}>Search</Text>
                             <MdScreenSearchDesktop style={{ opacity: "0.5", fontSize: "20px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
                         </div>
                     } key="search" style={{ color: range ? "aliceblue" : "black" }}>
