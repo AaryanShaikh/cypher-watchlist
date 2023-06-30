@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const NumberCounter = ({ end, title }) => {
+const NumberCounter = ({ end, title, range }) => {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
@@ -25,8 +25,8 @@ const NumberCounter = ({ end, title }) => {
     }, [end]);
 
     return <div className='ant-statistic'>
-        <div className='textFont' style={{ marginBottom: "4px", color: "rgba(0, 0, 0, 0.45)", fontSize: "14px" }}>{title}</div>
-        <div style={{ color: "rgba(0, 0, 0, 0.88)", fontSize: "24px", fontFamily: "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'" }}>
+        <div className='textFont' style={{ marginBottom: "4px", color: "rgb(209 203 203)", fontSize: range ? "12px" : "14px" }}>{title}</div>
+        <div style={{ color: "#fff", fontSize: range ? "22px" : "24px", fontFamily: "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'" }}>
             {count.toLocaleString()}
         </div>
     </div>;

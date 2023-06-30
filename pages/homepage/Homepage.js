@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef, lazy } from 'react'
 import { Input, Switch, Typography, FloatButton, Modal, Statistic, Tabs, List, Tour, message } from 'antd'
-import { Gi3DGlasses, GiAbstract060, GiGamepad, GiTv } from 'react-icons/gi';
+import { Gi3DGlasses, GiAbstract060, GiCrossMark, GiGamepad, GiTv } from 'react-icons/gi';
 import { BiCameraMovie, BiMoviePlay, BiScatterChart } from 'react-icons/bi'
 import { BsMoonStars, BsFillSunFill } from 'react-icons/bs';
 import { MdScreenSearchDesktop } from 'react-icons/md'
@@ -25,6 +25,7 @@ const Homepage = () => {
     const [isDark, setisDark] = useState(false)
     const [isLoading, setisLoading] = useState(true)
     const [showStats, setshowStats] = useState(false)
+    const [showStatsData, setshowStatsData] = useState(false)
     const [searchText, setsearchText] = useState("")
     const [rawData, setrawData] = useState([])
     const [iniRender, setiniRender] = useState(true)
@@ -117,6 +118,16 @@ const Homepage = () => {
     ];
 
     useEffect(() => {
+        if (showStats) {
+            setshowStatsData(showStats)
+        } else {
+            setTimeout(() => {
+                setshowStatsData(showStats)
+            }, 1000)
+        }
+    }, [showStats])
+
+    useEffect(() => {
         setcategorySel(isActive ? "search" : "all")
     }, [isActive])
 
@@ -201,19 +212,31 @@ const Homepage = () => {
             }</title>
         </Head>
         {showProfile ? <Profile showProfile={showProfile} setshowProfile={setshowProfile} range={range} /> : ""}
-        <Modal title="Overall Statistics (2021 - Present)" open={showStats} onCancel={() => setshowStats(false)} footer={[]}>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", }}>
-                <NumberCounter title="Total [All] Watched" end={rawData.length - rawData.filter(x => x.category == "game").length} />
-                <NumberCounter title="Total Games Completed" end={rawData.filter(x => x.category == "game").length} />
-                <NumberCounter title="Total Anime Watched" end={rawData.filter(x => x.category == "anime").length} />
-                <NumberCounter title="Total [Anime Eps] Watched" end={rawData.filter(x => x.category == "anime").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
-                <NumberCounter title="Total Series Watched" end={rawData.filter(x => x.category == "series").length} />
-                <NumberCounter title="Total [Series Eps] Watched" end={rawData.filter(x => x.category == "series").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
-                <NumberCounter title="Total Movies Watched" end={rawData.filter(x => x.category == "movies").length} />
-                <NumberCounter title="Total Currently Watching" end={rawData.filter(x => x.status == "in progress").length} />
+        <div style={{ position: "absolute", height: "100vh", width: "100%", display: "flex", justifyContent: 'center', alignItems: "center" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", position: "absolute", padding: "20px", width: range ? "80%" : "30%", borderRadius: "10px", transition: ".7s cubic-bezier(0.68, -0.55, 0.265, 1.55)", background: "transparent", gap: "10px", pointerEvents: "none", transform: `scale(${showStats ? "1" : "0"})`, opacity: showStats ? "1" : "0.2", zIndex: "10", backdropFilter: "blur(5px) grayscale(1) brightness(0.5)", boxShadow: "black 0px 0px 8px 0px", justifyItems: "center" }}>
+                {
+                    showStatsData ? <>
+                        <NumberCounter range={range} title="Total [All] Watched" end={rawData.length - rawData.filter(x => x.category == "game").length} />
+                        <NumberCounter range={range} title="Total Games Completed" end={rawData.filter(x => x.category == "game").length} />
+                        <NumberCounter range={range} title="Total Anime Watched" end={rawData.filter(x => x.category == "anime").length} />
+                        <NumberCounter range={range} title="Total [Anime Eps] Watched" end={rawData.filter(x => x.category == "anime").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
+                        <NumberCounter range={range} title="Total Series Watched" end={rawData.filter(x => x.category == "series").length} />
+                        <NumberCounter range={range} title="Total [Series Eps] Watched" end={rawData.filter(x => x.category == "series").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
+                        <NumberCounter range={range} title="Total Movies Watched" end={rawData.filter(x => x.category == "movies").length} />
+                        <NumberCounter range={range} title="Total Currently Watching" end={rawData.filter(x => x.status == "in progress").length} />
+                    </> : ""
+                }
+
             </div>
-        </Modal>
-        <FloatButton style={{ transition: ".5s ease-in-out", opacity: loadStep == 7 ? "1" : "0" }} ref={step3} icon={<BiScatterChart />} onClick={() => setshowStats(true)} />
+        </div>
+        <FloatButton
+            style={{ transition: ".5s ease-in-out", opacity: loadStep == 7 ? "1" : "0" }}
+            ref={step3}
+            icon={<div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+                <GiCrossMark style={{ transform: `scale(${showStats ? "1" : "0"})`, transition: ".5s ease-in-out", position: "absolute" }} />
+                <BiScatterChart style={{ transform: `scale(${showStats ? "0" : "1"})`, transition: ".5s ease-in-out", position: "absolute" }} /></div>}
+            onClick={() => setshowStats(!showStats)}
+        />
 
         {/* loading stuff */}
 
