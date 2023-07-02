@@ -213,7 +213,7 @@ const Homepage = () => {
         </Head>
         {showProfile ? <Profile showProfile={showProfile} setshowProfile={setshowProfile} range={range} /> : ""}
         <div style={{ position: "absolute", height: "100vh", width: "100%", display: "flex", justifyContent: 'center', alignItems: "center" }}>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", position: "absolute", padding: "20px", width: range ? "80%" : "30%", borderRadius: "10px", transition: ".7s cubic-bezier(0.68, -0.55, 0.265, 1.55)", background: "transparent", gap: "10px", pointerEvents: "none", transform: `scale(${showStats ? "1" : "0"})`, opacity: showStats ? "1" : "0.2", zIndex: "10", backdropFilter: "blur(5px) grayscale(1) brightness(0.5)", boxShadow: "black 0px 0px 8px 0px", justifyItems: "center" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", position: "absolute", padding: "20px", width: range ? "80%" : "30%", borderRadius: "10px", transition: ".7s cubic-bezier(0.68, -0.55, 0.265, 1.55)", background: "transparent", gap: "10px", pointerEvents: "none", transform: `scale(${showStats ? "1" : "0"})`, opacity: showStats ? "1" : "0.2", zIndex: "10", backdropFilter: "blur(20px) grayscale(1) brightness(0.5)", boxShadow: "black 0px 0px 8px 0px", justifyItems: "center" }}>
                 {
                     showStatsData ? <>
                         <NumberCounter range={range} title="Total [All] Watched" end={rawData.length - rawData.filter(x => x.category == "game").length} />
