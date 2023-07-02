@@ -1,5 +1,32 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmQzOWZhOTMtZTcxNC00MTdkLWEwYmUtOWVmOTFhNTdkNjRkXkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_FMjpg_UX1000_.jpg",
+        "title": "Guy Ritchie's The Covenant",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/03/Theatrical_poster_for_Dungeons_and_Dragons%2C_Honor_Among_Thieves.jpg",
+        "title": "Dungeons & Dragons: Honour Among Thieves",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMDEwOWVlY2EtMWI0ZC00OWVmLWJmZGItYTk3YjYzN2Y0YmFkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+        "title": "The Witcher Season 3",
+        "eps": 1,
+        "total": 7,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/ed/The_Flash_%28film%29_poster.jpg",
         "title": "The Flash",
         "eps": 1,
@@ -6540,6 +6567,24 @@
         "total": 1,
         "type": "Movies",
         "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/The_Witcher_s2_soundtrack.jpg/220px-The_Witcher_s2_soundtrack.jpg",
+        "title": "The Witcher Season 2",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://hips.hearstapps.com/hmg-prod/images/screen-shot-2019-12-16-at-10-16-52-am-1576509427.png",
+        "title": "The Witcher Season 1",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
         "status": "completed"
     },
     {
