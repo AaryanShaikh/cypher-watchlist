@@ -1,4 +1,13 @@
 [
+      {
+        "imgSrc": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQaQ9EiW99Du2BF64AKlxEjlOlljbKjDEykyZPb9ktm8W2pyAZz5zzJ0lXbfm-U12I-t8wVX6F6iQeUvu1IWYMoJjDxZl4oyhP5OW8OHaEVwxLlhuIEzzC8pTwu9OrcDVJNfkKGYR2bdf-d_A8NNf5Gir.jpg?r=c24",
+        "title": "The Witcher Season 3",
+        "eps": 1,
+        "total": 7,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmQzOWZhOTMtZTcxNC00MTdkLWEwYmUtOWVmOTFhNTdkNjRkXkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_FMjpg_UX1000_.jpg",
         "title": "Guy Ritchie's The Covenant",
@@ -16,15 +25,6 @@
         "type": "Movies",
         "category": "movies",
         "status": "completed"
-    },
-    {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMDEwOWVlY2EtMWI0ZC00OWVmLWJmZGItYTk3YjYzN2Y0YmFkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_UY1200_CR90,0,630,1200_AL_.jpg",
-        "title": "The Witcher Season 3",
-        "eps": 1,
-        "total": 7,
-        "type": "Series",
-        "category": "series",
-        "status": "in progress"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/ed/The_Flash_%28film%29_poster.jpg",
