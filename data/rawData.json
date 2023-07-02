@@ -1,4 +1,13 @@
 [
+      {
+        "imgSrc": "https://static.wikia.nocookie.net/witcher/images/a/a4/Netflix_poster_s1.jpg/revision/latest/scale-to-width-down/1200?cb=20191120213257",
+        "title": "The Witcher Season 3",
+        "eps": 1,
+        "total": 7,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmQzOWZhOTMtZTcxNC00MTdkLWEwYmUtOWVmOTFhNTdkNjRkXkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_FMjpg_UX1000_.jpg",
         "title": "Guy Ritchie's The Covenant",
@@ -16,15 +25,6 @@
         "type": "Movies",
         "category": "movies",
         "status": "completed"
-    },
-    {
-        "imgSrc": "https://sm.ign.com/ign_in/gallery/t/the-witche/the-witcher-season-3-first-look-images_2kjk.jpg",
-        "title": "The Witcher Season 3",
-        "eps": 1,
-        "total": 7,
-        "type": "Series",
-        "category": "series",
-        "status": "in progress"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/ed/The_Flash_%28film%29_poster.jpg",
