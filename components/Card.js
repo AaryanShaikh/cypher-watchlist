@@ -39,6 +39,11 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
         }
     }, [isImgLoading])
 
+    useEffect(() => {
+        setshowLoader(true)
+        setisImgLoading(true)
+    }, [imgSrc])
+
     return (
         <div className='cardItm' style={{ height: range ? "260px" : "300px", border: "solid #999", borderRadius: "10px", position: 'relative', overflow: "clip", borderImage: `linear-gradient(to bottom,${dark ? "#212121" : "#fff"} 20%,#74737387) 1`, transitionDelay: ".5s", transition: ".5s ease-in-out", pointerEvents: show ? "all" : "none" }}>
             {showLoader ? <div className='imgLoad' style={{ position: "absolute", zIndex: "9", height: "100%", width: "100%", display: "flex", justifyContent: 'center', alignItems: 'center', backdropFilter: "blur(2px) grayscale(1) brightness(0.5)", transition: ".5s ease-in-out", opacity: isImgLoading ? "1" : "0" }}>
@@ -47,7 +52,6 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
                 </svg>
             </div> : ""}
             <img
-                onLoadStart={() => setisImgLoading(true)}
                 onLoad={() => setisImgLoading(false)}
                 src={imgSrc}
                 style={{ height: "100%", width: "100%", WebkitMaskImage: "linear-gradient(to top, transparent 10%, black 50%)", position: "absolute", transition: ".5s ease-in-out", opacity: isImgLoading ? "0" : "1" }}
