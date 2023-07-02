@@ -40,7 +40,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
     }, [isImgLoading])
 
     return (
-        <div className='cardItm' style={{ height: range ? "260px" : "300px", border: "solid #999", borderRadius: "10px", position: 'relative', overflow: "clip", borderImage: `linear-gradient(to bottom,${dark ? "#212121" : "#fff"} 20%,#74737387) 1`, transitionDelay: ".5s", transition: ".5s ease-in-out" }}>
+        <div className='cardItm' style={{ height: range ? "260px" : "300px", border: "solid #999", borderRadius: "10px", position: 'relative', overflow: "clip", borderImage: `linear-gradient(to bottom,${dark ? "#212121" : "#fff"} 20%,#74737387) 1`, transitionDelay: ".5s", transition: ".5s ease-in-out", pointerEvents: show ? "all" : "none" }}>
             {showLoader ? <div className='imgLoad' style={{ position: "absolute", zIndex: "9", height: "100%", width: "100%", display: "flex", justifyContent: 'center', alignItems: 'center', backdropFilter: "blur(2px) grayscale(1) brightness(0.5)", transition: ".5s ease-in-out", opacity: isImgLoading ? "1" : "0" }}>
                 <svg viewBox="25 25 50 50">
                     <circle r="20" cy="50" cx="50"></circle>

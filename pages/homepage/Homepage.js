@@ -250,8 +250,8 @@ const Homepage = () => {
         {/* loading stuff end */}
 
         <div className='heading' style={{ background: !isDark ? "#212121" : "white", transition: ".5s ease-in-out", }}>
-            {range ? <div onClick={() => { setshowProfile(true) }} ref={step1} style={{ display: "flex", flexDirection: "column", cursor: "pointer", zIndex: "101", position: "relative", top: loadStep == 7 ? "0%" : "43vh", left: loadStep == 7 ? "0%" : "43vw", opacity: loadStep == 6 || loadStep == 7 ? "1" : "0", transition: ".5s ease-in-out", transform: loadStep == 7 ? "scale(1)" : "scale(3)" }}><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Aaryan's</Text><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Memoirs</Text></div> :
-                <Text onClick={() => { setshowProfile(true) }} ref={step1} style={{ color: !isDark ? "white" : "black", transition: ".5s ease-in-out", cursor: "pointer", zIndex: "101", position: "relative", top: loadStep == 7 ? "0%" : "43vh", left: loadStep == 7 ? "0%" : "43vw", opacity: loadStep == 6 || loadStep == 7 ? "1" : "0", transform: loadStep == 7 ? "scale(1)" : "scale(3)" }} className='logo'>Aaryan's Memoirs</Text>
+            {range ? <div onClick={() => { setshowProfile(true) }} ref={step1} style={{ display: "flex", flexDirection: "column", cursor: "pointer", zIndex: "101", position: "relative", top: loadStep == 7 ? "0%" : "43vh", left: loadStep == 7 ? "0%" : "43vw", opacity: loadStep == 6 || loadStep == 7 ? "1" : "0", transition: ".5s ease-in-out", transform: loadStep == 7 ? "scale(1)" : "scale(3)", pointerEvents: loadStep == 7 ? "all" : "none" }}><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Aaryan's</Text><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Memoirs</Text></div> :
+                <Text onClick={() => { setshowProfile(true) }} ref={step1} style={{ color: !isDark ? "white" : "black", transition: ".5s ease-in-out", cursor: "pointer", zIndex: "101", position: "relative", top: loadStep == 7 ? "0%" : "43vh", left: loadStep == 7 ? "0%" : "43vw", opacity: loadStep == 6 || loadStep == 7 ? "1" : "0", transform: loadStep == 7 ? "scale(1)" : "scale(3)", pointerEvents: loadStep == 7 ? "all" : "none" }} className='logo'>Aaryan's Memoirs</Text>
             }
             <SearchBox refs={step4} dark={!isDark} searchText={searchText} setsearchText={setsearchText} isActive={isActive} setisActive={setisActive} />
             <Switch ref={step5} checked={isDark} onChange={(e) => setisDark(e)} checkedChildren={<BsFillSunFill />} unCheckedChildren={<BsMoonStars />} />
@@ -274,7 +274,7 @@ const Homepage = () => {
                                 pagination={{ pageSize: 12, showSizeChanger: false }}
                                 renderItem={(ele, ind) => (
                                     <List.Item>
-                                        <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} isSearch={isActive} searchText={searchText} />
+                                        <CardItem key={ind} dark={!isDark} range={range} show={loadStep == 7} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} isSearch={isActive} searchText={searchText} />
                                     </List.Item>
                                 )}
                             />
@@ -336,7 +336,7 @@ const Homepage = () => {
                                             pagination={{ pageSize: 12 }}
                                             renderItem={(ele, ind) => (
                                                 <List.Item>
-                                                    <CardItem key={ind} dark={!isDark} range={range} show={true} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
+                                                    <CardItem key={ind} dark={!isDark} range={range} show={loadStep == 7} imgSrc={ele.imgSrc} title={ele.title} eps={ele.eps} total={ele.total} type={ele.type} status={ele.status} />
                                                 </List.Item>
                                             )}
                                         />
