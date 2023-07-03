@@ -58,7 +58,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
             />
             <div style={{ position: "absolute", display: "flex", flexDirection: "column", width: "100%", height: "100%", justifyContent: "flex-end" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0px 10px" }}>
-                    <Text strong className='textFont' style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", opacity: total == 1 ? "0" : "1" }}>{eps} / {total}</Text>
+                    <Text strong className='textFont' style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", opacity: total == 1 ? "0" : "1" }}>{eps} / {total == 0 ? "?" : total}</Text>
                     <Tooltip title={status == "in progress" ? "Currently Watching" : "Completed"}>
                         {status == "in progress" ? <FaPlayCircle style={{ color: "#389DEF" }} /> : <BsFillPatchCheckFill style={{ color: "#78F100" }} />}
                     </Tooltip>
