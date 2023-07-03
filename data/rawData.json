@@ -1,5 +1,14 @@
 [
-      {
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9b/9b04dcc4fae2f03717ebf3ff89c33bea.jpg",
+        "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu - Shugo Jutsushi Fitz",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQaQ9EiW99Du2BF64AKlxEjlOlljbKjDEykyZPb9ktm8W2pyAZz5zzJ0lXbfm-U12I-t8wVX6F6iQeUvu1IWYMoJjDxZl4oyhP5OW8OHaEVwxLlhuIEzzC8pTwu9OrcDVJNfkKGYR2bdf-d_A8NNf5Gir.jpg?r=c24",
         "title": "The Witcher Season 3",
         "eps": 1,
@@ -6344,7 +6353,7 @@
         "category": "anime",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/10/d957eefb7289a2179a77bfd70fe0aca5.jpg",
         "title": "Re:ZERO -Starting Life in Another World- The Frozen Bond",
         "eps": 1,
@@ -6353,7 +6362,7 @@
         "category": "anime",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/38/387a9538b393658830da91dd9a07088f.jpg",
         "title": "Re:ZERO -Starting Life in Another World- The Frozen Bond: Manner Movie",
         "eps": 1,
@@ -6362,7 +6371,7 @@
         "category": "anime",
         "status": "completed"
     },
-        {
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/0/0d/0de65ee1e9c04bd22f922831ee7a6de5.jpg",
         "title": "World's End Harem",
         "eps": 11,
