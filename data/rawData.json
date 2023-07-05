@@ -1656,6 +1656,15 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BOWZlZDVmMWItZDcxNi00MGJmLTk0MzktOGZkNTNkMzU3OWQzXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_FMjpg_UX1000_.jpg",
+        "title": "National Treasure: Edge of History",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/21/The_Punisher_season_1_poster.jpg",
         "title": "The Punisher Season 1",
         "eps": 13,
@@ -2115,8 +2124,8 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
-        "title": "Thor: Love and Thunder",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/f4/Prey_2022_poster.png",
+        "title": "Prey",
         "eps": 1,
         "total": 1,
         "type": "Movie",
