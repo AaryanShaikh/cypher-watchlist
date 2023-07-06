@@ -2195,11 +2195,74 @@
         "category": "movies",
         "status": "completed"
     },
+     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/8/84/Prison_Break_%28miniseries%29.jpg",
+        "title": "Prison Break Season 5",
+        "eps": 9,
+        "total": 9,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/54/Prison-break-season-4-dvd.jpg",
+        "title": "Prison Break Season 4",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/16/Prison_Break_season_3_DVD.jpg",
+        "title": "Prison Break Season 3",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e3/Prison_Break_season_2_dvd.jpg",
+        "title": "Prison Break Season 2",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/46/Prison_Break_season_1_dvd.jpg",
+        "title": "Prison Break Season 1",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9sZIdJoMS1TaEQCYiQIe2XqnxxJhMutLLHQ&usqp=CAU",
+        "title": "What If...?",
+        "eps": 9,
+        "total": 9,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMGQ1OWNlY2QtMGY1NC00ZDkxLWJhZTktMzg5Mzk5YWY1YzA1XkEyXkFqcGdeQXVyMTU5OTc2NTk@._V1_.jpg",
         "title": "Hawkeye",
         "eps": 6,
         "total": 6,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLe5uV8FQRzDY3369-UuLiqRvVCyMuK9XJqQ&usqp=CAU",
+        "title": "WandaVision",
+        "eps": 9,
+        "total": 9,
         "type": "Series",
         "category": "series",
         "status": "completed"
