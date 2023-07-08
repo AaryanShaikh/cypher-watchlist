@@ -1,5 +1,59 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/74/Guardians_of_the_Galaxy_Vol._3_poster.jpg",
+        "title": "Guardians of the Galaxy Vol. 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/bb/bb621500716e9047d3196a26966150e6.jpg",
+        "title": "Sugar Apple Fairy Tale Season 2",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/7f/7f31e35492ee059cfcfafda055c5672a.jpg",
+        "title": "Reign of the Seven Spellblades",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9d/9d52304c4c4083263e011c273d163fcc.jpg",
+        "title": "The Gene of AI",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/94/94adffaae1b8a7e51da3657bd63e4b12.jpg",
+        "title": "Rent-a-Girlfriend Season 3",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/63/6331b446e29140aa9d629609d96c89f1.jpg",
+        "title": "The Masterful Cat is Depressed Again Today",
+        "eps": 1,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/54/54b74128e80fde02f6a04c628f81a349.jpg",
         "title": "Rurouni Kenshin (2023)",
         "eps": 1,
@@ -2506,7 +2560,7 @@
         "title": "Forrest Gump",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2515,7 +2569,7 @@
         "title": "Kung Fu Panda 4",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2524,7 +2578,7 @@
         "title": "Kung Fu Panda 3",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2533,7 +2587,7 @@
         "title": "Kung Fu Panda 2",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2542,7 +2596,7 @@
         "title": "Kung Fu Panda",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2560,7 +2614,7 @@
         "title": "Finding Nemo",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2569,7 +2623,7 @@
         "title": "Venom: Let There Be Carnage",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2578,7 +2632,7 @@
         "title": "Avengers: Age of Ultron",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2587,7 +2641,7 @@
         "title": "Spider-Man 3",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2596,7 +2650,7 @@
         "title": "Jumanji: The Next Level",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2605,7 +2659,7 @@
         "title": "Black Adam",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2614,7 +2668,7 @@
         "title": "Deadpool",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2623,7 +2677,7 @@
         "title": "Deadpool 2",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2632,7 +2686,7 @@
         "title": "The Adam Project",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2641,7 +2695,7 @@
         "title": "Ready Player One",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2650,7 +2704,7 @@
         "title": "Free Guy",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2659,7 +2713,7 @@
         "title": "The Suicide Squad",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2668,7 +2722,7 @@
         "title": "Captain Marvel",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2677,7 +2731,7 @@
         "title": "Justice League",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2686,7 +2740,7 @@
         "title": "Avatar: The Way of Water",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2695,7 +2749,7 @@
         "title": "Everything Everywhere All at Once",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2704,7 +2758,7 @@
         "title": "Black Widow",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2713,7 +2767,7 @@
         "title": "Spider-Man: Homecoming",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2722,7 +2776,7 @@
         "title": "Red Notice",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2731,7 +2785,7 @@
         "title": "The Avengers",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2740,7 +2794,7 @@
         "title": "Jumanji: Welcome to the Jungle",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2749,7 +2803,7 @@
         "title": "Shang-Chi and the Legend of the Ten Rings",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2758,7 +2812,7 @@
         "title": "Eternals",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2767,7 +2821,7 @@
         "title": "Wonder Woman 1984",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2776,7 +2830,7 @@
         "title": "Aquaman",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2785,7 +2839,7 @@
         "title": "Black Panther: Wakanda Forever",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2794,7 +2848,7 @@
         "title": "Spider-Man: No Way Home",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2803,7 +2857,7 @@
         "title": "Prey",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2812,7 +2866,7 @@
         "title": "Thor: Love and Thunder",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2821,7 +2875,7 @@
         "title": "Doctor Strange in the Multiverse of Madness",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2830,7 +2884,7 @@
         "title": "Doctor Strange",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2911,7 +2965,7 @@
         "title": "Avengers: Endgame",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2920,7 +2974,7 @@
         "title": "Avengers: Infinity War",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2929,7 +2983,7 @@
         "title": "Last Christmas",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
@@ -2938,7 +2992,7 @@
         "title": "Mr. & Mrs. Smith",
         "eps": 1,
         "total": 1,
-        "type": "Movie",
+        "type": "Movies",
         "category": "movies",
         "status": "completed"
     },
