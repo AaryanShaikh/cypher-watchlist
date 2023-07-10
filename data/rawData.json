@@ -1,5 +1,14 @@
 [
-       {
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/92/920bdf520635da01612beab426fee5d3.jpg",
+        "title": "Synduality Noir",
+        "eps": 1,
+        "total": 24,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e3/e37bb7c22ae81d2875a3da894a9cc4d1.jpg",
         "title": "The Duke of Death and His Maid",
         "eps": 12,
@@ -8,7 +17,7 @@
         "category": "anime",
         "status": "completed"
     },
-       {
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/22/2296689587c6a70cbe5ca9e336e7d8b0.jpg",
         "title": "Classroom for Heroes",
         "eps": 1,
@@ -71,7 +80,7 @@
         "category": "movies",
         "status": "completed"
     },
-   {
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/7f/7f31e35492ee059cfcfafda055c5672a.jpg",
         "title": "Reign of the Seven Spellblades",
         "eps": 1,
@@ -1664,7 +1673,7 @@
         "category": "movies",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/f4/Step_Up_All_In_poster.jpg",
         "title": "Step Up: All In",
         "eps": 1,
@@ -2942,7 +2951,7 @@
         "category": "movies",
         "status": "completed"
     },
-     {
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/8/84/Prison_Break_%28miniseries%29.jpg",
         "title": "Prison Break Season 5",
         "eps": 9,
