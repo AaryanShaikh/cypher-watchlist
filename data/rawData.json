@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/4a/The_Flash_season_7.jpg",
+        "title": "The Flash - Season 7",
+        "eps": 1,
+        "total": 18,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BM2FlYzVmNWQtNzE4ZS00OTMwLTlhYTUtZDY0YTEyZTRlZDlkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
         "title": "Secret Invasion",
         "eps": 3,
@@ -605,11 +614,11 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2e/The_Flash_season_6.jpg/220px-The_Flash_season_6.jpg",
         "title": "The Flash - Season 6",
-        "eps": 11,
+        "eps": 19,
         "total": 19,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/ad/The_Flash_season_5.jpg",
