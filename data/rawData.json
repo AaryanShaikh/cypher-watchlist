@@ -1,5 +1,23 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/5e/5ea56d837b392c0f6e633aa3aa9f889f.jpg",
+        "title": "TONIKAWA: Over The Moon For You ~High School Days~",
+        "eps": 1,
+        "total": 4,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/3e/3e6de68fdb5b166439a90999a7612895.jpg",
+        "title": "Record of Ragnarok II Part 2",
+        "eps": 5,
+        "total": 5,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BODBjM2M4YTQtNmJlMS00MGU2LWI4ZGYtZTA1MzdmZDAyMjFkXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
         "title": "Scream VI",
         "eps": 1,
@@ -20,7 +38,7 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/4a/The_Flash_season_7.jpg",
         "title": "The Flash - Season 7",
-        "eps": 1,
+        "eps": 5,
         "total": 18,
         "type": "Series",
         "category": "series",
