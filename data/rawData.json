@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/aa/The_Flash_season_8_poster.jpg",
+        "title": "The Flash - Season 8",
+        "eps": 1,
+        "total": 20,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/45/45e881b8a097dfec395cbf54070249fa.jpg",
         "title": "Saint Cecilia & Pastor Lawrence",
         "eps": 1,
@@ -47,11 +56,11 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/4a/The_Flash_season_7.jpg",
         "title": "The Flash - Season 7",
-        "eps": 11,
+        "eps": 18,
         "total": 18,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BM2FlYzVmNWQtNzE4ZS00OTMwLTlhYTUtZDY0YTEyZTRlZDlkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
