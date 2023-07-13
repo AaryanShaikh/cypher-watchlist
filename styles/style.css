@@ -27,6 +27,34 @@ html {
     font-family: 'Ysabeau Infant', sans-serif;
 }
 
+.loadIt::after {
+    content: '';
+    animation: doit 3s ease-in-out infinite;
+}
+@keyframes doit {
+    0%{
+        content: '';
+    }
+    16%{
+        content: '.';
+    }
+    32%{
+        content: '..';
+    }
+    48%{
+        content: '...';
+    }
+    64%{
+        content: '..';
+    }
+    80%{
+        content: '.';
+    }
+    100%{
+        content: '';
+    }
+}
+
 .scrollVisible::-webkit-scrollbar {
     width: 10px;
     margin-left: 5px;
@@ -581,7 +609,7 @@ html {
     /* Progress bar color */
     stroke-width: 10;
     stroke-linecap: round;
-    transition: stroke-dasharray 2.5s ease;
+    transition: stroke-dasharray 1.5s ease;
 }
 
 .progress-text {

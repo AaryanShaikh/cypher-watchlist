@@ -138,10 +138,10 @@ const Homepage = () => {
     useEffect(() => {
         const timeoutId = setTimeout(() => {
             setloadStep(2)
-        }, 1000);
-        const timeoutId3 = setTimeout(() => {
-            setloadStep(3)
-            fetchData()
+            setProgLoad(42)
+            setTimeout(() => {
+                fetchData()
+            }, 2000)
         }, 2000);
         const handleResize = () => {
             const screenHeight = window.screen.height;
@@ -154,7 +154,6 @@ const Homepage = () => {
         return () => {
             window.removeEventListener('resize', handleResize);
             clearTimeout(timeoutId);
-            clearTimeout(timeoutId3);
         };
     }, []);
 
@@ -166,10 +165,12 @@ const Homepage = () => {
                 new Set(response.data.map((obj) => obj.category))
             );
             setallCats([...allCats, ...uniqueArray])
+            setloadStep(3)
+            setProgLoad(87)
             setTimeout(() => {
-                setloadStep(4)
+                setProgLoad(100)
                 setTimeout(() => {
-                    setProgLoad(100)
+                    setloadStep(4)
                     setTimeout(() => {
                         setloadStep(5)
                         setTimeout(() => {
@@ -178,12 +179,12 @@ const Homepage = () => {
                                 setloadStep(7)
                                 setTimeout(() => {
                                     setshowTour(true)
-                                }, 1000)
-                            }, 2000)
-                        }, 1500)
-                    }, 2000)
-                }, 1000)
-            }, 2000);
+                                }, 500)
+                            }, 1500)
+                        }, 1000)
+                    }, 100)
+                }, 1700)
+            }, 2000)
         } catch (error) {
             setloadStep(5)
             console.log('Error fetching JSON data:', error);
@@ -241,10 +242,9 @@ const Homepage = () => {
         {/* loading stuff */}
 
         <div ref={widthRef} style={{ position: "absolute", width: "100%", height: "100vh", background: loadStep == 7 ? "transparent" : "#212121", zIndex: "100", transition: ".5s ease-in-out", pointerEvents: "none", display: "flex", justifyContent: "center", flexDirection: "column", alignItems: "center" }}>
-            <CircularProgress show={loadStep == 4} value={ProgLoad} maxValue={100} />
-            <Text className='loadFont' style={{ transition: ".5s ease-in-out", fontSize: loadStep == 1 ? "15px" : "0px", color: "#e6e6e6", fontStyle: "'Ysabeau Infant', sans-serif" }}>Loading DOM...</Text>
-            <Text className='loadFont' style={{ transition: ".5s ease-in-out", fontSize: loadStep == 2 ? "15px" : "0px", color: "#e6e6e6", fontStyle: "'Ysabeau Infant', sans-serif" }}>DOM Loaded...</Text>
-            <Text className='loadFont' style={{ transition: ".5s ease-in-out", fontSize: loadStep == 3 || loadStep == 4 ? "15px" : "0px", color: "#e6e6e6", fontStyle: "'Ysabeau Infant', sans-serif" }}>Fetching records of Aaryan's Memoirs...</Text>
+            <CircularProgress show={loadStep <= 4} value={ProgLoad} />
+            <Text className={`loadFont ${loadStep == 1 ? "loadIt" : ""}`} style={{ transition: ".5s ease-in-out", fontSize: "15px", color: "#e6e6e6", fontStyle: "'Ysabeau Infant', sans-serif", textDecoration: loadStep == 2 ? "line-through" : "none", opacity: loadStep == 2 ? "0.4" : loadStep >= 3 ? "0" : "1", }}>Loading DOM</Text>
+            <Text className={`loadFont ${loadStep == 2 ? "loadIt" : ""}`} style={{ transition: ".5s ease-in-out", fontSize: "15px", color: "#e6e6e6", fontStyle: "'Ysabeau Infant', sans-serif", opacity: loadStep == 2 ? "1" : "0", textDecoration: loadStep == 3 ? "line-through" : "none" }}>Fetching records of Aaryan's Memoirs</Text>
         </div>
 
         {/* loading stuff end */}
