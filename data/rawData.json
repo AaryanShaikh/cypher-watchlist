@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/45/45e881b8a097dfec395cbf54070249fa.jpg",
+        "title": "Saint Cecilia & Pastor Lawrence",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/5e/5ea56d837b392c0f6e633aa3aa9f889f.jpg",
         "title": "TONIKAWA: Over The Moon For You ~High School Days~",
         "eps": 1,
@@ -245,7 +254,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/5a/5afdc4be1e187fbf9f3023e7afdecb4d.jpg",
         "title": "Undead Murder Farce",
-        "eps": 1,
+        "eps": 2,
         "total": 13,
         "type": "Anime",
         "category": "anime",
