@@ -179,7 +179,7 @@ const Homepage = () => {
                                 setloadStep(7)
                                 setTimeout(() => {
                                     setshowTour(true)
-                                }, 500)
+                                }, 900)
                             }, 1500)
                         }, 1000)
                     }, 100)
