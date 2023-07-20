@@ -1,5 +1,23 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDJmMzY0ZGUtYWE1My00OWViLTg1NTctOWMwZWJlNDQzNGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg",
+        "title": "Asteroid City",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Bird_Box_Barcelona_poster.png/220px-Bird_Box_Barcelona_poster.png",
+        "title": "Bird Box Barcelona",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/af/af8881688738f4b3184416efa1bc457d.jpg",
         "title": "Spy Classroom Season 2",
         "eps": 1,
