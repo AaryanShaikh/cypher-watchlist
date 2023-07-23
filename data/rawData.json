@@ -1,5 +1,23 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5d/How_to_Train_Your_Dragon_Homecoming_poster.jpg",
+        "title": "How to Train Your Dragon: Homecoming",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjIwMDIwNjAyOF5BMl5BanBnXkFtZTgwNDE1MDc2NTM@._V1_.jpg",
+        "title": "How to Train Your Dragon: The Hidden World",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a1/The_Flash_season_9_poster.jpg",
         "title": "The Flash - Season 9",
         "eps": 1,
@@ -1683,6 +1701,96 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMzMwMTAwODczN15BMl5BanBnXkFtZTgwMDk2NDA4MTE@._V1_.jpg",
+        "title": "How to Train Your Dragon 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjA5NDQyMjc2NF5BMl5BanBnXkFtZTcwMjg5ODcyMw@@._V1_FMjpg_UX1000_.jpg",
+        "title": "How to Train Your Dragon",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/0e/The_Boss_Baby_poster.jpg",
+        "title": "The Boss Baby",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://www.themoviedb.org/t/p/w500/xXkgOq23Me45PHXsCPQz5nvmlXt.jpg",
+        "title": "The Croods",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b9/Turbo_%28film%29_poster.jpg",
+        "title": "Turbo",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/8/89/Megamind2010Poster.jpg",
+        "title": "Megamind",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTEyMDg4MDU4MjdeQTJeQWpwZ15BbWU4MDQyOTc3MjIx._V1_.jpg",
+        "title": "Penguins of Madagascar",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c4/Madagascar3-Poster.jpg",
+        "title": "Madagascar 3: Europe's Most Wanted",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/7f/Madagascar2poster.jpg",
+        "title": "Madagascar: Escape 2 Africa",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/3/36/Madagascar_Theatrical_Poster.jpg",
+        "title": "Madagascar",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTgzMDczMDYzNl5BMl5BanBnXkFtZTgwMzk2MDIwMTE@._V1_FMjpg_UX1000_.jpg",
         "title": "Rio 2",
         "eps": 1,
@@ -2828,15 +2936,6 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Forrest_Gump_poster.jpg/220px-Forrest_Gump_poster.jpg",
         "title": "Forrest Gump",
-        "eps": 1,
-        "total": 1,
-        "type": "Movies",
-        "category": "movies",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzJkNWRlYWMtYzBjZC00Yjg4LWEwYmQtMmE0MTNhODU5YTI4XkEyXkFqcGdeQXVyMTA5ODEyNTc5._V1_.jpg",
-        "title": "Kung Fu Panda 4",
         "eps": 1,
         "total": 1,
         "type": "Movies",
