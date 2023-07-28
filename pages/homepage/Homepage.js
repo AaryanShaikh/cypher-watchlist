@@ -257,7 +257,7 @@ const Homepage = () => {
             <Switch ref={step5} checked={isDark} onChange={(e) => setisDark(e)} checkedChildren={<BsFillSunFill />} unCheckedChildren={<BsMoonStars />} />
         </div>
         <div style={{ display: "flex", flexDirection: range ? "column" : "column", gap: "5px", background: !isDark ? "#212121" : "white", minHeight: "100vh", transition: ".5s ease-in-out" }}>
-            <Tabs defaultActiveKey='all' activeKey={categorySel} tabPosition={range ? "top" : "left"} centered style={{ padding: "10px", overflow: range ? "scroll" : "hidden", }} onChange={(e) => setcategorySel(e)}>
+            <Tabs defaultActiveKey='all' activeKey={categorySel} tabPosition={range ? "top" : "left"} style={{ padding: "10px", overflow: range ? "scroll" : "hidden", }} onChange={(e) => setcategorySel(e)}>
                 {
                     isActive ? <TabPane tab={
                         <div style={{ display: "flex", gap: "0px", alignItems: "center", flexDirection: "column", width: "50px", height: "60px" }}>
@@ -269,7 +269,7 @@ const Homepage = () => {
                         <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(200px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 197 : "86vh", padding: "10px 5px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)" }}>
                             <List
                                 grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                header={<Text className='textFont' style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Found <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).length}</span> records</Text>}
+                                header={<Text className='textFont' style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Found <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).length.toLocaleString()}</span> records</Text>}
                                 dataSource={rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase()))}
                                 pagination={{ pageSize: 12, showSizeChanger: false }}
                                 renderItem={(ele, ind) => (
@@ -324,9 +324,9 @@ const Homepage = () => {
                                         <List
                                             grid={{ gutter: 16, column: range ? 2 : 6 }}
                                             header={<Text className='textFont' style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Total <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{
-                                                ele == "all" ? rawData.length :
-                                                    ele == "ongoing" ? rawData.filter(x => x.status == "in progress").length :
-                                                        rawData.filter(x => x.category == ele).length
+                                                ele == "all" ? rawData.length.toLocaleString() :
+                                                    ele == "ongoing" ? rawData.filter(x => x.status == "in progress").length.toLocaleString() :
+                                                        rawData.filter(x => x.category == ele).length.toLocaleString()
                                             }</span> records</Text>}
                                             dataSource={
                                                 ele == "all" ? rawData :

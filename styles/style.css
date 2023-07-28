@@ -31,26 +31,33 @@ html {
     content: '';
     animation: doit 3s ease-in-out infinite;
 }
+
 @keyframes doit {
-    0%{
+    0% {
         content: '';
     }
-    16%{
+
+    16% {
         content: '.';
     }
-    32%{
+
+    32% {
         content: '..';
     }
-    48%{
+
+    48% {
         content: '...';
     }
-    64%{
+
+    64% {
         content: '..';
     }
-    80%{
+
+    80% {
         content: '.';
     }
-    100%{
+
+    100% {
         content: '';
     }
 }
@@ -785,6 +792,15 @@ html {
 
 /* image load animation end */
 
+.ant-tabs-left>.ant-tabs-nav .ant-tabs-ink-bar-animated {
+    transition: .7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
+
+:where(.css-dev-only-do-not-override-ed5zg0).ant-tabs >.ant-tabs-nav .ant-tabs-nav-wrap {
+    border-right: 1px solid #212121;
+}
+
 @media (min-width: 301px) and (max-width: 567px) {
     .heading {
         font-family: 'Dancing Script', cursive;
@@ -797,5 +813,9 @@ html {
 
     .ant-tour {
         max-width: 250px;
+    }
+
+    :where(.css-dev-only-do-not-override-ed5zg0).ant-tabs>.ant-tabs-nav .ant-tabs-nav-list {
+        border-bottom: 1px solid #212121;
     }
 }

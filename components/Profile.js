@@ -42,15 +42,15 @@ const Profile = ({ setshowProfile, showProfile, range }) => {
                         <div style={{ width: "110%", background: "#ECE9E6", height: isHovered ? "130px" : "0px", position: "absolute", top: 0, borderBottomLeftRadius: "50%", borderBottomRightRadius: "50%", transition: ".5s ease-in-out" }}></div>
                         <div style={{ position: "relative" }}>
                             <div style={{ height: "100%", width: "100%", position: "absolute", opacity: isImgLoading ? "1" : "0", display: "flex", justifyContent: "center", alignItems: "center", transition: ".5s ease-in-out" }}>
-                                {showLoader ? <div class="dot-spinner">
-                                    <div class="dot-spinner__dot"></div>
-                                    <div class="dot-spinner__dot"></div>
-                                    <div class="dot-spinner__dot"></div>
-                                    <div class="dot-spinner__dot"></div>
-                                    <div class="dot-spinner__dot"></div>
-                                    <div class="dot-spinner__dot"></div>
-                                    <div class="dot-spinner__dot"></div>
-                                    <div class="dot-spinner__dot"></div>
+                                {showLoader ? <div className="dot-spinner">
+                                    <div className="dot-spinner__dot"></div>
+                                    <div className="dot-spinner__dot"></div>
+                                    <div className="dot-spinner__dot"></div>
+                                    <div className="dot-spinner__dot"></div>
+                                    <div className="dot-spinner__dot"></div>
+                                    <div className="dot-spinner__dot"></div>
+                                    <div className="dot-spinner__dot"></div>
+                                    <div className="dot-spinner__dot"></div>
                                 </div> : ""}
 
                             </div>
