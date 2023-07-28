@@ -26,7 +26,7 @@ const NumberCounter = ({ end, title, range }) => {
 
     return <div className='ant-statistic'>
         <div className='textFont' style={{ marginBottom: "4px", color: "rgb(209 203 203)", fontSize: range ? "12px" : "14px" }}>{title}</div>
-        <div style={{ color: "#fff", fontSize: range ? "22px" : "24px", fontFamily: "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'" }}>
+        <div style={{ color: "#fff", fontSize: range ? "22px" : "3vh", fontFamily: "-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'" }}>
             {count.toLocaleString()}
         </div>
     </div>;

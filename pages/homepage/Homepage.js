@@ -214,7 +214,7 @@ const Homepage = () => {
         </Head>
         {showProfile ? <Profile showProfile={showProfile} setshowProfile={setshowProfile} range={range} /> : ""}
         <div style={{ position: "absolute", height: "100vh", width: "100%", display: "flex", justifyContent: 'center', alignItems: "center" }}>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", position: "absolute", padding: "20px", width: range ? "80%" : "30%", borderRadius: "10px", transition: ".7s cubic-bezier(0.68, -0.55, 0.265, 1.55)", background: "transparent", gap: "10px", pointerEvents: "none", transform: `scale(${showStats ? "1" : "0"})`, opacity: showStats ? "1" : "0.2", zIndex: "10", backdropFilter: "blur(20px) grayscale(1) brightness(0.5)", boxShadow: "black 0px 0px 8px 0px", justifyItems: "center" }}>
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", position: "absolute", padding: "20px", width: range ? "80%" : "30%", borderRadius: "10px", transition: ".7s cubic-bezier(0.68, -0.55, 0.265, 1.55)", background: "transparent", gap: "10px", pointerEvents: "all", transform: `scale(${showStats ? "1" : "0"})`, opacity: showStats ? "1" : "0.2", zIndex: "10", backdropFilter: "blur(20px) grayscale(1) brightness(0.5)", boxShadow: "black 0px 0px 8px 0px", justifyItems: "center" }}>
                 {
                     showStatsData ? <>
                         <NumberCounter range={range} title="Total [All] Watched" end={rawData.length - rawData.filter(x => x.category == "game").length} />
@@ -253,11 +253,11 @@ const Homepage = () => {
             {range ? <div onClick={() => { setshowProfile(true) }} ref={step1} style={{ display: "flex", flexDirection: "column", cursor: "pointer", zIndex: "101", position: "relative", top: loadStep == 7 ? "0%" : "43vh", left: loadStep == 7 ? "0%" : "43vw", opacity: loadStep == 6 || loadStep == 7 ? "1" : "0", transition: ".5s ease-in-out", transform: loadStep == 7 ? "scale(1)" : "scale(3)", pointerEvents: loadStep == 7 ? "all" : "none" }}><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Aaryan's</Text><Text className='logo' style={{ color: !isDark ? "white" : "black", transition: ".5s ease" }}>Memoirs</Text></div> :
                 <Text onClick={() => { setshowProfile(true) }} ref={step1} style={{ color: !isDark ? "white" : "black", transition: ".5s ease-in-out", cursor: "pointer", zIndex: "101", position: "relative", top: loadStep == 7 ? "0%" : "43vh", left: loadStep == 7 ? "0%" : "43vw", opacity: loadStep == 6 || loadStep == 7 ? "1" : "0", transform: loadStep == 7 ? "scale(1)" : "scale(3)", pointerEvents: loadStep == 7 ? "all" : "none" }} className='logo'>Aaryan's Memoirs</Text>
             }
-            <SearchBox refs={step4} dark={!isDark} searchText={searchText} setsearchText={setsearchText} isActive={isActive} setisActive={setisActive} />
+            <SearchBox refs={step4} dark={!isDark} searchText={searchText} setsearchText={setsearchText} isActive={isActive} setisActive={setisActive} range={range} />
             <Switch ref={step5} checked={isDark} onChange={(e) => setisDark(e)} checkedChildren={<BsFillSunFill />} unCheckedChildren={<BsMoonStars />} />
         </div>
         <div style={{ display: "flex", flexDirection: range ? "column" : "column", gap: "5px", background: !isDark ? "#212121" : "white", minHeight: "100vh", transition: ".5s ease-in-out" }}>
-            <Tabs defaultActiveKey='all' activeKey={categorySel} tabPosition={range ? "top" : "left"} style={{ padding: "10px", overflow: range ? "scroll" : "hidden", }} onChange={(e) => setcategorySel(e)}>
+            <Tabs defaultActiveKey='all' activeKey={categorySel} tabPosition={range ? "top" : "left"} centered style={{ padding: "10px", overflow: range ? "scroll" : "hidden", }} onChange={(e) => setcategorySel(e)}>
                 {
                     isActive ? <TabPane tab={
                         <div style={{ display: "flex", gap: "0px", alignItems: "center", flexDirection: "column", width: "50px", height: "60px" }}>

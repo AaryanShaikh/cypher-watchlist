@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { BiSearchAlt } from 'react-icons/bi';
 
-const SearchBox = ({ searchText, setsearchText, isActive, setisActive, dark, refs }) => {
+const SearchBox = ({ searchText, setsearchText, isActive, setisActive, dark, refs, range }) => {
     const [text, settext] = useState("")
     const [labelText, setlabelText] = useState("Seek & Find...")
     const [isInputFocused, setIsInputFocused] = useState(false);
@@ -31,7 +31,7 @@ const SearchBox = ({ searchText, setsearchText, isActive, setisActive, dark, ref
                     <div className='searchLabel'>
                         {
                             labelText.split('').map((ele, ind) => {
-                                return <span className={`textFont ${isInputFocused || text != "" ? "searchTxt" : ""}`} style={{ transitionDelay: `${ind * 40}ms`, color: dark ? "#fff" : "#000" }} key={ind}>{ele}</span>
+                                return <span className={`textFont ${isInputFocused || text != "" ? "searchTxt" : ""}`} style={{ transitionDelay: `${ind * 40}ms`, color: dark ? "#fff" : "#000", fontSize: !range ? "1.8vh" : "" }} key={ind}>{ele}</span>
                             })
                         }
                     </div>
@@ -41,7 +41,7 @@ const SearchBox = ({ searchText, setsearchText, isActive, setisActive, dark, ref
                     onChange={(e) => settext(e.target.value)}
                     onFocus={handleInputFocus}
                     onBlur={handleInputBlur}
-                    style={{ background: "none", outline: "none", border: "none", height: "100%", width: "90%", position: "absolute", color: dark ? "aliceblue" : "#000" }}
+                    style={{ background: "none", outline: "none", border: "none", height: "100%", width: "90%", position: "absolute", color: dark ? "aliceblue" : "#000", fontSize: !range ? "1.8vh" : "" }}
                 />
             </div>
             {/* <div>
