@@ -263,7 +263,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/7f/7f31e35492ee059cfcfafda055c5672a.jpg",
         "title": "Reign of the Seven Spellblades",
-        "eps": 3,
+        "eps": 4,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -272,7 +272,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9d/9d52304c4c4083263e011c273d163fcc.jpg",
         "title": "The Gene of AI",
-        "eps": 3,
+        "eps": 4,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -281,7 +281,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/94/94adffaae1b8a7e51da3657bd63e4b12.jpg",
         "title": "Rent-a-Girlfriend Season 3",
-        "eps": 3,
+        "eps": 4,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -290,7 +290,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/63/6331b446e29140aa9d629609d96c89f1.jpg",
         "title": "The Masterful Cat is Depressed Again Today",
-        "eps": 3,
+        "eps": 4,
         "total": 13,
         "type": "Anime",
         "category": "anime",
@@ -1653,6 +1653,186 @@
         "total": 1,
         "type": "Game",
         "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZTQ0MjAzYzktMmUxMS00NjVlLWFjNTItNzBlY2E5NmMzYTY4XkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg",
+        "title": "We're the Millers",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_.jpg",
+        "title": "Ted",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTU5MTgxODM3Nl5BMl5BanBnXkFtZTcwMjMxNDEwNA@@._V1_.jpg",
+        "title": "Due Date",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTM2MTM4MzY2OV5BMl5BanBnXkFtZTcwNjQ3NzI4NA@@._V1_.jpg",
+        "title": "The Hangover Part II",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNGQwZjg5YmYtY2VkNC00NzliLTljYTctNzI5NmU3MjE2ODQzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Hangover",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Wolf of Wall Street",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYWQ2NzQ1NjktMzNkNS00MGY1LTgwMmMtYTllYTI5YzNmMmE0XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_FMjpg_UX1000_.jpg",
+        "title": "No Time to Die",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYTQ3MzhlZjQtNWMxOS00NTEzLTgzOWYtNTI3MjhmZGU0ZDM2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL75_UY281_CR6,0,190,281_.jpg",
+        "title": "Knock Knock",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_FMjpg_UX1000_.jpg",
+        "title": "Blade Runner 2049",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
+        "title": "Parasite",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_.jpg",
+        "title": "Knives Out",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTg2MDQ1NTEzNl5BMl5BanBnXkFtZTcwOTgxNTMyNA@@._V1_.jpg",
+        "title": "No Strings Attached",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjc1YzExMzYtNzVkZC00ODc3LTkxNzktMDI5YWZmMDQ2NTQ2XkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+        "title": "The Big Sick",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BN2VkMjQwZWMtMzc1NC00ZjJiLWJlNTMtNmRjOTE2ZTJmYzUwXkEyXkFqcGdeQXVyMjUxMTY3ODM@._V1_.jpg",
+        "title": "Charlie's Angels",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjAyNDEyMzc4Ml5BMl5BanBnXkFtZTgwMjEzNjM0NTM@._V1_.jpg",
+        "title": "Ocean's 8",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTQ2MzQ0NTk4N15BMl5BanBnXkFtZTcwMDc2NDYzNQ@@._V1_.jpg",
+        "title": "Friends with Benefits",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjIwMTU1NzYyNF5BMl5BanBnXkFtZTcwMzQyMzM3Ng@@._V1_.jpg",
+        "title": "Never Back Down 2: The Beatdown",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTYxNDMyOTAxN15BMl5BanBnXkFtZTgwMDg1ODYzNTM@._V1_.jpg",
+        "title": "Crazy Rich Asians",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzY3NzYyNjI0N15BMl5BanBnXkFtZTgwNjYzMDc0NjM@._V1_.jpg",
+        "title": "The Upside",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTUyNjE5NjI5OF5BMl5BanBnXkFtZTgwNzYzMzU3NjE@._V1_.jpg",
+        "title": "The Intern",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
         "status": "completed"
     },
     {
@@ -4961,7 +5141,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/b3/b357f8cffcae0239fcaef653031bcd83.jpg",
         "title": "Pokémon Horizons: The Series",
-        "eps": 14,
+        "eps": 15,
         "total": 0,
         "type": "Anime",
         "category": "anime",
