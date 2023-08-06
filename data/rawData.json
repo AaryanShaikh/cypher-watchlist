@@ -45,15 +45,6 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/61/Movie_Poster_Ugly.jpg",
-        "title": "Ugly",
-        "eps": 1,
-        "total": 1,
-        "type": "Movies",
-        "category": "movies",
-        "status": "completed"
-    },
-    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMzkyMjU1ZjMtMDJlMS00M2YzLWJhZDQtYjFjZTUyMzI2MDViXkEyXkFqcGdeQXVyMzQyMDgzOTU@._V1_.jpg",
         "title": "Murder Mystery 2",
         "eps": 1,
