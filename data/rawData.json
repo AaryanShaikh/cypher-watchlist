@@ -263,7 +263,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/40/407cfe01dbe7aec4b4120a348c016772.jpg",
         "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
-        "eps": 4,
+        "eps": 5,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -272,7 +272,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e6/e6b281a662082bde65e90a494e576c87.jpg",
         "title": "Dark Gathering",
-        "eps": 4,
+        "eps": 5,
         "total": 25,
         "type": "Anime",
         "category": "anime",
@@ -290,7 +290,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/dd/ddb5563062bdcd636bdc5f6c36376b03.jpg",
         "title": "The Duke of Death and His Maid Season 2",
-        "eps": 4,
+        "eps": 5,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -308,7 +308,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/22/2296689587c6a70cbe5ca9e336e7d8b0.jpg",
         "title": "Classroom for Heroes",
-        "eps": 4,
+        "eps": 5,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -3264,6 +3264,312 @@
         "total": 8,
         "type": "Series",
         "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://images-cdn.ubuy.co.in/63638d4d8076151b317c8812-person-of-interest-the-fifth-and-final.jpg",
+        "title": "Person of Interest Season 5",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Person_of_Interest_Season_4.jpg/220px-Person_of_Interest_Season_4.jpg",
+        "title": "Person of Interest Season 4",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/4d/Person_of_Interest_Season_3.jpg",
+        "title": "Person of Interest Season 3",
+        "eps": 23,
+        "total": 23,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Person_of_Interest_Season_2.jpg/220px-Person_of_Interest_Season_2.jpg",
+        "title": "Person of Interest Season 2",
+        "eps": 22,
+        "total": 22,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Person_of_Interest_Season_1.jpg/220px-Person_of_Interest_Season_1.jpg",
+        "title": "Person of Interest Season 1",
+        "eps": 23,
+        "total": 23,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://i.pinimg.com/1200x/bb/d8/46/bbd846edb6ab2b3f252567cb6b257ad6.jpg",
+        "title": "Sherlock Season 4",
+        "eps": 3,
+        "total": 3,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://assets.gadgets360cdn.com/pricee/assets/product/202202/Sherlock-S3-poster_1644789692.jpg",
+        "title": "Sherlock Season 3",
+        "eps": 3,
+        "total": 3,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://flxt.tmsimg.com/assets/p8989411_b_v8_aa.jpg",
+        "title": "Sherlock Season 2",
+        "eps": 3,
+        "total": 3,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMWEzNTFlMTQtMzhjOS00MzQ1LWJjNjgtY2RhMjFhYjQwYjIzXkEyXkFqcGdeQXVyNDIzMzcwNjc@._V1_UY1200_CR85,0,630,1200_AL_.jpg",
+        "title": "Sherlock Season 1",
+        "eps": 3,
+        "total": 3,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/71l0XCYlvBL._AC_UF894,1000_QL80_.jpg",
+        "title": "Elementary Season 7",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://p8.storage.canalblog.com/88/66/849913/126850912_o.png",
+        "title": "Elementary Season 6",
+        "eps": 21,
+        "total": 21,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://d3fa68hw0m2vcc.cloudfront.net/a7b/197975358.jpeg",
+        "title": "Elementary Season 5",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/81txvCB8pRL._AC_UF894,1000_QL80_.jpg",
+        "title": "Elementary Season 4",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.fnac-static.com/multimedia/Images/FR/NR/11/8f/76/7769873/1507-1/tsp20160126182559/Elementary-Saison-3-DVD.jpg",
+        "title": "Elementary Season 3",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://i.ebayimg.com/images/g/r-0AAOSwzu9ia-k4/s-l1600.png",
+        "title": "Elementary Season 2",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/7106lGk4HmS._AC_UF1000,1000_QL80_.jpg",
+        "title": "Elementary Season 1",
+        "eps": 24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTIyNDQ0NDExMl5BMl5BanBnXkFtZTcwODAxMTk0MQ@@._V1_.jpg",
+        "title": "DOA: Dead or Alive",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTk1MTMwMzE0OF5BMl5BanBnXkFtZTgwNTMyOTYyMTE@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Protector 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTc2NjE0NTA5M15BMl5BanBnXkFtZTcwNTkxNDUzMQ@@._V1_.jpg",
+        "title": "THE PROTECTOR",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTc3MjkyMzk4N15BMl5BanBnXkFtZTcwODQxMDg5Mw@@._V1_.jpg",
+        "title": "Ong Bak 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjE5Nzc5Nzg3Nl5BMl5BanBnXkFtZTcwNTg5ODIxMw@@._V1_.jpg",
+        "title": "Ong Bak 2: The Beginning",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDg4MmQyODgtM2Q4ZC00ZWI2LWJkYmMtYTQ5ZGI5NDJhN2IwXkEyXkFqcGdeQXVyNzgzODI1OTE@._V1_.jpg",
+        "title": "Ong-Bak: Muay Thai Warrior",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjAyMDE2ODU3Ml5BMl5BanBnXkFtZTgwODU0MTA0NjE@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Transporter Refueled",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/f1/Transporter_3_poster.jpg",
+        "title": "Transporter 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTQ5MDM0MTI2N15BMl5BanBnXkFtZTcwNTM5NDczMw@@._V1_.jpg",
+        "title": "Transporter 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Transporterposter.jpg/220px-Transporterposter.jpg",
+        "title": "The Transporter",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTlkMmVmYjktYTc2NC00ZGZjLWEyOWUtMjc2MDMwMjQwOTA5XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Gentlemen",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMDI1NWM1ZDItNDFhMi00YWRhLTg1YzItNTNhY2M2N2QzY2FkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+        "title": "Enola Holmes 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjNkNzk0ZjEtM2M1ZC00MmMxLTlmOWEtNWRlZTc1ZTUyNzY4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+        "title": "Enola Holmes",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMzM3Y2JlMDMtM2E0Ny00YjA5LWJkOTYtNzk2OWY3NGE0YjBmXkEyXkFqcGdeQXVyMTMxNTMyNDQw._V1_.jpg",
+        "title": "Sherlock Holmes 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMzM3Y2JlMDMtM2E0Ny00YjA5LWJkOTYtNzk2OWY3NGE0YjBmXkEyXkFqcGdeQXVyMTMxNTMyNDQw._V1_.jpg",
+        "title": "Sherlock Holmes 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTQwMzQ5Njk1MF5BMl5BanBnXkFtZTcwNjIxNzIxNw@@._V1_.jpg",
+        "title": "Sherlock Holmes: A Game of Shadows",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_QL75_UX190_CR0,1,190,281_.jpg",
+        "title": "Sherlock Holmes",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjYxZTlkMjItYmYyMS00Yzk3LTljZGQtNDk2NmM2ZTJmODRiXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
+        "title": "Dark Waters",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
         "status": "completed"
     },
     {
