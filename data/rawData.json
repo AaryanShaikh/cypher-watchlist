@@ -1,4 +1,49 @@
 [
+      {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZGM1NjE5MzQtMmNiYy00ZWIxLWFiMGUtMzE1N2EzNzY0MjY0XkEyXkFqcGdeQXVyMTUzMTUxMzk1._V1_.jpg",
+        "title": "The Three Musketeers: D'Artagnan",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/28bbb15d121050cee89e63c1ec2945a7.jpg",
+        "title": "A Certain Scientific Railgun S",
+        "eps": 1,
+        "total": 24,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/ac207c1304d3efcec13912edf87845f3.jpg",
+        "title": "A Certain Magical Index Movie Special",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/e2e1e7a7ab02dd98a130e4698cd7e39a.jpg",
+        "title": "A Certain Magical Index: The Miracle of Endymion",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/c17d925c836db113ce6083afa9717c5d.jpg",
+        "title": "A Certain Magical Index II Specials",
+        "eps": 2,
+        "total": 2,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
     {
         "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzPV8RQARatrmnxtkHcodgRDeqNY-muiIeHw&usqp=CAU",
         "title": "The Collective",
@@ -740,11 +785,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/953642b3c62bf7746fb905d3800bc235.jpg",
         "title": "A Certain Magical Index II",
-        "eps": 4,
+        "eps": 24,
         "total": 24,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/631502b4a4d1d97c5dc694954e8c1b12.jpg",
@@ -8435,6 +8480,15 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/2853dd2fa546726f328436f47f745d72.jpg",
         "title": "Haganai NEXT",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/e89398cb403fca487b080740c3478b7b.jpg",
+        "title": "The \"Hentai\" Prince and the Stony Cat.",
         "eps": 12,
         "total": 12,
         "type": "Anime",
