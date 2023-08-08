@@ -12,6 +12,7 @@ import Head from 'next/head';
 import NumberCounter from '../../components/NumberCounter';
 import Profile from '../../components/Profile';
 import CircularProgress from '../../components/CircularProgress';
+import Stats from '../../components/Stats';
 
 const { Text } = Typography
 const { Search } = Input
@@ -213,31 +214,8 @@ const Homepage = () => {
             }</title>
         </Head>
         {showProfile ? <Profile showProfile={showProfile} setshowProfile={setshowProfile} range={range} /> : ""}
-        <div style={{ position: "absolute", height: "100vh", width: "100%", display: "flex", justifyContent: 'center', alignItems: "center" }}>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(2,auto)", justifyContent: range ? "space-between" : "normal", position: "absolute", padding: "20px", width: range ? "80%" : "30%", borderRadius: "10px", transition: ".7s cubic-bezier(0.68, -0.55, 0.265, 1.55)", background: "transparent", gap: "10px", pointerEvents: "all", transform: `scale(${showStats ? "1" : "0"})`, opacity: showStats ? "1" : "0.2", zIndex: "10", backdropFilter: "blur(20px) grayscale(1) brightness(0.5)", boxShadow: "black 0px 0px 8px 0px", justifyItems: "center" }}>
-                {
-                    showStatsData ? <>
-                        <NumberCounter range={range} title="Total [All] Watched" end={rawData.length - rawData.filter(x => x.category == "game").length} />
-                        <NumberCounter range={range} title="Total Games Completed" end={rawData.filter(x => x.category == "game").length} />
-                        <NumberCounter range={range} title="Total Anime Watched" end={rawData.filter(x => x.category == "anime").length} />
-                        <NumberCounter range={range} title="Total [Anime Eps] Watched" end={rawData.filter(x => x.category == "anime").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
-                        <NumberCounter range={range} title="Total Series Watched" end={rawData.filter(x => x.category == "series").length} />
-                        <NumberCounter range={range} title="Total [Series Eps] Watched" end={rawData.filter(x => x.category == "series").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
-                        <NumberCounter range={range} title="Total Movies Watched" end={rawData.filter(x => x.category == "movies").length} />
-                        <NumberCounter range={range} title="Total Currently Watching" end={rawData.filter(x => x.status == "in progress").length} />
-                    </> : ""
-                }
-
-            </div>
-        </div>
-        <FloatButton
-            style={{ transition: ".5s ease-in-out", opacity: loadStep == 7 ? "1" : "0" }}
-            ref={step3}
-            icon={<div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
-                <GiCrossMark style={{ transform: `scale(${showStats ? "1" : "0"})`, transition: ".5s ease-in-out", position: "absolute" }} />
-                <BiScatterChart style={{ transform: `scale(${showStats ? "0" : "1"})`, transition: ".5s ease-in-out", position: "absolute" }} /></div>}
-            onClick={() => setshowStats(!showStats)}
-        />
+        {/* Stats */}
+        <Stats range={range} rawData={rawData} />
 
         {/* loading stuff */}
 
