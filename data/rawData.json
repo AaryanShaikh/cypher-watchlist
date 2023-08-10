@@ -1,5 +1,23 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/01/ec53b8c2521c8daccdad17bcb5e566ee.jpg",
+        "title": "A Certain Magical Index III",
+        "eps": 1,
+        "total": 26,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/ded9b595994759461cdf298dffccde8c.jpg",
+        "title": "A Certain Scientific Railgun S Specials",
+        "eps": 2,
+        "total": 2,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/c6/c61726dd4e6114460bf5f47c1e73f27d.jpg",
         "title": "The Seven Deadly Sins: Grudge of Edinburgh Part 2",
         "eps": 1,
@@ -20,11 +38,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/28bbb15d121050cee89e63c1ec2945a7.jpg",
         "title": "A Certain Scientific Railgun S",
-        "eps": 1,
+        "eps": 24,
         "total": 24,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/ac207c1304d3efcec13912edf87845f3.jpg",
