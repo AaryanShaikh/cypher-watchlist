@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/07/c768d573c8c351d2fca926f58a6d814b.jpg",
+        "title": "A Certain Scientific Accelerator",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5c/NoHardFeelingsPoster.png",
         "title": "No Hard Feelings",
         "eps": 1,
@@ -20,11 +29,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/01/ec53b8c2521c8daccdad17bcb5e566ee.jpg",
         "title": "A Certain Magical Index III",
-        "eps": 20,
+        "eps": 26,
         "total": 26,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/ded9b595994759461cdf298dffccde8c.jpg",
