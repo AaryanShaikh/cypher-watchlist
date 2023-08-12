@@ -1980,6 +1980,24 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNWJmYzI4MmEtNzA5Zi00OWMyLWEzMjUtNzg1YjJmZWI1M2I1XkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg",
+        "title": "Plants vs. Zombies 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDdkNzE1YjEtNTdkOS00MzFhLWE1ZDMtMTIwOTA0NjRhOGNmXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg",
+        "title": "Plants vs. Zombies",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZTQ0MjAzYzktMmUxMS00NjVlLWFjNTItNzBlY2E5NmMzYTY4XkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg",
         "title": "We're the Millers",
         "eps": 1,
