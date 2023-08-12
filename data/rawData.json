@@ -9,6 +9,15 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Heart_of_stone_poster.png/220px-Heart_of_stone_poster.png",
+        "title": "Heart of Stone",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/01/ec53b8c2521c8daccdad17bcb5e566ee.jpg",
         "title": "A Certain Magical Index III",
         "eps": 20,
