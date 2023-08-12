@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5c/NoHardFeelingsPoster.png",
+        "title": "No Hard Feelings",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/01/ec53b8c2521c8daccdad17bcb5e566ee.jpg",
         "title": "A Certain Magical Index III",
         "eps": 20,
@@ -443,7 +452,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/7f/7f31e35492ee059cfcfafda055c5672a.jpg",
         "title": "Reign of the Seven Spellblades",
-        "eps": 5,
+        "eps": 6,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -452,7 +461,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9d/9d52304c4c4083263e011c273d163fcc.jpg",
         "title": "The Gene of AI",
-        "eps": 5,
+        "eps": 6,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -461,7 +470,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/94/94adffaae1b8a7e51da3657bd63e4b12.jpg",
         "title": "Rent-a-Girlfriend Season 3",
-        "eps": 5,
+        "eps": 6,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -470,7 +479,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/63/6331b446e29140aa9d629609d96c89f1.jpg",
         "title": "The Masterful Cat is Depressed Again Today",
-        "eps": 5,
+        "eps": 6,
         "total": 13,
         "type": "Anime",
         "category": "anime",
@@ -5762,7 +5771,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/b3/b357f8cffcae0239fcaef653031bcd83.jpg",
         "title": "Pokémon Horizons: The Series",
-        "eps": 16,
+        "eps": 17,
         "total": 0,
         "type": "Anime",
         "category": "anime",
