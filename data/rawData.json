@@ -6,6 +6,15 @@
         "total": 12,
         "type": "Anime",
         "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/b7/b7d2c2b25a2e795c27bae2203cbb4ff5.jpg",
+        "title": "A Certain Magical Index III Specials",
+        "eps": 2,
+        "total": 2,
+        "type": "Anime",
+        "category": "anime",
         "status": "completed"
     },
     {
