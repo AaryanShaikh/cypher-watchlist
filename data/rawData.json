@@ -1521,6 +1521,15 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/ce/Vice-city-cover.jpg",
+        "title": "Grand Theft Auto: Vice City",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/6f/Prince_of_Persia_-_Warrior_Within_Coverart.png",
         "title": "Prince of Persia: Warrior Within",
         "eps": 1,
@@ -2000,6 +2009,15 @@
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDdkNzE1YjEtNTdkOS00MzFhLWE1ZDMtMTIwOTA0NjRhOGNmXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg",
         "title": "Plants vs. Zombies",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.tvtropes.org/pmwiki/pub/images/road_rash.png",
+        "title": "Road Rash",
         "eps": 1,
         "total": 1,
         "type": "Game",
