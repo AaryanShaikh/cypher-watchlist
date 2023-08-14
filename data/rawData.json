@@ -18,6 +18,33 @@
         "status": "in progress"
     },
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/3f/3fc1be273f82a337c73929ea413b0d0b.jpg",
+        "title": "Toaru Kagaku no Railgun T: Motto Marutto Railgun",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2020/01/d59661e6999d2e708e68e521a01f1841.jpg",
+        "title": "A Certain Scientific Railgun T",
+        "eps": 25,
+        "total": 25,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2020/09/b84639f99ded62ede225fe810995c946.jpg",
+        "title": "A Certain Scientific Accelerator: Sally Forth, Mr. Accel! A Madcap Onslaught",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/07/c768d573c8c351d2fca926f58a6d814b.jpg",
         "title": "A Certain Scientific Accelerator",
         "eps": 12,
