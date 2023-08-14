@@ -9,6 +9,15 @@
         "status": "in progress"
     },
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZGUyYThhYjAtMGQwNC00YWEwLTljZDAtMGI5ZmVjOTZhNmIwXkEyXkFqcGdeQXVyMjY3NDY1NDE@._V1_.jpg",
+        "title": "Black Snow",
+        "eps": 1,
+        "total": 6,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/07/c768d573c8c351d2fca926f58a6d814b.jpg",
         "title": "A Certain Scientific Accelerator",
         "eps": 12,
