@@ -11,11 +11,11 @@
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZGUyYThhYjAtMGQwNC00YWEwLTljZDAtMGI5ZmVjOTZhNmIwXkEyXkFqcGdeQXVyMjY3NDY1NDE@._V1_.jpg",
         "title": "Black Snow",
-        "eps": 1,
+        "eps": 6,
         "total": 6,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/3f/3fc1be273f82a337c73929ea413b0d0b.jpg",
@@ -4326,6 +4326,24 @@
         "total": 1,
         "type": "Movies",
         "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/62/I_Am_Number_Four_Poster.jpg",
+        "title": "I Am Number Four",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/29/29beb97fd9055870d488bd70da952de9.jpg",
+        "title": "TSUKIMICHI -Moonlit Fantasy-",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
         "status": "completed"
     },
     {
