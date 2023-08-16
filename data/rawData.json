@@ -2079,6 +2079,15 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/9/94/Transformers_-_The_Game_Coverart.png",
+        "title": "Transformers: The Game",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZTQ0MjAzYzktMmUxMS00NjVlLWFjNTItNzBlY2E5NmMzYTY4XkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg",
         "title": "We're the Millers",
         "eps": 1,
