@@ -1,12 +1,21 @@
 [
     {
-        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/08/6a16e50e3ed9be5fc307a1ffb928f630.jpg",
-        "title": "Dr. STONE",
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/52/52a8a0c8a4e89c7444054825ca275b8d.jpg",
+        "title": "Dr. STONE: STONE WARS",
         "eps": 1,
-        "total": 24,
+        "total": 11,
         "type": "Anime",
         "category": "anime",
         "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/08/6a16e50e3ed9be5fc307a1ffb928f630.jpg",
+        "title": "Dr. STONE",
+        "eps": 24,
+        "total": 24,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
     },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZGUyYThhYjAtMGQwNC00YWEwLTljZDAtMGI5ZmVjOTZhNmIwXkEyXkFqcGdeQXVyMjY3NDY1NDE@._V1_.jpg",
