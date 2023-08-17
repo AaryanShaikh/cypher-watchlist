@@ -65,7 +65,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
                     <Text className='textFont' strong type="secondary" style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", fontSize: !range ? "1.8vh" : "" }}>{type}</Text>
                 </div>
                 <Tooltip title={title}>
-                    <Text className='textFont' ellipsis style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", padding: "5px", zIndex: "2", alignSelf: "center", fontSize: !range ? "1.7vh" : "" }}>{isSearch ? highlightedTitle : title}</Text>
+                    <Text className='textFont' ellipsis style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", padding: "5px", zIndex: "2", alignSelf: "center", fontSize: !range ? "1.7vh" : "" }}>{title}</Text>
                 </Tooltip>
             </div>
         </div>

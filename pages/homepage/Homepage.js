@@ -28,6 +28,7 @@ const Homepage = () => {
     const [showStats, setshowStats] = useState(false)
     const [showStatsData, setshowStatsData] = useState(false)
     const [searchText, setsearchText] = useState("")
+    const [searchData, setsearchData] = useState([])
     const [rawData, setrawData] = useState([])
     const [iniRender, setiniRender] = useState(true)
     const [viewScreenHeight, setviewScreenHeight] = useState(0)
@@ -158,6 +159,15 @@ const Homepage = () => {
         };
     }, []);
 
+    useEffect(() => {
+        const wordsToSearch = searchText.toLowerCase().split(" ");
+        let newData = rawData.filter(item => {
+            const title = item.title.toLowerCase();
+            return wordsToSearch.every(word => title.includes(word));
+        });
+        setsearchData(newData)
+    }, [searchText])
+
     const fetchData = async () => {
         try {
             const response = await axios.get('https://raw.githubusercontent.com/AaryanShaikh/cypher-watchlist/main/data/rawData.json');
@@ -247,8 +257,8 @@ const Homepage = () => {
                         <div className='scrollVisible' style={{ display: "grid", gridTemplateColumns: `repeat(auto-fit, minmax(200px, 1fr))`, width: "98%", gap: "20px", overflowY: "scroll", overflowX: "hidden", maxHeight: range ? viewScreenHeight - 197 : "86vh", padding: "10px 5px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)" }}>
                             <List
                                 grid={{ gutter: 16, column: range ? 2 : 6 }}
-                                header={<Text className='textFont' style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Found <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase())).length.toLocaleString()}</span> records</Text>}
-                                dataSource={rawData.filter(obj => obj.title.toLowerCase().includes(searchText.toLowerCase()))}
+                                header={<Text className='textFont' style={{ color: isDark ? "black" : "aliceblue", transition: ".5s ease-in" }}>Found <span style={{ color: "#1677ff", fontWeight: "bolder" }}>{searchData.length.toLocaleString()}</span> records</Text>}
+                                dataSource={searchData}
                                 pagination={{ pageSize: 12, showSizeChanger: false }}
                                 renderItem={(ele, ind) => (
                                     <List.Item>
