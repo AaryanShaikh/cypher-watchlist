@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/ac/InazumaElevenStrikers.jpg",
+        "title": "Inazuma Eleven Strikers",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/3/36/Inside_Man_2023.png",
         "title": "Inside Man 2023",
         "eps": 1,
@@ -524,7 +533,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/3e/3ea0f0093d0f2769e7dd1a336a6c9b41.jpg",
         "title": "TenPuru",
-        "eps": 6,
+        "eps": 7,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -533,7 +542,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/1/14/14d93c16a4455b34b7e2e3f01e4c4c18.jpg",
         "title": "Liar, Liar",
-        "eps": 7,
+        "eps": 8,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -542,7 +551,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/46/460c837ac085e419492caf1857ebab6c.jpg",
         "title": "BLEACH: Thousand-Year Blood War - The Separation",
-        "eps": 6,
+        "eps": 7,
         "total": 13,
         "type": "Anime",
         "category": "anime",
@@ -551,7 +560,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/be/be7541260d537b11942660f7df73d637.jpg",
         "title": "My Unique Skill Makes Me OP even at Level 1",
-        "eps": 6,
+        "eps": 7,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -740,7 +749,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/4d/4d1ae67bac8f0f46799bfc2b21553730.jpg",
         "title": "Atelier Ryza: Ever Darkness & the Secret Hideout The Animation",
-        "eps": 7,
+        "eps": 8,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -749,7 +758,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/91/91ce8edfa807948ad6412007c7d6844b.jpg",
         "title": "Horimiya: The Missing Pieces",
-        "eps": 7,
+        "eps": 8,
         "total": 13,
         "type": "Anime",
         "category": "anime",
@@ -758,7 +767,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/0/0e/0ef8021c5e3b94220a1f4136a05cd463.jpg",
         "title": "AYAKA",
-        "eps": 7,
+        "eps": 8,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -767,7 +776,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/1/1b/1bffacdaded570950828b33e593317dd.jpg",
         "title": "My Tiny Senpai",
-        "eps": 5,
+        "eps": 6,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -776,7 +785,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/a3/a3532ce3c15a5996555ec916f16860e1.jpg",
         "title": "Am I Actually the Strongest?",
-        "eps": 5,
+        "eps": 6,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -2135,6 +2144,51 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5f/FIFA_08_Coverart.png",
         "title": "FIFA 2008",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://www.nintendoworldreport.com/media/31825/5/1.jpg",
+        "title": "Inazuma Eleven GO Strikers",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/61MNFPMCcPL._AC_UF1000,1000_QL80_.jpg",
+        "title": "Inazuma Eleven 3: Team Ogre Attacks",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/8/8b/InazumaEleven3.jpg",
+        "title": "Inazuma Eleven 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/fc/Inazuma2.jpg",
+        "title": "Inazuma Eleven 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/b9/Inazuma_Eleven.jpg",
+        "title": "Inazuma Eleven",
         "eps": 1,
         "total": 1,
         "type": "Game",
@@ -7706,8 +7760,8 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/7b/7b75e7b38cb47ea4fb098ed9a4091c7d.jpg",
         "title": "The Misfit of Demon King Academy Ⅱ: History's Strongest Demon King Reincarnates and Goes to School with His Descendants",
-        "eps": 6,
-        "total": 0,
+        "eps": 7,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
         "status": "in progress"
