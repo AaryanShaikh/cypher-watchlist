@@ -2196,6 +2196,78 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/8/84/Soulcalibur_VI_cover_art.jpg",
+        "title": "SOULCALIBUR VI",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/79/Wwe_svr_11_cover_art.jpg",
+        "title": "WWE SmackDown vs. Raw 2011",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d0/Mortal_Kombat_X_Cover_Art.png",
+        "title": "Mortal Kombat X",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/3/3b/Just_Cause_2.jpg",
+        "title": "Just Cause 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/6/67/Counter-Strike_Box.jpg",
+        "title": "Counter-Strike 1.6",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a8/CZbox.jpg",
+        "title": "Counter-Strike: Condition Zero",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYmZhMDU1MGItMjBlMS00MDNhLWI2ODUtYjI4YzQwZGZjZGFjXkEyXkFqcGdeQXVyNDAzNzA0MzE@._V1_.jpg",
+        "title": "Counter-Strike: Global Offensive",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/ab/Burnout_Paradise_Boxart_2.jpg",
+        "title": "Burnout Paradise",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZTQ0MjAzYzktMmUxMS00NjVlLWFjNTItNzBlY2E5NmMzYTY4XkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg",
         "title": "We're the Millers",
         "eps": 1,
