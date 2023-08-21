@@ -470,7 +470,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/40/407cfe01dbe7aec4b4120a348c016772.jpg",
         "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
-        "eps": 6,
+        "eps": 7,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -479,7 +479,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e6/e6b281a662082bde65e90a494e576c87.jpg",
         "title": "Dark Gathering",
-        "eps": 6,
+        "eps": 7,
         "total": 25,
         "type": "Anime",
         "category": "anime",
@@ -497,7 +497,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/dd/ddb5563062bdcd636bdc5f6c36376b03.jpg",
         "title": "The Duke of Death and His Maid Season 2",
-        "eps": 6,
+        "eps": 7,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -515,7 +515,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/22/2296689587c6a70cbe5ca9e336e7d8b0.jpg",
         "title": "Classroom for Heroes",
-        "eps": 6,
+        "eps": 7,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -9040,6 +9040,78 @@
         "title": "Battle B-Daman",
         "eps": 52,
         "total": 52,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/7d7e2d7b753142c741023c4d03dd576e.jpg",
+        "title": "the Garden of sinners Chapter 8: The Final Chapter",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/d5a05cf0165fe8379194ab3a13978f8b.jpg",
+        "title": "the Garden of sinners Chapter 7: ……not nothing heart. (Murder Speculation Part B)",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/f27e19e2947a77b6b509d260c5815781.jpg",
+        "title": "the Garden of sinners Chapter 6: Fairy Tale. (Oblivion Recording)",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/9d447d2a994c8e8017a56586a3cc5289.jpg",
+        "title": "the Garden of sinners Chapter 5: Paradox Paradigm",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/705f05917a5066ec75defe2d9d89b22e.jpg",
+        "title": "the Garden of sinners Chapter 4: garan-no-dou. (The Hollow Shrine)",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/87bd23f616d1180cc8b128611cde6e4f.jpg",
+        "title": "the Garden of sinners Chapter 3: ever cry, never life. (Remaining Sense of Pain)",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/8dd99d7014670f99eef673edf3f803ff.jpg",
+        "title": "the Garden of sinners Chapter 2: …and nothing heart. (Murder Speculation Part A)",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/d5c6f0bb17fa4cac91b0e5cf6f70e06d.jpg",
+        "title": "the Garden of sinners Chapter 1: Thanatos. (Overlooking View)",
+        "eps": 1,
+        "total": 1,
         "type": "Anime",
         "category": "anime",
         "status": "completed"
