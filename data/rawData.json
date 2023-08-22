@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/b9/b94b898fd740ee7b8617fa804279af65.jpg",
+        "title": "BOCCHI THE ROCK!",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/ac/InazumaElevenStrikers.jpg",
         "title": "Inazuma Eleven Strikers",
         "eps": 1,
