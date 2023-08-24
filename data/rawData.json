@@ -1,4 +1,13 @@
 [
+     {
+        "imgSrc": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6srh.jpg",
+        "title": "YEAH! YOU WANT \"THOSE GAMES,\" RIGHT? SO HERE YOU GO! NOW, LET'S SEE YOU CLEAR THEM!",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/b9/b94b898fd740ee7b8617fa804279af65.jpg",
         "title": "BOCCHI THE ROCK!",
