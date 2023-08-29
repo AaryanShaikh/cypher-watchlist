@@ -20,7 +20,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2019/02/eb223c6c91fee81b777434c8b63a0e69.jpg",
         "title": "Dororo",
-        "eps": 10,
+        "eps": 14,
         "total": 24,
         "type": "Anime",
         "category": "anime",
@@ -9261,6 +9261,294 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2020/08/a831cdac8d8b4410e59091c078b36c55.jpg",
+        "title": "Shin Chan",
+        "eps": 1142,
+        "total": 1142,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/e9d36d4f008d6dac85dd039d264d4514.jpg",
+        "title": "Crayon Shin-chan: Bakauma! B-Kyuu Gourmet Survival Battle!!",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/048a8964eef64d54ef884d3d08a6097d.jpg",
+        "title": "Crayon Shin-chan: Fierceness That Invites Storm! Operation Golden Spy",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/953827fa9a36552638d3b7779895ce16.jpg",
+        "title": "Crayon Shin-chan: Unkokusai's Ambition",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/a0ee070ea4bdba19b4936ef2f1eb99d1.jpg",
+        "title": "Crayon Shin-chan: Arashi wo Yobu! Ora to Uchuu no Princess",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/e89d6f129c3917e313f5767c6b82dea1.jpg",
+        "title": "Crayon Shin-chan: Otakebe! Kasukabe Yasei Oukoku",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/efac4c45dbb8a4b0f3e1b8a0ca8193ad.jpg",
+        "title": "Crayon Shin-chan: Chou Jikuu! Arashi wo Yobu Ora no Hanayome",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/325346cd0ff9e06e696c228de97df1bf.jpg",
+        "title": "Crayon Shin-chan: The Hidden Treasure of the Buri Buri Kingdom",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/f44b43def73837dddf2f04aa6ef1b4bb.jpg",
+        "title": "Crayon Shin-chan: Arashi wo Yobu! Yuuhi no Kasukabe Boys",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/1475cb0147a5b9d18138372d5ea713fb.jpg",
+        "title": "Crayon Shin-chan: Jungle That Invites Storm",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/1b2c2ca9ebb2f86e34b55cdd9c6a2d4f.jpg",
+        "title": "Crayon Shin-chan: Fierceness That Invites Storm! Yakiniku Road of Honor",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/ab96b09932cb8f662d684afc821d4879.jpg",
+        "title": "Crayon Shin-chan: Arashi wo Yobu Appare! Sengoku Daikassen",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/d4b268306ae7f5fde74e6e97235531bc.jpg",
+        "title": "Crayon Shin-chan: Pursuit of the Balls of Darkness",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/4a620459bdfad79d454ac1e0749f041b.jpg",
+        "title": "Crayon Shin-chan: Action Mask vs. Leotard Devil",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/862c52874f903bc7f6c7cdb4d8cd2d3b.jpg",
+        "title": "Crayon Shin-chan: Fierceness That Invites Storm! The Adult Empire Strikes Back",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/7a/7a400c092eab1bd4c5a40b1522a98a19.jpg",
+        "title": "Crayon Shin-chan: Densetsu wo Yobu Buriburi 3 Pun Dai Shingeki",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/0/04/04fab2e84d22e88d8ccd51f43b8c7f0f.jpg",
+        "title": "Crayon Shin-chan: Arashi wo Yobu Utau Ketsu dake Bakudan!",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/78/78d024656095e9e036145cb94cd4a924.jpg",
+        "title": "Crayon Shin-chan: Blitzkrieg! Pig's Hoof's Secret Mission",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/50/50e00fac91764ac7b9a2fcdf05fe4fa2.jpg",
+        "title": "Crayon Shin-chan: Densetsu wo Yobu Odore! Amigo!",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/7c/7cabb202dee56e47d741049de770fcd1.jpg",
+        "title": "Crayon Shin-chan: Great Adventure In Henderland",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/b5/b55f2eeafe25fcc924dc0e68afaaa837.jpg",
+        "title": "Crayon Shin-chan: Shrouded in Mystery! The Flowers of Tenkazu Academy",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/98/9806d05b444be688aa903222afbb3d78.jpg",
+        "title": "Crayon Shin-chan: Explosion! The Hot Spring's Feel Good Final Battle",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f6/f64b1deb5c6f75d301f91ac8e2db2200.jpg",
+        "title": "Crayon Shin-chan: Honeymoon Hurricane - The Lost Hiroshi",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/d1768b2cb5e0fdb294454b581fc483eb.jpg",
+        "title": "Crayon Shin-chan Movie 24: Bakusui! Yumemi World Dai Totsugeki",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://www.themoviedb.org/t/p/w500/5gEhqKQ8VjYuN7H3s7FEUfltFqx.jpg",
+        "title": "Oggy and the Cockroaches Season 1",
+        "eps": 78,
+        "total": 78,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://www.themoviedb.org/t/p/w500/baYkrGswi6S5rPgmVvfQdK3TUbY.jpg",
+        "title": "Oggy and the Cockroaches Season 2",
+        "eps": 78,
+        "total": 78,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://www.themoviedb.org/t/p/w500/fIJhwF4U40xvsuNysO5VNxWAc1N.jpg",
+        "title": "Oggy and the Cockroaches Season 3",
+        "eps": 39,
+        "total": 39,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://www.themoviedb.org/t/p/w500/3543UIVLyXcNq3ggOnwvkoaehUX.jpg",
+        "title": "Oggy and the Cockroaches Season 4",
+        "eps": 74,
+        "total": 74,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://www.themoviedb.org/t/p/w500/n0Bog1fKNpNHZg4bxsrCdcppASA.jpg",
+        "title": "Oggy and the Cockroaches Season 5",
+        "eps": 76,
+        "total": 76,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://www.themoviedb.org/t/p/w500/xsmSZxeYRK3wqAD2I2PIBELaZSZ.jpg",
+        "title": "Oggy and the Cockroaches Season 6",
+        "eps": 69,
+        "total": 69,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://www.themoviedb.org/t/p/w500/jrkerF6XxFRyEXXA7r1oTljazoc.jpg",
+        "title": "Oggy and the Cockroaches Season 7",
+        "eps": 72,
+        "total": 72,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BODU4ZjJmMmItYjFhNi00MTU4LWE1ZmEtNzU1NDk0YTFhYmEwXkEyXkFqcGdeQXVyMTQ4NTcxNTI0._V1_.jpg",
+        "title": "Oggy and the Cockroaches Season 8",
+        "eps": 78,
+        "total": 78,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5f/Terminator_Dark_Fate_poster.jpg",
         "title": "Terminator: Dark Fate",
         "eps": 1,
@@ -9978,6 +10266,96 @@
         "total": 1,
         "type": "Movies",
         "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjhlYTllNzgtOTQ5Ni00MTI1LWJmZjktOTc2NTZkYWVlYjllXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_QL75_UY281_CR4,0,190,281_.jpg",
+        "title": "Impractical Jokers Season 10",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://flxt.tmsimg.com/assets/p12178176_b_v10_ac.jpg",
+        "title": "Impractical Jokers Season 9",
+        "eps": 26,
+        "total": 26,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://www.citytv.com/wp-content/uploads/2023/03/Impractical_Jokers_S10_citytv_01_showart_430x645.jpg",
+        "title": "Impractical Jokers Season 8",
+        "eps": 50,
+        "total": 50,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://resizing.flixster.com/tM_T4RYUc_cpcu1FPvrC07gMloY=/300x300/v2/https://flxt.tmsimg.com/assets/p15054362_b_v9_aa.jpg",
+        "title": "Impractical Jokers Season 7",
+        "eps": 26,
+        "total": 26,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://flxt.tmsimg.com/assets/p13680019_b1t_v8_aa.jpg",
+        "title": "Impractical Jokers Season 6",
+        "eps": 26,
+        "total": 26,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/81OlavBQWwL._AC_UF894,1000_QL80_.jpg",
+        "title": "Impractical Jokers Season 5",
+        "eps": 26,
+        "total": 26,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/51M1PAoeh5L._AC_UF894,1000_QL80_.jpg",
+        "title": "Impractical Jokers Season 4",
+        "eps": 26,
+        "total": 26,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/71vPzxS+n7S._AC_UF1000,1000_QL80_.jpg",
+        "title": "Impractical Jokers Season 3",
+        "eps": 32,
+        "total": 32,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://flxt.tmsimg.com/assets/p8949978_b_v8_aa.jpg",
+        "title": "Impractical Jokers Season 2",
+        "eps": 28,
+        "total": 28,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/I/910Vs-K7IJL._AC_UF1000,1000_QL80_.jpg",
+        "title": "Impractical Jokers Season 1",
+        "eps": 16,
+        "total": 16,
+        "type": "Series",
+        "category": "series",
         "status": "completed"
     },
     {
