@@ -2385,6 +2385,15 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://assets-prd.ignimgs.com/2023/01/11/swordigo-1673474232656.jpg",
+        "title": "Swordigo",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZTQ0MjAzYzktMmUxMS00NjVlLWFjNTItNzBlY2E5NmMzYTY4XkEyXkFqcGdeQXVyNDI3NjU1NzQ@._V1_.jpg",
         "title": "We're the Millers",
         "eps": 1,
@@ -10307,6 +10316,78 @@
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTcyMzUyMzY1OF5BMl5BanBnXkFtZTcwNDQ4ODk1OA@@._V1_.jpg",
         "title": "The Twilight Saga: Breaking Dawn - Part 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/The_mummy.jpg/220px-The_mummy.jpg",
+        "title": "The Mummy",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/The_Mummy_Returns_poster.jpg/220px-The_Mummy_Returns_poster.jpg",
+        "title": "The Mummy Returns",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTU4NDIzMDY1OV5BMl5BanBnXkFtZTcwNjQxMzk3MQ@@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Mummy: Tomb of the Dragon Emperor",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjkxNTAwNTQ0M15BMl5BanBnXkFtZTYwMTQwMjM3._V1_FMjpg_UX1000_.jpg",
+        "title": "The Scorpion King",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYTFmOWJjODYtMDkwZC00MDZjLWExY2UtMjI2M2I1NDIzZjdiXkEyXkFqcGdeQXVyNDgyODgxNjE@._V1_.jpg",
+        "title": "The Scorpion King 2: Rise of a Warrior",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjA3MzU2ODIwOV5BMl5BanBnXkFtZTcwOTA1ODIyNw@@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Scorpion King 3: Battle for Redemption",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BOTIwNjg5NDM4NF5BMl5BanBnXkFtZTgwNzk5NTc5MzE@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Scorpion King 4: Quest for Power",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjhlMWE5NzktNmE4Ny00ZWFlLTk5MzUtZDZhZmQ0YmVlNDI0XkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_.jpg",
+        "title": "Shaolin Soccer",
         "eps": 1,
         "total": 1,
         "type": "Movies",
