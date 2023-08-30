@@ -11286,6 +11286,42 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYmRhZjkyMjEtNjRkMS00MDQ0LTg2NGMtMTQ3ZjE0NjJmMjM2L2ltYWdlXkEyXkFqcGdeQXVyNTY0MTkxMTg@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+        "title": "13 Reasons Why Season 4",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYzdiYjU2ZTQtZjMyYS00OTY5LTk3YjAtMGQ2MzNiMzkwMDNjXkEyXkFqcGdeQXVyODI2NTA2NA@@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
+        "title": "13 Reasons Why Season 3",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDhkOGY3ZjgtYjAyNS00Njk2LTgzZDUtZjMzNzM5NTg0NDIzXkEyXkFqcGdeQXVyODI2NTA2NA@@._V1_.jpg",
+        "title": "13 Reasons Why Season 2",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/13_Reasons_Why_season_1_Soundtrack.jpg/220px-13_Reasons_Why_season_1_Soundtrack.jpg",
+        "title": "13 Reasons Why Season 1",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a0/Modern_Family_season_11_poster.jpg",
         "title": "Modern Family Season 11",
         "eps": 16,
