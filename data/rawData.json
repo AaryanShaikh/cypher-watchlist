@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Black-ish_season_1_DVD.jpeg/220px-Black-ish_season_1_DVD.jpeg",
+        "title": "black-ish Season 1",
+        "eps": 1,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZWQ3ZDQ3MTYtZWUyOS00YmFhLTllOWItNzNmNjE0ZDI5YWE5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
         "title": "You Are So Not Invited to My Bat Mitzvah",
         "eps": 1,
