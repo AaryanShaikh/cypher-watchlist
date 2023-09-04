@@ -143,8 +143,8 @@ const Homepage = () => {
             setProgLoad(42)
             setTimeout(() => {
                 fetchData()
-            }, 2000)
-        }, 2000);
+            }, 500)
+        }, 500);
         const handleResize = () => {
             const screenHeight = window.screen.height;
             const windowHeight = window.innerHeight;
@@ -195,7 +195,7 @@ const Homepage = () => {
                         }, 1000)
                     }, 100)
                 }, 1700)
-            }, 2000)
+            }, 500)
         } catch (error) {
             setloadStep(5)
             console.log('Error fetching JSON data:', error);

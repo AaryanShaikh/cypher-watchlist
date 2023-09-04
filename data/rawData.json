@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5d/Black_ish_season_2_poster.jpg",
+        "title": "Special Ops: Lioness",
+        "eps": 1,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BYzE4MTllZTktMTIyZS00Yzg1LTg1YzAtMWQwZTZkNjNkODNjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
         "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
         "eps": 1,
