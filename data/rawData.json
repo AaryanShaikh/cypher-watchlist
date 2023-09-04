@@ -1,5 +1,23 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYzE4MTllZTktMTIyZS00Yzg1LTg1YzAtMWQwZTZkNjNkODNjXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
+        "title": "Teenage Mutant Ninja Turtles: Mutant Mayhem",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5d/Black_ish_season_2_poster.jpg",
+        "title": "black-ish Season 2",
+        "eps": 1,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/8a/8a93acee61f644ec94289f197ddb36d1.jpg",
         "title": "The Quintessential Quintuplets~",
         "eps": 1,
@@ -10433,6 +10451,42 @@
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjhlMWE5NzktNmE4Ny00ZWFlLTk5MzUtZDZhZmQ0YmVlNDI0XkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_.jpg",
         "title": "Shaolin Soccer",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTU2OTYzODQyMF5BMl5BanBnXkFtZTgwNjU3Njk5NTM@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Equalizer 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTQ2MzE2NTk0NF5BMl5BanBnXkFtZTgwOTM3NTk1MjE@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Equalizer",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/7b/Teenage_Mutant_Ninja_Turtles_Out_of_the_Shadows_poster.jpg",
+        "title": "Teenage Mutant Ninja Turtles: Out of the Shadows",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Teenage_Mutant_Ninja_Turtles_film_July_2014_poster.jpg/220px-Teenage_Mutant_Ninja_Turtles_film_July_2014_poster.jpg",
+        "title": "Teenage Mutant Ninja Turtles",
         "eps": 1,
         "total": 1,
         "type": "Movies",
