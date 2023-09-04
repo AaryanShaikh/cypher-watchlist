@@ -11,11 +11,11 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Black-ish_season_1_DVD.jpeg/220px-Black-ish_season_1_DVD.jpeg",
         "title": "black-ish Season 1",
-        "eps": 11,
+        "eps": 24,
         "total": 24,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZWQ3ZDQ3MTYtZWUyOS00YmFhLTllOWItNzNmNjE0ZDI5YWE5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
@@ -605,7 +605,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/40/407cfe01dbe7aec4b4120a348c016772.jpg",
         "title": "Mushoku Tensei: Jobless Reincarnation Season 2",
-        "eps": 8,
+        "eps": 9,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -614,7 +614,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e6/e6b281a662082bde65e90a494e576c87.jpg",
         "title": "Dark Gathering",
-        "eps": 8,
+        "eps": 9,
         "total": 25,
         "type": "Anime",
         "category": "anime",
@@ -632,7 +632,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/d/dd/ddb5563062bdcd636bdc5f6c36376b03.jpg",
         "title": "The Duke of Death and His Maid Season 2",
-        "eps": 8,
+        "eps": 9,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -650,7 +650,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/22/2296689587c6a70cbe5ca9e336e7d8b0.jpg",
         "title": "Classroom for Heroes",
-        "eps": 8,
+        "eps": 9,
         "total": 12,
         "type": "Anime",
         "category": "anime",
