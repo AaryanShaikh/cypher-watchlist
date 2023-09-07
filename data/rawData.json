@@ -1,5 +1,23 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/af/af85409e2650ba8978eaa2d54f93e713.jpg",
+        "title": "Pokémon: Paldean Winds",
+        "eps": 1,
+        "total": 4,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f0/f0f0dacdd2d38c2411c5e7fcd42bda52.jpg",
+        "title": "Eldraine no Mori: Twin Fates",
+        "eps": 10,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMmRkMWQzZWUtZjkzNS00OWVhLTkxNDAtNzg4ODgxMTg0MTNlXkEyXkFqcGdeQXVyMTMzOTQyOTk1._V1_.jpg",
         "title": "Special Ops: Lioness",
         "eps": 5,
@@ -569,7 +587,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/45/45e881b8a097dfec395cbf54070249fa.jpg",
         "title": "Saint Cecilia & Pastor Lawrence",
-        "eps": 8,
+        "eps": 9,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -803,7 +821,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/56/56108d519582349b4fce78a954ed9a50.jpg",
         "title": "Reborn as a Vending Machine, I Now Wander the Dungeon",
-        "eps": 9,
+        "eps": 10,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -812,7 +830,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/3d/3d086f4272b7c626964522f8bdd78074.jpg",
         "title": "My Happy Marriage",
-        "eps": 9,
+        "eps": 10,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -821,7 +839,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/5a/5afdc4be1e187fbf9f3023e7afdecb4d.jpg",
         "title": "Undead Murder Farce",
-        "eps": 9,
+        "eps": 10,
         "total": 13,
         "type": "Anime",
         "category": "anime",
