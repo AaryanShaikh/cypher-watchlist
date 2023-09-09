@@ -54,6 +54,15 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e1/MissionImpossiblePoster.jpg",
+        "title": "Mission: Impossible",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://cdna.artstation.com/p/assets/images/images/026/424/242/large/alec-thomas-heavypatrol.jpg?1588747956",
         "title": "Banners of Ruin",
         "eps": 1,
