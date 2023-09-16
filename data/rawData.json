@@ -1,5 +1,14 @@
 [
-     {
+    {
+        "imgSrc": "https://images.nintendolife.com/468e94ea20cb7/fae-farm-cover.cover_large.jpg",
+        "title": "Fae Farm",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzA5ODBjYjEtMTE0NS00NmU3LTk0NzUtMDBlMmQ0YjU2OTBmXkEyXkFqcGdeQXVyMTI1MzYzODMy._V1_QL75_UY281_CR11,0,190,281_.jpg",
         "title": "Hadean Tactics",
         "eps": 1,
