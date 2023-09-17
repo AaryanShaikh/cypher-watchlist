@@ -1,5 +1,23 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/13/Trails_into_Reverie_Cover_Art.jpg",
+        "title": "The Legend of Heroes: Trails into Reverie",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://thumbnails.pcgamingwiki.com/d/db/Crimson_Tactics-_The_Rise_of_The_White_Banner_Cover.jpg/300px-Crimson_Tactics-_The_Rise_of_The_White_Banner_Cover.jpg",
+        "title": "Crimson Tactics: The Rise of The White Banner",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://images.nintendolife.com/468e94ea20cb7/fae-farm-cover.cover_large.jpg",
         "title": "Fae Farm",
         "eps": 1,
