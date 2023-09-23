@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-889717-52.jpg",
+        "title": "Horizon Chase 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/13/Trails_into_Reverie_Cover_Art.jpg",
         "title": "The Legend of Heroes: Trails into Reverie",
         "eps": 1,
