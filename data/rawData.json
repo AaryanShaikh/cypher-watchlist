@@ -1,11 +1,29 @@
 [
-      {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BODdiMzM2YjctZmU3ZS00MzUwLWJiYTMtMmI2NzIyMTQyOTQ1XkEyXkFqcGdeQXVyODY5NzkyMjA@._V1_.jpg",
-        "title": "The Equalizer 3",
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNjdhNTE3MWMtY2FmMi00OTJiLWIyM2ItMTQ1ZmIxMDU4MDQxXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "title": "A Haunting in Venice",
         "eps": 1,
         "total": 1,
         "type": "Movies",
         "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZmMxNjdiNTYtZmQzMC00NDFjLWE3MjEtYzRkOTE2NDZmMWM3XkEyXkFqcGdeQXVyMjI0NjI0Nw@@._V1_.jpg",
+        "title": "Freelance",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://img.aniwave.to/i/cache/images/5/5c/5cc0e864f4ebd139823db940522b7c10.jpg",
+        "title": "Attack on Titan Final Season THE FINAL CHAPTERS Special 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
         "status": "completed"
     },
     {
@@ -578,11 +596,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/86/865235ebe1f298671b59294a3ab8275c.jpg",
         "title": "Call of the Night",
-        "eps": 1,
+        "eps": 13,
         "total": 13,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTM2NTU1ZTktNjc4YS00NjNhLWE4NmYtOTM2YjFjOGUzNmYzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
