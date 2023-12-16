@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/7f/Grand_Theft_Auto_-_The_Trilogy_-_The_Definitive_Edition.jpg",
+        "title": "Grand Theft Auto: The Trilogy – The Definitive Edition",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://img.animesuge.to/i/cache/images/4/4d/4da8e9f6a681011796c4eddda370829e.jpg",
         "title": "Fullmetal Alchemist: Brotherhood",
         "eps": 64,
