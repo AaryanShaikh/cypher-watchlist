@@ -1,5 +1,140 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDk5MzYzZmYtOTFiZi00YmE2LWFjOGUtNjMyODgxNjZiYzRjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+        "title": "Monarch: Legacy of Monsters",
+        "eps":10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMWQ1NzViMTQtMjVhNy00YzA0LTg2MzYtZjUyOWNiNDI2MzhlXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
+        "title": "Lift",
+        "eps":1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/cb/Migration_%282023_film%29.jpg",
+        "title": "Migration",
+        "eps":1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/4a/Aquaman_and_the_Lost_Kingdom_poster.jpg",
+        "title": "Aquaman and the Lost Kingdom",
+        "eps":1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Black-ish_season_4_poster.jpg/220px-Black-ish_season_4_poster.jpg",
+        "title": "black-ish Season 4",
+        "eps":1,
+        "total": 23,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c6/Black-ish_season_3_poster.jpg",
+        "title": "black-ish Season 3",
+        "eps":24,
+        "total": 24,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/37/378bf11b7db0795bc00db6bd5c324a08.jpg",
+        "title": "Synduality Noir Part 2",
+        "eps":3,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/ca/ca9f44e13ea206b82e6fa77bef22c000.jpg",
+        "title": "TSUKIMICHI -Moonlit Fantasy- Season 2",
+        "eps":3,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f4/f41a9e5f6a118b796d2013b5ce86dc46.jpg",
+        "title": "HIGH CARD Season 2",
+        "eps":2,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/8b/8b47751ddbcc98a0503525ec0a5e3502.jpg",
+        "title": "Meiji Gekken: 1874",
+        "eps":2,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/63/638c5a87f2cb54b93a0489483f3fbed7.jpg",
+        "title": "Mr. Villain's Day Off",
+        "eps":2,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/94/9439202e75ffd9ccd294575fc7e5246a.jpg",
+        "title": "The Witch and the Beast",
+        "eps":3,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/77/7770b75d36d57a447509a647b73eeeaa.jpg",
+        "title": "Sengoku Youko",
+        "eps":3,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/68/68095b92d1433b19129f15d7343eb568.jpg",
+        "title": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
+        "eps":3,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BM2U2YWU5NWMtOGI2Ni00MGMwLWFkNjItMjgyZWMxNjllNTMzXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "title": "The Marvels",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/c1/c1c0cc996b5721c68a8040ca2d1028fc.jpg",
         "title": "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside Season 2",
         "eps": 1,
@@ -11,7 +146,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/22/22af22941391198c20bee7bc0f444194.jpg",
         "title": "Classroom of the Elite Season 3",
-        "eps": 1,
+        "eps": 4,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -20,7 +155,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f4/f4a6545748fba908d76b0b3a2b1d7b73.jpg",
         "title": "Ishura",
-        "eps": 1,
+        "eps": 4,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -29,7 +164,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e9/e99fa98f530cc614cffa96c9bbef89ce.jpg",
         "title": "My Instant Death Ability is Overpowered",
-        "eps": 1,
+        "eps": 4,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -38,7 +173,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/46/46dda566943f561d6c4f55272abeef1f.jpg",
         "title": "The Unwanted Undead Adventurer",
-        "eps": 1,
+        "eps": 4,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -47,8 +182,8 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/50/50ee31a12d84215c69469070bd195476.jpg",
         "title": "The Wrong Way to Use Healing Magic",
-        "eps": 1,
-        "total": 0,
+        "eps": 4,
+        "total": 13,
         "type": "Anime",
         "category": "anime",
         "status": "in progress"
@@ -74,7 +209,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/a1/a11b7f986f01cb0bfb741948fcb44076.jpg",
         "title": "Tales of Wedding Rings",
-        "eps": 1,
+        "eps": 2,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -83,7 +218,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/ba/bad455c952ee9bfe757782077baf4114.jpg",
         "title": "Solo Leveling",
-        "eps": 1,
+        "eps": 3,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -92,7 +227,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/78/7818417956ad49407be488d7b1699970.jpg",
         "title": "MASHLE: MAGIC AND MUSCLES Season 2",
-        "eps": 1,
+        "eps": 3,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -101,7 +236,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/eb/eb48297c93cb70e6a47f70583eaa609b.jpg",
         "title": "Blue Exorcist -Shimane Illuminati Saga-",
-        "eps": 1,
+        "eps": 3,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -110,7 +245,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/81/81e96dc7d12259ada85daed0679ce5b2.jpg",
         "title": "The Dangers in My Heart Season 2",
-        "eps": 1,
+        "eps": 3,
         "total": 13,
         "type": "Anime",
         "category": "anime",
@@ -335,7 +470,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/65/65da57f59e5c3a3b48cde3bc82170388.jpg",
         "title": "Shangri-La Frontier",
-        "eps": 3,
+        "eps": 15,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -371,7 +506,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f7/f731cde04318a70a0d4f4021930bbb81.jpg",
         "title": "Ragna Crimson",
-        "eps": 3,
+        "eps": 14,
         "total": 0,
         "type": "Anime",
         "category": "anime",
