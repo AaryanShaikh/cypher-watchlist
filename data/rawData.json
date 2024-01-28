@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e0/Godzilla_Minus_One_Poster.jpeg",
+        "title": "Godzilla Minus One",
+        "eps":1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDk5MzYzZmYtOTFiZi00YmE2LWFjOGUtNjMyODgxNjZiYzRjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
         "title": "Monarch: Legacy of Monsters",
         "eps":10,
@@ -542,7 +551,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/c6/c6d592dbdcd718c56db2c81903475101.jpg",
         "title": "Undead Unluck",
-        "eps": 13,
+        "eps": 16,
         "total": 24,
         "type": "Anime",
         "category": "anime",
@@ -578,7 +587,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/b5/b5503f3fd73f0390dfe14d902aeda96d.jpg",
         "title": "Frieren: Beyond Journey’s End",
-        "eps": 6,
+        "eps": 0,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -884,11 +893,11 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/5d/Black_ish_season_2_poster.jpg",
         "title": "black-ish Season 2",
-        "eps": 4,
+        "eps": 24,
         "total": 24,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/8a/8a93acee61f644ec94289f197ddb36d1.jpg",
@@ -1406,20 +1415,20 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/af/af8881688738f4b3184416efa1bc457d.jpg",
         "title": "Spy Classroom Season 2",
-        "eps": 9,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/25/25a3d15f332a376173f53be364ea8569.jpg",
         "title": "The Devil is a Part-Timer! Season 2 Part 2",
-        "eps": 9,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/aa/The_Flash_season_8_poster.jpg",
@@ -1433,11 +1442,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/45/45e881b8a097dfec395cbf54070249fa.jpg",
         "title": "Saint Cecilia & Pastor Lawrence",
-        "eps": 9,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/5e/5ea56d837b392c0f6e633aa3aa9f889f.jpg",
@@ -1469,11 +1478,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/5a/5af11217bb699f2a37acca350fe1c5a1.jpg",
         "title": "Helck",
-        "eps": 9,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/4a/The_Flash_season_7.jpg",
@@ -1505,11 +1514,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e6/e6b281a662082bde65e90a494e576c87.jpg",
         "title": "Dark Gathering",
-        "eps": 9,
+        "eps": 25,
         "total": 25,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/92/920bdf520635da01612beab426fee5d3.jpg",
@@ -1550,11 +1559,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/60/60e274fbab2fd7bad475860afec3a20d.jpg",
         "title": "Zom 100: Bucket List of the Dead",
-        "eps": 6,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/3e/3ea0f0093d0f2769e7dd1a336a6c9b41.jpg",
@@ -1577,11 +1586,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/46/460c837ac085e419492caf1857ebab6c.jpg",
         "title": "BLEACH: Thousand-Year Blood War - The Separation",
-        "eps": 8,
+        "eps": 13,
         "total": 13,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/be/be7541260d537b11942660f7df73d637.jpg",
@@ -1604,47 +1613,47 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/7f/7f31e35492ee059cfcfafda055c5672a.jpg",
         "title": "Reign of the Seven Spellblades",
-        "eps": 9,
+        "eps": 13,
         "total": 13,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9d/9d52304c4c4083263e011c273d163fcc.jpg",
         "title": "The Gene of AI",
-        "eps": 9,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/94/94adffaae1b8a7e51da3657bd63e4b12.jpg",
         "title": "Rent-a-Girlfriend Season 3",
-        "eps": 9,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/63/6331b446e29140aa9d629609d96c89f1.jpg",
         "title": "The Masterful Cat is Depressed Again Today",
-        "eps": 10,
+        "eps": 13,
         "total": 13,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/54/54b74128e80fde02f6a04c628f81a349.jpg",
         "title": "Rurouni Kenshin (2023)",
-        "eps": 10,
+        "eps": 24,
         "total": 24,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/1/15/15e336d7c2b9b995b3947488de479051.jpg",
@@ -1685,11 +1694,11 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/5a/5afdc4be1e187fbf9f3023e7afdecb4d.jpg",
         "title": "Undead Murder Farce",
-        "eps": 10,
+        "eps": 13,
         "total": 13,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/0/00/0018d0aba48ccd91730c472a889cd9ab.jpg",
@@ -1802,20 +1811,20 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/1/1b/1bffacdaded570950828b33e593317dd.jpg",
         "title": "My Tiny Senpai",
-        "eps": 8,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/a/a3/a3532ce3c15a5996555ec916f16860e1.jpg",
         "title": "Am I Actually the Strongest?",
-        "eps": 8,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9b/9b04dcc4fae2f03717ebf3ff89c33bea.jpg",
