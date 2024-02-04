@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYTFlZGMyMzEtZDAyZi00MTY4LWI4OWQtYmVjN2JlZDJmOGYyXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+        "title": "Guillermo del Toro's Cabinet of Curiosities",
+        "eps":8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e0/Godzilla_Minus_One_Poster.jpeg",
         "title": "Godzilla Minus One",
         "eps":1,
@@ -74,7 +83,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/ca/ca9f44e13ea206b82e6fa77bef22c000.jpg",
         "title": "TSUKIMICHI -Moonlit Fantasy- Season 2",
-        "eps":3,
+        "eps":4,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -110,7 +119,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/94/9439202e75ffd9ccd294575fc7e5246a.jpg",
         "title": "The Witch and the Beast",
-        "eps":3,
+        "eps":4,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -119,7 +128,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/77/7770b75d36d57a447509a647b73eeeaa.jpg",
         "title": "Sengoku Youko",
-        "eps":3,
+        "eps":4,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -128,7 +137,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/68/68095b92d1433b19129f15d7343eb568.jpg",
         "title": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
-        "eps":3,
+        "eps":4,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -146,7 +155,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/c1/c1c0cc996b5721c68a8040ca2d1028fc.jpg",
         "title": "Banished from the Hero's Party, I Decided to Live a Quiet Life in the Countryside Season 2",
-        "eps": 2,
+        "eps": 4,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -155,7 +164,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/22/22af22941391198c20bee7bc0f444194.jpg",
         "title": "Classroom of the Elite Season 3",
-        "eps": 4,
+        "eps": 5,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -164,7 +173,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f4/f4a6545748fba908d76b0b3a2b1d7b73.jpg",
         "title": "Ishura",
-        "eps": 4,
+        "eps": 5,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -173,7 +182,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/e/e9/e99fa98f530cc614cffa96c9bbef89ce.jpg",
         "title": "My Instant Death Ability is Overpowered",
-        "eps": 4,
+        "eps": 5,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -182,7 +191,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/4/46/46dda566943f561d6c4f55272abeef1f.jpg",
         "title": "The Unwanted Undead Adventurer",
-        "eps": 4,
+        "eps": 5,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -191,7 +200,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/5/50/50ee31a12d84215c69469070bd195476.jpg",
         "title": "The Wrong Way to Use Healing Magic",
-        "eps": 4,
+        "eps": 5,
         "total": 13,
         "type": "Anime",
         "category": "anime",
@@ -227,7 +236,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/b/ba/bad455c952ee9bfe757782077baf4114.jpg",
         "title": "Solo Leveling",
-        "eps": 3,
+        "eps": 5,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -236,7 +245,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/78/7818417956ad49407be488d7b1699970.jpg",
         "title": "MASHLE: MAGIC AND MUSCLES Season 2",
-        "eps": 3,
+        "eps": 5,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -254,7 +263,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/81/81e96dc7d12259ada85daed0679ce5b2.jpg",
         "title": "The Dangers in My Heart Season 2",
-        "eps": 3,
+        "eps": 5,
         "total": 13,
         "type": "Anime",
         "category": "anime",
@@ -263,7 +272,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2/28/28224edff3c86d3008ee70fbaedba86b.jpg",
         "title": "The Strongest Tank's Labyrinth Raids",
-        "eps": 1,
+        "eps": 5,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -479,7 +488,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/65/65da57f59e5c3a3b48cde3bc82170388.jpg",
         "title": "Shangri-La Frontier",
-        "eps": 15,
+        "eps": 16,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -515,7 +524,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f7/f731cde04318a70a0d4f4021930bbb81.jpg",
         "title": "Ragna Crimson",
-        "eps": 14,
+        "eps": 15,
         "total": 0,
         "type": "Anime",
         "category": "anime",
