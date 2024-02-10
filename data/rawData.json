@@ -1,8 +1,26 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BY2ZiZGFmZWEtNDE1OS00ZWJhLWI4ZWEtMjQ0MGEyNWZhODNmXkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg",
+        "title": "The Resort",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMGExOWU4YmItMjkxOC00NjdjLTk2ZWEtZGViMGM1ZGFhZmQxXkEyXkFqcGdeQXVyODQyOTY2OTA@._V1_.jpg",
+        "title": "Man vs. Bee",
+        "eps": 9,
+        "total": 9,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BYTFlZGMyMzEtZDAyZi00MTY4LWI4OWQtYmVjN2JlZDJmOGYyXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
         "title": "Guillermo del Toro's Cabinet of Curiosities",
-        "eps":8,
+        "eps": 8,
         "total": 8,
         "type": "Series",
         "category": "series",
@@ -11,7 +29,7 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e0/Godzilla_Minus_One_Poster.jpeg",
         "title": "Godzilla Minus One",
-        "eps":1,
+        "eps": 1,
         "total": 1,
         "type": "Movies",
         "category": "movies",
@@ -20,7 +38,7 @@
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDk5MzYzZmYtOTFiZi00YmE2LWFjOGUtNjMyODgxNjZiYzRjXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
         "title": "Monarch: Legacy of Monsters",
-        "eps":10,
+        "eps": 10,
         "total": 10,
         "type": "Series",
         "category": "series",
@@ -29,7 +47,7 @@
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMWQ1NzViMTQtMjVhNy00YzA0LTg2MzYtZjUyOWNiNDI2MzhlXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
         "title": "Lift",
-        "eps":1,
+        "eps": 1,
         "total": 1,
         "type": "Movies",
         "category": "movies",
@@ -38,7 +56,7 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/cb/Migration_%282023_film%29.jpg",
         "title": "Migration",
-        "eps":1,
+        "eps": 1,
         "total": 1,
         "type": "Movies",
         "category": "movies",
@@ -47,7 +65,7 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/4a/Aquaman_and_the_Lost_Kingdom_poster.jpg",
         "title": "Aquaman and the Lost Kingdom",
-        "eps":1,
+        "eps": 1,
         "total": 1,
         "type": "Movies",
         "category": "movies",
@@ -56,7 +74,7 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Black-ish_season_4_poster.jpg/220px-Black-ish_season_4_poster.jpg",
         "title": "black-ish Season 4",
-        "eps":1,
+        "eps": 1,
         "total": 23,
         "type": "Series",
         "category": "series",
@@ -65,7 +83,7 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c6/Black-ish_season_3_poster.jpg",
         "title": "black-ish Season 3",
-        "eps":24,
+        "eps": 24,
         "total": 24,
         "type": "Series",
         "category": "series",
@@ -74,7 +92,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/3/37/378bf11b7db0795bc00db6bd5c324a08.jpg",
         "title": "Synduality Noir Part 2",
-        "eps":3,
+        "eps": 3,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -83,7 +101,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/c/ca/ca9f44e13ea206b82e6fa77bef22c000.jpg",
         "title": "TSUKIMICHI -Moonlit Fantasy- Season 2",
-        "eps":4,
+        "eps": 4,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -92,7 +110,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/f/f4/f41a9e5f6a118b796d2013b5ce86dc46.jpg",
         "title": "HIGH CARD Season 2",
-        "eps":2,
+        "eps": 2,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -101,7 +119,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/8b/8b47751ddbcc98a0503525ec0a5e3502.jpg",
         "title": "Meiji Gekken: 1874",
-        "eps":2,
+        "eps": 2,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -110,7 +128,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/63/638c5a87f2cb54b93a0489483f3fbed7.jpg",
         "title": "Mr. Villain's Day Off",
-        "eps":2,
+        "eps": 2,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -119,7 +137,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/94/9439202e75ffd9ccd294575fc7e5246a.jpg",
         "title": "The Witch and the Beast",
-        "eps":4,
+        "eps": 4,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -128,7 +146,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/77/7770b75d36d57a447509a647b73eeeaa.jpg",
         "title": "Sengoku Youko",
-        "eps":4,
+        "eps": 4,
         "total": 12,
         "type": "Anime",
         "category": "anime",
@@ -137,7 +155,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/68/68095b92d1433b19129f15d7343eb568.jpg",
         "title": "Villainess Level 99: I May Be the Hidden Boss but I'm Not the Demon Lord",
-        "eps":4,
+        "eps": 4,
         "total": 12,
         "type": "Anime",
         "category": "anime",
