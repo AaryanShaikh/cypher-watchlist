@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BN2IxOGQ1OGQtODNmMy00ZDJkLTg3ZTQtOTY4YTJjMjFjZTMzXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
+        "title": "Moving",
+        "eps": 20,
+        "total": 20,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTYyNGUyNWMtMWFlMy00NThiLTk3YjItMWE2MzMzNmQwZTU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
         "title": "Percy Jackson and the Olympians",
         "eps": 8,
