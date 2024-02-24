@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/7/76/76d4af9e8ee27055d38025c4b7c51b95.jpg",
+        "title": "Ninja Kamui",
+        "eps": 2,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTViNTY2MjMtYmUwOC00ZGYxLThjOWEtYjNjZWU3MTYwYzZmXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
         "title": "Avatar: The Last Airbender",
         "eps": 8,

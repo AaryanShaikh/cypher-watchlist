@@ -2,6 +2,7 @@ import { Typography, Tag, Space, Tooltip } from 'antd'
 import React, { useEffect, useState } from 'react'
 import { FaPlayCircle } from 'react-icons/fa'
 import { BsFillPatchCheckFill } from 'react-icons/bs'
+import errImage from '../data/NoImageFound.gif'
 
 const { Text } = Typography
 
@@ -26,6 +27,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
     const [isImgLoading, setisImgLoading] = useState(true)
     const highlightedTitle = <HighlightedString text={title} search={searchText} />;
     const [showLoader, setshowLoader] = useState(true)
+    const [showErrorImg, setshowErrorImg] = useState(false)
 
     useEffect(() => {
         if (!isImgLoading) {
@@ -42,6 +44,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
     useEffect(() => {
         setshowLoader(true)
         setisImgLoading(true)
+        setshowErrorImg(false)
     }, [imgSrc])
 
     return (
@@ -53,7 +56,8 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
             </div> : ""}
             <img
                 onLoad={() => setisImgLoading(false)}
-                src={imgSrc}
+                onError={() => setshowErrorImg(true)}
+                src={showErrorImg ? errImage.src : imgSrc}
                 style={{ height: "100%", width: "100%", WebkitMaskImage: "linear-gradient(to top, transparent 10%, black 50%)", position: "absolute", transition: ".5s ease-in-out", opacity: isImgLoading ? "0" : "1" }}
             />
             <div style={{ position: "absolute", display: "flex", flexDirection: "column", width: "100%", height: "100%", justifyContent: "flex-end" }}>
