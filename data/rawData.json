@@ -10692,6 +10692,24 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYjk0MTgzMmQtZmY2My00NmE5LWExNGUtYjZkNTA3ZDkyMTJiXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "title": "Palm Springs",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTM1NjE0NDA0MV5BMl5BanBnXkFtZTcwODE4NDg1Mw@@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Last Airbender",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Predator_Movie.jpg/220px-Predator_Movie.jpg",
         "title": "Predator",
         "eps": 1,
