@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMDE0M2YyM2UtODRmNC00YjAyLWIwMjktOTAwMDBiYjBhMGZmXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+        "title": "Mr. & Mrs. Smith",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BN2IxOGQ1OGQtODNmMy00ZDJkLTg3ZTQtOTY4YTJjMjFjZTMzXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_.jpg",
         "title": "Moving",
         "eps": 20,
