@@ -1,5 +1,23 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDlkYzIwYTYtOWZjMC00M2NlLWI1NDgtNjUzN2NmYWI5YThkXkEyXkFqcGdeQXVyMTYzMjQ4Nzg@._V1_FMjpg_UX1000_.jpg",
+        "title": "Ted",
+        "eps": 7,
+        "total": 7,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Black-ish_season_5_poster.jpg/220px-Black-ish_season_5_poster.jpg",
+        "title": "black-ish Season 5",
+        "eps": 1,
+        "total": 23,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/4/45/Code_eight_part_II_poster.jpg",
         "title": "Code 8: Part II",
         "eps": 1,
@@ -209,11 +227,11 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/8/82/Black-ish_season_4_poster.jpg/220px-Black-ish_season_4_poster.jpg",
         "title": "black-ish Season 4",
-        "eps": 1,
+        "eps": 23,
         "total": 23,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c6/Black-ish_season_3_poster.jpg",
@@ -12588,6 +12606,249 @@
         "total": 24,
         "type": "Series",
         "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZDg3MGNhYjItZGU2Yi00MzU4LWE4NGUtYjA2OTVjNGUyMjE4XkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_FMjpg_UX1000_.jpg",
+        "title": "Young Sheldon",
+        "eps": 0,
+        "total": 7,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMmZlYTQ3NjQtZmIxNC00MzA4LTg1NDgtMmEzODk0MzA4NjQxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+        "title": "Vikings: Valhalla",
+        "eps": 0,
+        "total": 2,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZWNlZmNiNzItYWMwNC00ODYxLThlNjYtMjU3NzlmNDQxMTY2XkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_.jpg",
+        "title": "Vikings",
+        "eps": 0,
+        "total": 6,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNjMwNDNkMzEtNzRmNy00YmExLTg3ZWYtM2NjMjFjNWY3MmM0XkEyXkFqcGdeQXVyMTY0Njc2MTUx._V1_.jpg",
+        "title": "The Good Doctor",
+        "eps": 0,
+        "total": 7,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/14/The_Boys_Season_2.jpg",
+        "title": "The Boys",
+        "eps": 0,
+        "total": 4,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BODQ3MmFkZjQtZDVlYi00NTA3LWE2YTMtZmM5NzNkZGE5ZTdjXkEyXkFqcGdeQXVyMTA1OTAyOTI@._V1_.jpg",
+        "title": "Supergirl",
+        "eps": 0,
+        "total": 6,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BODY5YjA3ZDgtM2EwYy00ZGVmLWFhNWItMTMxMWRkMWFiOTlkXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg",
+        "title": "Succession",
+        "eps": 0,
+        "total": 4,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_.jpg",
+        "title": "Peaky Blinders",
+        "eps": 0,
+        "total": 6,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDJjMzc4NGYtZmFmNS00YWY3LThjMzQtYzJlNGFkZGRiOWI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "title": "Lucifer",
+        "eps": 0,
+        "total": 6,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/f3/Legends_of_Tomorrow_season_3.jpg",
+        "title": "DC's Legends of Tomorrow",
+        "eps": 0,
+        "total": 7,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTI0NTMwMDgtYTMzZC00YmJhLTg4NzMtMTc1NjI4MWY4NmQ4XkEyXkFqcGdeQXVyNTY3MTYzOTA@._V1_.jpg",
+        "title": "Arrow",
+        "eps": 0,
+        "total": 8,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Tulsa_King_poster.jpg/220px-Tulsa_King_poster.jpg",
+        "title": "Tulsa King",
+        "eps": 0,
+        "total": 1,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BODU0MmZjYjktOGQ4MS00N2QwLTk5MzQtYTRkMGRiM2Q4ZjViXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+        "title": "Tom Clancy's Jack Ryan",
+        "eps": 0,
+        "total": 4,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjcyOTk2YmQtMTI3NS00MTM3LWIyZDgtZGJkMDk1YmE2ZDEwXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
+        "title": "The Wheel of Time",
+        "eps": 0,
+        "total": 2,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMzdmYjAyODUtMTFkOS00MDg1LTljMDAtNzhiYTg5NjY1NjM5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "title": "Superman & Lois",
+        "eps": 0,
+        "total": 3,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMzdmYjAyODUtMTFkOS00MDg1LTljMDAtNzhiYTg5NjY1NjM5XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "title": "Superman & Lois",
+        "eps": 0,
+        "total": 3,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Mayor_of_Kingstown_poster.jpg/220px-Mayor_of_Kingstown_poster.jpg",
+        "title": "Mayor of Kingstown",
+        "eps": 0,
+        "total": 2,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BM2QyNmZkNTYtZWQyZi00NDhhLWEzMDItYmIzY2U4ZWVmOWNhXkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_.jpg",
+        "title": "Marvel's Jessica Jones",
+        "eps": 2,
+        "total": 3,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZDYzODRjNTYtNmVmYy00NTJjLTk3NzQtZjQ5Y2Y1YmIzMzZhXkEyXkFqcGdeQXVyMTY4NTMxNTcx._V1_FMjpg_UX1000_.jpg",
+        "title": "The Punisher",
+        "eps": 1,
+        "total": 2,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmVmMmM5ZmItZDg0OC00NTFiLWIxNzctZjNmYTY5OTU3ZWU3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+        "title": "Suits",
+        "eps": 6,
+        "total": 9,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZDllZGZjN2YtMzE5Zi00ZGJhLWJkNzktY2UxMjZjMGI1ZWNhXkEyXkFqcGdeQXVyMjQ4ODcxNTM@._V1_.jpg",
+        "title": "Halo",
+        "eps": 0,
+        "total": 2,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNWQ1ZmM3MTQtNTVhZC00MWVlLWI5ZjgtYmZiYWQxZjUzZWM0XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
+        "title": "Schitt's Creek",
+        "eps": 0,
+        "total": 6,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a6/AbbottElementaryS1DVD.jpg",
+        "title": "Abbott Elementary",
+        "eps": 0,
+        "total": 3,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzMzYmRiNGEtMDg5OC00OGZmLWFmNDktYzRlZTFkZmZiMjAzXkEyXkFqcGdeQXVyMTE2OTE2MzE1._V1_FMjpg_UX1000_.jpg",
+        "title": "Normal People",
+        "eps": 0,
+        "total": 1,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYWQwMDNkM2MtODU4OS00OTY3LTgwOTItNjE2Yzc0MzRkMDllXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+        "title": "BoJack Horseman",
+        "eps": 0,
+        "total": 6,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzYwNmQwZGItNzdmNy00Y2ZkLWIxYzUtNDY3ZGIyYzY2M2MzXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
+        "title": "black-ish",
+        "eps": 5,
+        "total": 8,
+        "type": "Watchlist",
+        "category": "watchlist",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjEwNjc4MzY4NF5BMl5BanBnXkFtZTgwOTY2NjA0NDM@._V1_.jpg",
+        "title": "The Detour",
+        "eps": 0,
+        "total": 4,
+        "type": "Watchlist",
+        "category": "watchlist",
         "status": "completed"
     }
 ]

@@ -1,7 +1,4 @@
-import { Typography } from 'antd'
 import React from 'react'
-
-const { Text } = Typography
 
 const Loader = () => {
     return (<>

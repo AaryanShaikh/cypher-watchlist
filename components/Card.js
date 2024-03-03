@@ -1,8 +1,9 @@
-import { Typography, Tag, Space, Tooltip } from 'antd'
+import { Typography, Tooltip } from 'antd'
 import React, { useEffect, useState } from 'react'
 import { FaPlayCircle } from 'react-icons/fa'
 import { BsFillPatchCheckFill } from 'react-icons/bs'
 import errImage from '../data/NoImageFound.gif'
+import { GiBookmark } from 'react-icons/gi'
 
 const { Text } = Typography
 
@@ -23,9 +24,8 @@ function HighlightedString({ text, search }) {
     );
 }
 
-const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, status, dark, isSearch, searchText }) => {
+const CardItem = ({ range, show, imgSrc, title, eps, total, type, status, dark }) => {
     const [isImgLoading, setisImgLoading] = useState(true)
-    const highlightedTitle = <HighlightedString text={title} search={searchText} />;
     const [showLoader, setshowLoader] = useState(true)
     const [showErrorImg, setshowErrorImg] = useState(false)
 
@@ -63,8 +63,8 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, category, stat
             <div style={{ position: "absolute", display: "flex", flexDirection: "column", width: "100%", height: "100%", justifyContent: "flex-end" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0px 10px" }}>
                     <Text strong className='textFont' style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", opacity: total == 1 ? "0" : "1", fontSize: !range ? "1.8vh" : "" }}>{eps} / {total == 0 ? "?" : total}</Text>
-                    <Tooltip title={status == "in progress" ? "Currently Watching" : "Completed"}>
-                        {status == "in progress" ? <FaPlayCircle style={{ color: "#389DEF" }} /> : <BsFillPatchCheckFill style={{ color: "#78F100" }} />}
+                    <Tooltip title={type == "Watchlist" ? "Need 2 Watch" : status == "in progress" ? "Currently Watching" : "Completed"}>
+                        {type == "Watchlist" ? <GiBookmark /> : status == "in progress" ? <FaPlayCircle style={{ color: "#389DEF" }} /> : <BsFillPatchCheckFill style={{ color: "#78F100" }} />}
                     </Tooltip>
                     <Text className='textFont' strong type="secondary" style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", fontSize: !range ? "1.8vh" : "" }}>{type}</Text>
                 </div>

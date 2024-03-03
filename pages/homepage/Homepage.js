@@ -1,21 +1,18 @@
-import React, { useState, useEffect, useRef, lazy } from 'react'
-import { Input, Switch, Typography, FloatButton, Modal, Statistic, Tabs, List, Tour, message } from 'antd'
-import { Gi3DGlasses, GiAbstract060, GiCrossMark, GiGamepad, GiTv } from 'react-icons/gi';
-import { BiCameraMovie, BiMoviePlay, BiScatterChart } from 'react-icons/bi'
+import React, { useState, useEffect, useRef } from 'react'
+import { Switch, Typography, Tabs, List, Tour } from 'antd'
+import { Gi3DGlasses, GiAbstract060, GiBookmarklet, GiGamepad, GiTv } from 'react-icons/gi';
+import { BiCameraMovie, BiMoviePlay } from 'react-icons/bi'
 import { BsMoonStars, BsFillSunFill } from 'react-icons/bs';
 import { MdScreenSearchDesktop } from 'react-icons/md'
 import CardItem from '../../components/Card';
-import Loader from '../../components/Loader';
 import axios from 'axios';
 import SearchBox from '../../components/SearchBox';
 import Head from 'next/head';
-import NumberCounter from '../../components/NumberCounter';
 import Profile from '../../components/Profile';
 import CircularProgress from '../../components/CircularProgress';
 import Stats from '../../components/Stats';
 
 const { Text } = Typography
-const { Search } = Input
 const { TabPane } = Tabs
 
 const Homepage = () => {
@@ -24,13 +21,9 @@ const Homepage = () => {
     const range = mainwidth > 300 && mainwidth < 500
     const [categorySel, setcategorySel] = useState("all")
     const [isDark, setisDark] = useState(false)
-    const [isLoading, setisLoading] = useState(true)
-    const [showStats, setshowStats] = useState(false)
-    const [showStatsData, setshowStatsData] = useState(false)
     const [searchText, setsearchText] = useState("")
     const [searchData, setsearchData] = useState([])
     const [rawData, setrawData] = useState([])
-    const [iniRender, setiniRender] = useState(true)
     const [viewScreenHeight, setviewScreenHeight] = useState(0)
     const [isActive, setisActive] = useState(false)
     const [allCats, setallCats] = useState(["all", "ongoing"])
@@ -118,16 +111,6 @@ const Homepage = () => {
             },
         },
     ];
-
-    useEffect(() => {
-        if (showStats) {
-            setshowStatsData(showStats)
-        } else {
-            setTimeout(() => {
-                setshowStatsData(showStats)
-            }, 1000)
-        }
-    }, [showStats])
 
     useEffect(() => {
         setcategorySel(isActive ? "search" : "all")
@@ -220,7 +203,8 @@ const Homepage = () => {
                             categorySel == "anime" ? "Aaryan's watched anime" :
                                 categorySel == "series" ? "Aaryan's watched series" :
                                     categorySel == "movies" ? "Aaryan's watched movies" :
-                                        "Aaryan's played games"
+                                        categorySel == "watchlist" ? "Aaryan's watchList" :
+                                            "Aaryan's played games"
             }</title>
         </Head>
         {showProfile ? <Profile showProfile={showProfile} setshowProfile={setshowProfile} range={range} /> : ""}
@@ -303,7 +287,12 @@ const Homepage = () => {
                                                                     <GiGamepad style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
                                                                     <Text className='textFont' style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)" }}>{capitalizeFirstLetter(ele)}</Text>
                                                                     <GiGamepad style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
-                                                                </> : ""
+                                                                </> :
+                                                                    ele == "watchlist" ? <>
+                                                                        <GiBookmarklet style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 0, 100% 0, 100% 50%, 0 50%)", position: "relative", top: "10px" }} />
+                                                                        <Text className='textFont' style={{ color: isDark ? categorySel == ele ? "#1677ff" : "black" : "aliceblue", fontSize: categorySel == ele ? "14px" : "0px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)" }}>{capitalizeFirstLetter(ele)}</Text>
+                                                                        <GiBookmarklet style={{ opacity: categorySel == ele ? "0.5" : "1", fontSize: "20px", transition: ".5s cubic-bezier(0.68, -0.55, 0.265, 1.55)", color: isDark ? "black" : "aliceblue", clipPath: "polygon(0 50%, 100% 50%, 100% 100%, 0 100%)", position: "relative", bottom: "10px" }} />
+                                                                    </> : ""
                                         }
 
                                     </div>

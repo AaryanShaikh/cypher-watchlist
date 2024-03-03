@@ -1,4 +1,4 @@
-import { Button, Spin, Typography } from 'antd'
+import { Button } from 'antd'
 import React, { useEffect, useState } from 'react'
 import { SiGmail } from 'react-icons/si'
 import { AiFillInstagram } from 'react-icons/ai'

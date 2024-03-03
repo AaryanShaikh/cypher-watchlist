@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { BiSearchAlt } from 'react-icons/bi';
 
-const SearchBox = ({ searchText, setsearchText, isActive, setisActive, dark, refs, range }) => {
+const SearchBox = ({  setsearchText, setisActive, dark, refs, range }) => {
     const [text, settext] = useState("")
     const [labelText, setlabelText] = useState("Search My Memoirs")
     const [isInputFocused, setIsInputFocused] = useState(false);
@@ -44,9 +44,6 @@ const SearchBox = ({ searchText, setsearchText, isActive, setisActive, dark, ref
                     style={{ background: "none", outline: "none", border: "none", height: "100%", width: "90%", position: "absolute", color: dark ? "aliceblue" : "#000", fontSize: !range ? "1.8vh" : "" }}
                 />
             </div>
-            {/* <div>
-                <input placeholder='Seek and find...' value={text} onChange={(e) => settext(e.target.value)} className="searchBx textFont" style={{ height: "30px", width: "200px", border: `1px solid ${dark ? "white" : "black"}`, padding: 0, margin: 0, borderLeft: dark ? "white" : "#0e0e0e", borderTopRightRadius: isActive ? "0px" : "10px", borderBottomRightRadius: isActive ? "0px" : "10px", transition: ".5s ease-in", color: dark ? "aliceblue" : "black" }} />
-            </div> */}
         </div>
     </>
     )

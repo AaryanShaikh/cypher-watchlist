@@ -24,7 +24,7 @@ const Stats = ({ range, rawData }) => {
             >
                 {
                     isOn ? <>
-                        <NumberCounter range={range} title="Total [All] Watched" end={rawData.length - rawData.filter(x => x.category == "game").length} />
+                        <NumberCounter range={range} title="Total [All] Watched" end={rawData.length - (rawData.filter(x => x.category == "game").length + rawData.filter(x => x.category == "watchlist").length)} />
                         <NumberCounter range={range} title="Total Games Completed" end={rawData.filter(x => x.category == "game").length} />
                         <NumberCounter range={range} title="Total Anime Watched" end={rawData.filter(x => x.category == "anime").length} />
                         <NumberCounter range={range} title="Total [Anime Eps] Watched" end={rawData.filter(x => x.category == "anime").reduce((acc, obj) => { return acc + obj.eps }, 0)} />
