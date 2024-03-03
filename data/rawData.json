@@ -11097,6 +11097,24 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/ed/Sicario_-_Day_of_the_Soldado.png",
+        "title": "Sicario: Day of the Soldado",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMjA5NjM3NTk1M15BMl5BanBnXkFtZTgwMzg1MzU2NjE@._V1_.jpg",
+        "title": "Sicario",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/b/bf/2015_Focus_film_poster.png",
         "title": "Focus",
         "eps": 1,
