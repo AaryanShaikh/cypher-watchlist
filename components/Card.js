@@ -62,7 +62,7 @@ const CardItem = ({ range, show, imgSrc, title, eps, total, type, status, dark }
             />
             <div style={{ position: "absolute", display: "flex", flexDirection: "column", width: "100%", height: "100%", justifyContent: "flex-end" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "0px 10px" }}>
-                    <Text strong className='textFont' style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", opacity: total == 1 ? "0" : "1", fontSize: !range ? "1.8vh" : "" }}>{eps} / {total == 0 ? "?" : total}</Text>
+                    <Text strong className='textFont' style={{ color: dark ? "rgb(213 213 213)" : "black", transition: ".5s ease", opacity: type == "Watchlist" ? "1" : total == 1 ? "0" : "1", fontSize: !range ? "1.8vh" : "" }}>{eps} / {total == 0 ? "?" : total}</Text>
                     <Tooltip title={type == "Watchlist" ? "Need 2 Watch" : status == "in progress" ? "Currently Watching" : "Completed"}>
                         {type == "Watchlist" ? <GiBookmark /> : status == "in progress" ? <FaPlayCircle style={{ color: "#389DEF" }} /> : <BsFillPatchCheckFill style={{ color: "#78F100" }} />}
                     </Tooltip>
