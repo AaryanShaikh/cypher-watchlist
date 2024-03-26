@@ -2556,6 +2556,24 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/77/Assassins_Creed_2_Box_Art.JPG",
+        "title": "Assassin's Creed II",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/52/Assassin%27s_Creed.jpg",
+        "title": "Assassin's Creed",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a0/Nfsu-win-cover.jpg",
         "title": "Need for Speed: Underground",
         "eps": 1,
