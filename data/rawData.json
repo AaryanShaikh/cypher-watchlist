@@ -1,8 +1,89 @@
 [
     {
+        "imgSrc": "https://static.animesuge.to/i/c/ce/8e262d2661b48a1414d269ae8bd1533e.jpg",
+        "title": "Viral Hit",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/1/1f/f86feea8acd01f07f7b483920ce0c95c.jpg",
+        "title": "The Misfit of Demon King Academy II (Cour 2)",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/0/05/0724db9b8dd8857b0465f1feea1aeaef.jpg",
+        "title": "Kaiju No.8",
+        "eps": 2,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/8/85/27e794dce733c37badd3e86e1c2c3e0b.jpg",
+        "title": "THE NEW GATE",
+        "eps": 2,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/4/43/a34361d9eab13aedebc3a51fbd36a72e.jpg",
+        "title": "GO! GO! Loser Ranger!",
+        "eps": 2,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/5/50/91f1a16ab24f5e0e33c9559397cbe89c.jpg",
+        "title": "The Duke of Death and His Maid Season 3",
+        "eps": 2,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/9/9d/2825f3818fe1ac7c283615fc6eac5075.jpg",
+        "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+        "eps": 2,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/c/c8/0bf30686f918671c6973c80c6559a0b1.jpg",
+        "title": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
+        "eps": 2,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/9/94/1a1b56ac4a28c0ce2426e81260d510c5.jpg",
+        "title": "Unnamed Memory",
+        "eps": 2,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://static.animesuge.to/i/8/83/a35ea96d34dcf1d3d92aab6e4b067a28.jpg",
         "title": "Chillin' in Another World with Level 2 Super Cheat Powers",
-        "eps": 1,
+        "eps": 2,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -47,7 +128,7 @@
     {
         "imgSrc": "https://static.animesuge.to/i/a/a5/b8fd979a3b95e305a49720274ff5387b.jpg",
         "title": "I Was Reincarnated as the 7th Prince So I Can Take My Time Perfecting My Magical Ability",
-        "eps": 1,
+        "eps": 3,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -5373,15 +5454,6 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMzM3Y2JlMDMtM2E0Ny00YjA5LWJkOTYtNzk2OWY3NGE0YjBmXkEyXkFqcGdeQXVyMTMxNTMyNDQw._V1_.jpg",
-        "title": "Sherlock Holmes 3",
-        "eps": 1,
-        "total": 1,
-        "type": "Movies",
-        "category": "movies",
-        "status": "completed"
-    },
-    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTQwMzQ5Njk1MF5BMl5BanBnXkFtZTcwNjIxNzIxNw@@._V1_.jpg",
         "title": "Sherlock Holmes: A Game of Shadows",
         "eps": 1,
@@ -5420,15 +5492,6 @@
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BOGM3MzQwYzItNDA1Ny00MzIyLTg5Y2QtYTAwMzNmMDU2ZDgxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg",
         "title": "Skyscraper",
-        "eps": 1,
-        "total": 1,
-        "type": "Movies",
-        "category": "movies",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Forrest_Gump_poster.jpg/220px-Forrest_Gump_poster.jpg",
-        "title": "Forrest Gump",
         "eps": 1,
         "total": 1,
         "type": "Movies",
@@ -5791,15 +5854,6 @@
         "title": "Prison Break Season 1",
         "eps": 22,
         "total": 22,
-        "type": "Series",
-        "category": "series",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9sZIdJoMS1TaEQCYiQIe2XqnxxJhMutLLHQ&usqp=CAU",
-        "title": "What If...?",
-        "eps": 9,
-        "total": 9,
         "type": "Series",
         "category": "series",
         "status": "completed"
@@ -8667,15 +8721,6 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/8/85/8550fa9649406cbd2fa05826438e1747.jpg",
-        "title": "Parallel World Pharmacy",
-        "eps": 12,
-        "total": 12,
-        "type": "Anime",
-        "category": "anime",
-        "status": "completed"
-    },
-    {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/9/9e/9e12905bf8156dba240756891e906f68.jpg",
         "title": "Chainsaw Man",
         "eps": 12,
@@ -8833,15 +8878,6 @@
         "title": "Pokémon: Black & White",
         "eps": 84,
         "total": 84,
-        "type": "Anime",
-        "category": "anime",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://static.bunnycdn.ru/i/cache/images/2018/04/9f07054f8ef88bc89fe7ec40530ced21.jpg",
-        "title": "Pokémon: Diamond and Pearl",
-        "eps": 191,
-        "total": 191,
         "type": "Anime",
         "category": "anime",
         "status": "completed"
@@ -12757,15 +12793,6 @@
         "title": "Reacher",
         "eps": 0,
         "total": 2,
-        "type": "Watchlist",
-        "category": "watchlist",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BODY5YjA3ZDgtM2EwYy00ZGVmLWFhNWItMTMxMWRkMWFiOTlkXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_QL75_UX190_CR0,2,190,281_.jpg",
-        "title": "Succession",
-        "eps": 0,
-        "total": 4,
         "type": "Watchlist",
         "category": "watchlist",
         "status": "completed"
