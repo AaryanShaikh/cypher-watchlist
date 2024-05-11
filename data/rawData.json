@@ -1,5 +1,32 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Suits_season_8_part_1_dvd_cover.jpg/220px-Suits_season_8_part_1_dvd_cover.jpg",
+        "title": "Suits Season 8",
+        "eps": 7,
+        "total": 16,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Black-ish_season_5_poster.jpg/220px-Black-ish_season_5_poster.jpg",
+        "title": "black-ish Season 8",
+        "eps": 13,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzYwNmQwZGItNzdmNy00Y2ZkLWIxYzUtNDY3ZGIyYzY2M2MzXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
+        "title": "black-ish Season 7",
+        "eps": 21,
+        "total": 21,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BN2QyZGU4ZDctOWMzMy00NTc5LThlOGQtODhmNDI1NmY5YzAwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
         "title": "Dune: Part Two",
         "eps": 1,
@@ -209,11 +236,11 @@
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzYwNmQwZGItNzdmNy00Y2ZkLWIxYzUtNDY3ZGIyYzY2M2MzXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
         "title": "black-ish Season 6",
-        "eps": 1,
+        "eps": 23,
         "total": 23,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/f/f0/Madame_Web_%28film%29_poster.jpg",
@@ -12350,11 +12377,11 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/7/78/Suits_season_7_dvd_cover.jpg/220px-Suits_season_7_dvd_cover.jpg",
         "title": "Suits Season 7",
-        "eps": 9,
+        "eps": 16,
         "total": 16,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/7/7e/Suits_Season_6_DVD_Cover.jpg",
