@@ -1,12 +1,30 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/12/Jack_Ryan.png",
+        "title": "Tom Clancy's Jack Ryan Season 1",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/58/Suits-season9-poster.png",
+        "title": "Suits Season 9",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Suits_season_8_part_1_dvd_cover.jpg/220px-Suits_season_8_part_1_dvd_cover.jpg",
         "title": "Suits Season 8",
-        "eps": 7,
+        "eps": 16,
         "total": 16,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Black-ish_season_5_poster.jpg/220px-Black-ish_season_5_poster.jpg",
