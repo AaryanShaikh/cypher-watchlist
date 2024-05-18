@@ -9,6 +9,15 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMGFjOGQ3MWItYzcwNS00ZTYxLWE5MmYtOWVkMWE1NmM1MzM1XkEyXkFqcGdeQXVyMTY1MjAwNDU0._V1_.jpg",
+        "title": "Laapataa Ladies",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/5/58/Suits-season9-poster.png",
         "title": "Suits Season 9",
         "eps": 10,
