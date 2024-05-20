@@ -1,12 +1,21 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYmI3N2EzOWQtZjFiMi00MjgwLTgzN2UtZGI0ZGY1ZDQyOTRiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "title": "Tulsa King",
+        "eps": 9,
+        "total": 9,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BODU0MmZjYjktOGQ4MS00N2QwLTk5MzQtYTRkMGRiM2Q4ZjViXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg",
         "title": "Tom Clancy's Jack Ryan Season 4",
-        "eps": 1,
+        "eps": 8,
         "total": 8,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDNmNGI2NzAtZjZhYi00YTc1LWJjOTctMTRlMDI0MzEzNjA2XkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
