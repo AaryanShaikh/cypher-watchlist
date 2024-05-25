@@ -1,12 +1,48 @@
 [
     {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYmI3N2EzOWQtZjFiMi00MjgwLTgzN2UtZGI0ZGY1ZDQyOTRiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-        "title": "Tulsa King",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/ce/Arcadian_%282024%29_poster.jpg",
+        "title": "Arcadian",
         "eps": 1,
-        "total": 9,
-        "type": "Series",
-        "category": "series",
-        "status": "in progress"
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMzczMmQ0NTItM2JkZi00MTRhLTg5OGMtZWEyZTE2ZDgwM2FjXkEyXkFqcGdeQXVyMTU1MDczNjU1._V1_FMjpg_UX1000_.jpg",
+        "title": "Exhuma",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BOWI5YTlkNTktOTJlMC00MmYyLThkNzQtYmExOGZkZDE1ZjgwXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_.jpg",
+        "title": "The Ministry of Ungentlemanly Warfare",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a7/IF_%28film%29_poster_2.jpg",
+        "title": "IF",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmYyM2VhM2UtYmEzNi00M2RmLTkzYWQtZGQ5MjI2MzQzMWMyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "title": "Boy Kills World",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
     },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNDVkZTM0NDAtNTQxMS00NWIyLTgyM2ItNjAxOTllYTAzNTVjXkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_FMjpg_UX1000_.jpg",
@@ -15,6 +51,15 @@
         "total": 1,
         "type": "Movies",
         "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYmI3N2EzOWQtZjFiMi00MjgwLTgzN2UtZGI0ZGY1ZDQyOTRiXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "title": "Tulsa King",
+        "eps": 9,
+        "total": 9,
+        "type": "Series",
+        "category": "series",
         "status": "completed"
     },
     {
