@@ -1,5 +1,32 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmYzMWVjNmQtNjJjNy00M2Y4LTkzZjQtZWQ5NmYzMjRjMDIzXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_FMjpg_UX1000_.jpg",
+        "title": "Furiosa: A Mad Max Saga",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmYyZGQzM2YtYTY3My00NGE5LWIzMmQtMDIxMTFhMGIxZDhhXkEyXkFqcGdeQXVyMTY0Njc2MTUx._V1_FMjpg_UX1000_.jpg",
+        "title": "Immaculate",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/17/The_Punisher_season_2_poster.jpg",
+        "title": "The Punisher Season 2",
+        "eps": 4,
+        "total": 13,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzZlODVjMzgtZGM1Yi00MWMwLTkyYTQtMzJlZjQ4MDgwYzg4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
         "title": "Monkey Man",
         "eps": 1,
@@ -432,13 +459,13 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://static.animesuge.to/s/c/c1/c1ff2ab6f69ac363c8f390e0c305134b.jpg",
+        "imgSrc": "https://static.animesuge.to/i/1/11/f8afece6eff312ce165e22779b894708.jpg",
         "title": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
-        "eps": 1,
-        "total": 1,
+        "eps": 2,
+        "total": 0,
         "type": "Anime",
         "category": "anime",
-        "status": "completed"
+        "status": "in progress"
     },
     {
         "imgSrc": "https://static.animesuge.to/s/d/d5/d51ea2341673981351dab9ac3379af40.jpg",
@@ -13180,15 +13207,6 @@
         "title": "Marvel's Jessica Jones",
         "eps": 2,
         "total": 3,
-        "type": "Watchlist",
-        "category": "watchlist",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZDYzODRjNTYtNmVmYy00NTJjLTk3NzQtZjQ5Y2Y1YmIzMzZhXkEyXkFqcGdeQXVyMTY4NTMxNTcx._V1_FMjpg_UX1000_.jpg",
-        "title": "The Punisher",
-        "eps": 1,
-        "total": 2,
         "type": "Watchlist",
         "category": "watchlist",
         "status": "completed"
