@@ -1,5 +1,32 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjcyOTk2YmQtMTI3NS00MTM3LWIyZDgtZGJkMDk1YmE2ZDEwXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
+        "title": "The Wheel of Time Season 2",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.wikia.nocookie.net/wot-prime/images/a/af/Season_1_poster_July_2021.jpg/revision/latest?cb=20210723181417",
+        "title": "The Wheel of Time Season 1",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYjFjZmVjMTQtNmJmNS00ZDI2LTkxZGEtOTA5MTgwMjM2ZTFiXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_QL75_UX190_CR0,6,190,281_.jpg",
+        "title": "What You Wish For",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmYzMWVjNmQtNjJjNy00M2Y4LTkzZjQtZWQ5NmYzMjRjMDIzXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_FMjpg_UX1000_.jpg",
         "title": "Furiosa: A Mad Max Saga",
         "eps": 1,
@@ -20,11 +47,11 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/1/17/The_Punisher_season_2_poster.jpg",
         "title": "The Punisher Season 2",
-        "eps": 4,
+        "eps": 13,
         "total": 13,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzZlODVjMzgtZGM1Yi00MWMwLTkyYTQtMzJlZjQ4MDgwYzg4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
