@@ -18,12 +18,21 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://static.wikia.nocookie.net/wot-prime/images/a/af/Season_1_poster_July_2021.jpg/revision/latest?cb=20210723181417",
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/a/a1/The_Wheel_of_Time_%28TV_series%29_logo.jpg",
         "title": "The Wheel of Time Season 1",
         "eps": 8,
         "total": 8,
         "type": "Series",
         "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTk2NjQzNmEtODYyNS00OGM1LWIzMzUtNmYwZTYwNGJjYjI1XkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg",
+        "title": "Die Hart 2: Die Harter",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
         "status": "completed"
     },
     {
@@ -909,8 +918,8 @@
         "status": "completed"
     },
     {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNjdhNTE3MWMtY2FmMi00OTJiLWIyM2ItMTQ1ZmIxMDU4MDQxXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
-        "title": "A Haunting in Venice",
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTVhN2I0MTYtYzJjZS00MzRjLTliYmEtNTExNmFjZjA5YTU0XkEyXkFqcGdeQXVyMzM1OTgxMDc@._V1_.jpg",
+        "title": "Die Hart the Movie",
         "eps": 1,
         "total": 1,
         "type": "Movies",
