@@ -5238,6 +5238,24 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://resizing.flixster.com/Asn2ot5SjZT4P7ypl8ff4ThxPsM=/ems.cHJkLWVtcy1hc3NldHMvdHZzZWFzb24vYjc2YmNjZDktMzBjOS00ZTQ4LWJlM2UtZmVlMzA3ZTIwMmUyLmpwZw==",
+        "title": "Locke & Key Season 2",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzVkOTIxZWUtMTNjOC00NWMwLWEyNDQtNTY2NzYxNjhhYTA1XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+        "title": "Locke & Key Season 1",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMDVjNGMzZWUtZGQzOS00ZGRhLTg3MjQtOTlkMzlkNDI1NzFhXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
         "title": "What If...?",
         "eps": 9,
