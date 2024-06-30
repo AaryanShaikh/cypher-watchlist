@@ -1,5 +1,32 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Furiosa_A_Mad_Max_Saga.jpg/220px-Furiosa_A_Mad_Max_Saga.jpg",
+        "title": "Furiosa: A Mad Max Saga",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjNlYjg5YzYtMmU4ZC00MzA4LWE5YWYtNTJlOTkyZmQ0YzdkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+        "title": "The Watchers",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e8/Hit_man_2024_film.jpg",
+        "title": "Hit Man",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.animesuge.to/i/4/4e/9f0e7b6babcb6c4427b7a2f0ba814910.jpg",
         "title": "My Hero Academia Season 7",
         "eps": 9,
