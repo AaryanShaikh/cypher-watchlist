@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/04/The_Mandalorian_season_1_poster.jpg",
+        "title": "The Mandalorian Season 1",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Furiosa_A_Mad_Max_Saga.jpg/220px-Furiosa_A_Mad_Max_Saga.jpg",
         "title": "Furiosa: A Mad Max Saga",
         "eps": 1,
