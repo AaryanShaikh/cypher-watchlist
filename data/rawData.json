@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://static.animesuge.to/i/4/4e/9f0e7b6babcb6c4427b7a2f0ba814910.jpg",
+        "title": "My Hero Academia Season 7",
+        "eps": 9,
+        "total": 21,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_.jpg",
         "title": "Star Wars: The Rise of Skywalker",
         "eps": 1,
@@ -101,11 +110,11 @@
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BNzVkOTIxZWUtMTNjOC00NWMwLWEyNDQtNTY2NzYxNjhhYTA1XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
         "title": "Locke & Key Season 3",
-        "eps": 1,
+        "eps": 8,
         "total": 8,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjcyOTk2YmQtMTI3NS00MTM3LWIyZDgtZGJkMDk1YmE2ZDEwXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
@@ -371,11 +380,11 @@
     {
         "imgSrc": "https://static.animesuge.to/i/0/05/0724db9b8dd8857b0465f1feea1aeaef.jpg",
         "title": "Kaiju No.8",
-        "eps": 2,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/8/85/27e794dce733c37badd3e86e1c2c3e0b.jpg",
@@ -389,11 +398,11 @@
     {
         "imgSrc": "https://static.animesuge.to/i/4/43/a34361d9eab13aedebc3a51fbd36a72e.jpg",
         "title": "GO! GO! Loser Ranger!",
-        "eps": 2,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/5/50/91f1a16ab24f5e0e33c9559397cbe89c.jpg",
@@ -423,15 +432,6 @@
         "status": "in progress"
     },
     {
-        "imgSrc": "https://static.animesuge.to/i/9/94/1a1b56ac4a28c0ce2426e81260d510c5.jpg",
-        "title": "Unnamed Memory",
-        "eps": 2,
-        "total": 0,
-        "type": "Anime",
-        "category": "anime",
-        "status": "in progress"
-    },
-    {
         "imgSrc": "https://static.animesuge.to/i/8/83/a35ea96d34dcf1d3d92aab6e4b067a28.jpg",
         "title": "Chillin' in Another World with Level 2 Super Cheat Powers",
         "eps": 2,
@@ -443,17 +443,17 @@
     {
         "imgSrc": "https://static.animesuge.to/i/0/07/286a7ab2683354757ba827f5b9979a2d.jpg",
         "title": "WIND BREAKER",
-        "eps": 1,
-        "total": 0,
+        "eps": 13,
+        "total": 13,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/4/44/16e33c7b7271c6e4cbdb4340fb27186b.jpg",
         "title": "That Time I Got Reincarnated as a Slime Season 3",
-        "eps": 1,
-        "total": 0,
+        "eps": 13,
+        "total": 24,
         "type": "Anime",
         "category": "anime",
         "status": "in progress"
@@ -470,20 +470,20 @@
     {
         "imgSrc": "https://static.animesuge.to/i/7/77/8b28732b2909a92501df61f4da9b10eb.jpg",
         "title": "Boku no Hero Academia: Memories",
-        "eps": 1,
+        "eps": 4,
         "total": 4,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/a/a5/b8fd979a3b95e305a49720274ff5387b.jpg",
         "title": "I Was Reincarnated as the 7th Prince So I Can Take My Time Perfecting My Magical Ability",
-        "eps": 3,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/8/81/1f6d7c2a31c009711d03c5132a2967c8.jpg",
@@ -596,7 +596,7 @@
     {
         "imgSrc": "https://static.animesuge.to/i/1/11/f8afece6eff312ce165e22779b894708.jpg",
         "title": "Demon Slayer: Kimetsu no Yaiba Hashira Training Arc",
-        "eps": 2,
+        "eps": 7,
         "total": 0,
         "type": "Anime",
         "category": "anime",
@@ -13315,15 +13315,6 @@
         "title": "Arrow",
         "eps": 0,
         "total": 8,
-        "type": "Watchlist",
-        "category": "watchlist",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjcyOTk2YmQtMTI3NS00MTM3LWIyZDgtZGJkMDk1YmE2ZDEwXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg",
-        "title": "The Wheel of Time",
-        "eps": 0,
-        "total": 2,
         "type": "Watchlist",
         "category": "watchlist",
         "status": "completed"
