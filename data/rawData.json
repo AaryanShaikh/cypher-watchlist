@@ -1,12 +1,102 @@
 [
     {
+        "imgSrc": "https://static.animesuge.to/i/6/68/5ce9a1c83feafe8e2b50e5d5786b4504.jpg",
+        "title": "Sengoku Youko: Thousand Demons Chaos Arc",
+        "eps": 1,
+        "total": 24,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/7/77/7770b75d36d57a447509a647b73eeeaa.jpg",
+        "title": "Sengoku Youko",
+        "eps": 13,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/f/f7/616d80e3b8a747c3afa2bfb54a403db1.jpg",
+        "title": "Street Fighter 6 VS SPY×FAMILY CODE: White",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/7/70/f5dd33ea72f11bc9a4b886f90ed315d1.jpg",
+        "title": "The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became Invincible",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/0/09/3c3913349a1c9a8e87eb7c8e8e5b56aa.jpg",
+        "title": "The Strongest Magician in the Demon Lord's Army was a Human",
+        "eps": 1,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/9/94/8cce06a58021a38ee6a3964340206741.jpg",
+        "title": "Oshi no Ko Season 2",
+        "eps": 1,
+        "total": 13,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/d/d1/0c618f34f28941bc61c46d3d908b7e3a.jpg",
+        "title": "I Parry Everything",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/e/e7/78d5beee06025c204b4f6edf6bc34a1a.jpg",
+        "title": "Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/8/8e/3a6f367107bae1fb746c39604b3d85f8.jpg",
+        "title": "NieR:Automata Ver1.1a Cour 2",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/8/8e/3a6f367107bae1fb746c39604b3d85f8.jpg",
+        "title": "Code Geass: Rozé of the Recapture",
+        "eps": 3,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/04/The_Mandalorian_season_1_poster.jpg",
         "title": "The Mandalorian Season 1",
-        "eps": 8,
+        "eps": 2,
         "total": 8,
         "type": "Series",
         "category": "series",
-        "status": "completed"
+        "status": "in progress"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Furiosa_A_Mad_Max_Saga.jpg/220px-Furiosa_A_Mad_Max_Saga.jpg",
@@ -425,11 +515,11 @@
     {
         "imgSrc": "https://static.animesuge.to/i/8/85/27e794dce733c37badd3e86e1c2c3e0b.jpg",
         "title": "THE NEW GATE",
-        "eps": 2,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/4/43/a34361d9eab13aedebc3a51fbd36a72e.jpg",
@@ -452,29 +542,29 @@
     {
         "imgSrc": "https://static.animesuge.to/i/9/9d/2825f3818fe1ac7c283615fc6eac5075.jpg",
         "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
-        "eps": 2,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/c/c8/0bf30686f918671c6973c80c6559a0b1.jpg",
         "title": "Mushoku Tensei: Jobless Reincarnation Season 2 Part 2",
-        "eps": 2,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/8/83/a35ea96d34dcf1d3d92aab6e4b067a28.jpg",
         "title": "Chillin' in Another World with Level 2 Super Cheat Powers",
-        "eps": 2,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/0/07/286a7ab2683354757ba827f5b9979a2d.jpg",
@@ -513,6 +603,15 @@
         "status": "completed"
     },
     {
+        "imgSrc": "https://static.animesuge.to/i/c/c7/0c42b5f48558c0d21d4e134d03905492.jpg",
+        "title": "Re:Monster",
+        "eps": 12,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.animesuge.to/i/a/a5/b8fd979a3b95e305a49720274ff5387b.jpg",
         "title": "I Was Reincarnated as the 7th Prince So I Can Take My Time Perfecting My Magical Ability",
         "eps": 12,
@@ -524,11 +623,11 @@
     {
         "imgSrc": "https://static.animesuge.to/i/8/81/1f6d7c2a31c009711d03c5132a2967c8.jpg",
         "title": "KONOSUBA -God's Blessing on This Wonderful World! 3",
-        "eps": 1,
+        "eps": 11,
         "total": 11,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://image.api.playstation.com/cdn/EP0001/CUSA09303_00/tzKcptCCUkiigpacybO8xWmvxPS7vIzk.png",
