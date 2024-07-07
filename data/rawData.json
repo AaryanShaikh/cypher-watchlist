@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://i6.imageban.ru/out/2024/02/03/5e5a642925afc6073cd0f172f22a8268.jpg",
+        "title": "Jujutsu Kaisen: Cursed Clash",
+        "eps": 1,
+        "total": 1,
+        "type": "Game",
+        "category": "game",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.animesuge.to/i/6/68/5ce9a1c83feafe8e2b50e5d5786b4504.jpg",
         "title": "Sengoku Youko: Thousand Demons Chaos Arc",
         "eps": 1,
@@ -1235,7 +1244,7 @@
     {
         "imgSrc": "https://static.bunnycdn.ru/i/cache/images/6/65/65da57f59e5c3a3b48cde3bc82170388.jpg",
         "title": "Shangri-La Frontier",
-        "eps": 24,
+        "eps": 25,
         "total": 25,
         "type": "Anime",
         "category": "anime",
