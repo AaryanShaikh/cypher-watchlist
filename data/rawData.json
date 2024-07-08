@@ -1,29 +1,83 @@
 [
     {
+        "imgSrc": "https://static.animesuge.to/i/2/27/f95fa3266a4cf00c641d900ad6a5831c.jpg",
+        "title": "Dragon Raja -The Blazing Dawn-",
+        "eps": 16,
+        "total": 16,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/0/0c/dc082d8e125b7cf6a2167669fbb01435.jpg",
+        "title": "Dragon Raja: An Invitation From a Foreign Land",
+        "eps": 1,
+        "total": 1,
+        "type": "Anime",
+        "category": "anime",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/3/30/33b3cbd009d4d41c5a84ea172a0ef219.jpg",
+        "title": "Suicide Squad ISEKAI",
+        "eps": 4,
+        "total": 10,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/d/d5/4f46ab9dc6ac17e9e7a609a8d12ca1a0.jpg",
+        "title": "The Café Terrace and Its Goddesses Season 2",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/1/16/33cc663a562291362a7ab2f1fbf4d713.jpg",
+        "title": "A Nobody's Way Up to an Exploration Hero",
+        "eps": 2,
+        "total": 11,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/b/be/5855deca4e4b2ace5dd6f86d48917cda.jpg",
+        "title": "The Elusive Samurai",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/1/1d/fea3de97c99f98f2f54673c51d7b2366.jpg",
+        "title": "Wistoria: Wand and Sword",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://static.animesuge.to/i/3/3d/0e59dc89c8c1ffad025d37708f949871.jpg",
+        "title": "A Journey Through Another World: Raising Kids While Adventuring",
+        "eps": 2,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://i6.imageban.ru/out/2024/02/03/5e5a642925afc6073cd0f172f22a8268.jpg",
         "title": "Jujutsu Kaisen: Cursed Clash",
         "eps": 1,
         "total": 1,
         "type": "Game",
         "category": "game",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://static.animesuge.to/i/6/68/5ce9a1c83feafe8e2b50e5d5786b4504.jpg",
-        "title": "Sengoku Youko: Thousand Demons Chaos Arc",
-        "eps": 1,
-        "total": 24,
-        "type": "Anime",
-        "category": "anime",
-        "status": "completed"
-    },
-    {
-        "imgSrc": "https://static.animesuge.to/i/7/77/7770b75d36d57a447509a647b73eeeaa.jpg",
-        "title": "Sengoku Youko",
-        "eps": 13,
-        "total": 13,
-        "type": "Anime",
-        "category": "anime",
         "status": "completed"
     },
     {
