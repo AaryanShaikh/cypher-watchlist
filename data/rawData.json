@@ -1,5 +1,41 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Bad_Boys_Ride_or_Die_%282024%29_poster.jpg/220px-Bad_Boys_Ride_or_Die_%282024%29_poster.jpg",
+        "title": "Bad Boys: Ride or Die",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNGZmODU3ZDEtMjQwZC00NTA5LThmNWYtYzk5MmY5ZmM4NGIxXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+        "title": "A Quiet Place: Day One",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYTFmNzBkMDctZjc0OC00MzI5LWFmOWItZWRiMjFkNDc4YzM5XkEyXkFqcGdeQXVyMTY3ODkyNDkz._V1_.jpg",
+        "title": "Despicable Me 4",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNjUyNzQ2MTg3Ml5BMl5BanBnXkFtZTgwNzE4NDM3MTI@._V1_.jpg",
+        "title": "Despicable Me 3",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://static.animesuge.to/i/7/73/9c99ecae33b2fac0b0c0cf8e49d60b82.jpg",
         "title": "Our Last Crusade or the Rise of a New World Season 2",
         "eps": 1,
@@ -9,7 +45,7 @@
         "status": "in progress"
     },
     {
-        "imgSrc": "https://static.animesuge.to/i/b/b4/d6db3c735ddecf34242c29a254da4118.jpg",
+        "imgSrc": "https://static.animesuge.to/i/c/cb/a427ebe892d37bcb391c689d32e047a3.jpg",
         "title": "Bye Bye, Earth",
         "eps": 1,
         "total": 0,
@@ -4227,6 +4263,24 @@
         "total": 1,
         "type": "Game",
         "category": "game",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTQxNzY1MjI5NF5BMl5BanBnXkFtZTcwNTI0MDY1OQ@@._V1_.jpg",
+        "title": "Despicable Me 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/c/c0/Despicable_Me_%282010_animated_feature_film%29.jpg",
+        "title": "Despicable Me",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
         "status": "completed"
     },
     {
