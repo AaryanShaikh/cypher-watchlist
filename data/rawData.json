@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZGVmNWIwNjItOWUwMi00MjQwLWEzZjMtZWU2M2RiZmFjYWQxXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
+        "title": "The 8 Show",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/Bad_Boys_Ride_or_Die_%282024%29_poster.jpg/220px-Bad_Boys_Ride_or_Die_%282024%29_poster.jpg",
         "title": "Bad Boys: Ride or Die",
         "eps": 1,
@@ -209,11 +218,11 @@
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/0/04/The_Mandalorian_season_1_poster.jpg",
         "title": "The Mandalorian Season 1",
-        "eps": 2,
+        "eps": 8,
         "total": 8,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/3/34/Furiosa_A_Mad_Max_Saga.jpg/220px-Furiosa_A_Mad_Max_Saga.jpg",
