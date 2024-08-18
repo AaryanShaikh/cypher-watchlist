@@ -1,5 +1,14 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e7/The_Mandalorian_season_2_poster.jpg",
+        "title": "The Mandalorian Season 2",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZGVmNWIwNjItOWUwMi00MjQwLWEzZjMtZWU2M2RiZmFjYWQxXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
         "title": "The 8 Show",
         "eps": 8,
