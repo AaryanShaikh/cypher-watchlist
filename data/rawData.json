@@ -1,12 +1,66 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BN2QwZWQ3MjYtOWRlNi00YjM0LTllMmYtZjk5MDdiYTkzMzk0XkEyXkFqcGc@._V1_.jpg",
+        "title": "Andor",
+        "eps": 1,
+        "total": 12,
+        "type": "Series",
+        "category": "series",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BOGU4ODlmNmMtMDM0OS00NTMxLWFlODUtZGFkMjU5NDdhMjgyXkEyXkFqcGc@._V1_.jpg",
+        "title": "Obi-Wan Kenobi",
+        "eps": 7,
+        "total": 7,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BY2JlY2NkOWItYjAyZS00Yzc5LWE4ZWEtMGY2NzBlZDkzNjYzXkEyXkFqcGc@._V1_.jpg",
+        "title": "The Book of Boba Fett",
+        "eps": 7,
+        "total": 7,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BNmVmZGQ2ZTctYzE4NC00YzkxLThhNjYtNGIyZjJmZGEwMjUzXkEyXkFqcGc@._V1_.jpg",
+        "title": "The Lord of the Rings: The Rings of Power Season 1",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/d/d1/Aavesham.jpg",
+        "title": "Aavesham",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMmQ2ZGU3ODYtNzA0Yi00NDlhLWIxNzYtM2E2Y2FhOGNjZjIyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "title": "Jackpot!",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/e/e7/The_Mandalorian_season_2_poster.jpg",
         "title": "The Mandalorian Season 2",
         "eps": 8,
         "total": 8,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BZGVmNWIwNjItOWUwMi00MjQwLWEzZjMtZWU2M2RiZmFjYWQxXkEyXkFqcGdeQXVyMTEzMTI1Mjk3._V1_FMjpg_UX1000_.jpg",
@@ -191,11 +245,11 @@
     {
         "imgSrc": "https://static.animesuge.to/i/d/d1/0c618f34f28941bc61c46d3d908b7e3a.jpg",
         "title": "I Parry Everything",
-        "eps": 1,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/e/e7/78d5beee06025c204b4f6edf6bc34a1a.jpg",
@@ -713,11 +767,11 @@
     {
         "imgSrc": "https://static.animesuge.to/i/4/44/16e33c7b7271c6e4cbdb4340fb27186b.jpg",
         "title": "That Time I Got Reincarnated as a Slime Season 3",
-        "eps": 13,
+        "eps": 24,
         "total": 24,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/6/69/40775999616ba538de381fa6e1e03939.jpg",
