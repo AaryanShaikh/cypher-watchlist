@@ -1,12 +1,129 @@
 [
     {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1667/145393.jpg",
+        "title": "Demon Lord, Retry! R",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1667/145393.jpg",
+        "title": "Demon Lord, Retry! R",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1679/145660.jpg",
+        "title": "Let This Grieving Soul Retire",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1280/143705.jpg",
+        "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World Season 2",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1683/145446.jpg",
+        "title": "The Most Notorious 'Talker' Runs the World's Greatest Clan",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1706/144725.jpg",
+        "title": "Re:ZERO -Starting Life in Another World- Season 3",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1299/144738.jpg",
+        "title": "Is It Wrong to Try to Pick Up Girls in a Dungeon? V",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1714/145320.jpg",
+        "title": "Loner Life in Another World",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1079/145918.jpg",
+        "title": "Mecha-Ude: Mechanical Arms",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1584/143719.jpg",
+        "title": "Dandadan",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1225/144606.jpg",
+        "title": "Good Bye, Dragon Life",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1314/145530.jpg",
+        "title": "Rurouni Kenshin: Kyoto Disturbance",
+        "eps": 1,
+        "total": 23,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMDkwZGY3OTAtZWFhNi00YTFiLWFjYTktYzJhNWJkNzhmZTkyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+        "title": "Sword art online alternative: gun gale online season 2",
+        "eps": 1,
+        "total": 12,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BN2QwZWQ3MjYtOWRlNi00YjM0LTllMmYtZjk5MDdiYTkzMzk0XkEyXkFqcGc@._V1_.jpg",
         "title": "Andor",
-        "eps": 1,
+        "eps": 12,
         "total": 12,
         "type": "Series",
         "category": "series",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BOGU4ODlmNmMtMDM0OS00NTMxLWFlODUtZGFkMjU5NDdhMjgyXkEyXkFqcGc@._V1_.jpg",
@@ -110,11 +227,11 @@
     {
         "imgSrc": "https://static.animesuge.to/i/7/73/9c99ecae33b2fac0b0c0cf8e49d60b82.jpg",
         "title": "Our Last Crusade or the Rise of a New World Season 2",
-        "eps": 1,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/c/cb/a427ebe892d37bcb391c689d32e047a3.jpg",
@@ -128,20 +245,20 @@
     {
         "imgSrc": "https://static.animesuge.to/i/b/b4/d6db3c735ddecf34242c29a254da4118.jpg",
         "title": "Why Does Nobody Remember Me in This World?",
-        "eps": 1,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/8/89/1aa2f522b2013f36fa9424ca4da28af9.jpg",
         "title": "No Longer Allowed in Another World",
-        "eps": 1,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/3/30/33b3cbd009d4d41c5a84ea172a0ef219.jpg",
@@ -164,38 +281,38 @@
     {
         "imgSrc": "https://static.animesuge.to/i/1/16/33cc663a562291362a7ab2f1fbf4d713.jpg",
         "title": "A Nobody's Way Up to an Exploration Hero",
-        "eps": 2,
+        "eps": 11,
         "total": 11,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/b/be/5855deca4e4b2ace5dd6f86d48917cda.jpg",
         "title": "The Elusive Samurai",
-        "eps": 1,
+        "eps": 12,
         "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/1/1d/fea3de97c99f98f2f54673c51d7b2366.jpg",
         "title": "Wistoria: Wand and Sword",
-        "eps": 1,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/3/3d/0e59dc89c8c1ffad025d37708f949871.jpg",
         "title": "A Journey Through Another World: Raising Kids While Adventuring",
-        "eps": 2,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://i6.imageban.ru/out/2024/02/03/5e5a642925afc6073cd0f172f22a8268.jpg",
@@ -218,25 +335,25 @@
     {
         "imgSrc": "https://static.animesuge.to/i/7/70/f5dd33ea72f11bc9a4b886f90ed315d1.jpg",
         "title": "The Ossan Newbie Adventurer, Trained to Death by the Most Powerful Party, Became Invincible",
-        "eps": 1,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/0/09/3c3913349a1c9a8e87eb7c8e8e5b56aa.jpg",
         "title": "The Strongest Magician in the Demon Lord's Army was a Human",
-        "eps": 1,
+        "eps": 13,
         "total": 13,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/9/94/8cce06a58021a38ee6a3964340206741.jpg",
         "title": "Oshi no Ko Season 2",
-        "eps": 1,
+        "eps": 12,
         "total": 13,
         "type": "Anime",
         "category": "anime",
@@ -254,20 +371,20 @@
     {
         "imgSrc": "https://static.animesuge.to/i/e/e7/78d5beee06025c204b4f6edf6bc34a1a.jpg",
         "title": "Failure Frame: I Became the Strongest and Annihilated Everything with Low-Level Spells",
-        "eps": 1,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/8/8e/3a6f367107bae1fb746c39604b3d85f8.jpg",
         "title": "NieR:Automata Ver1.1a Cour 2",
-        "eps": 1,
-        "total": 0,
+        "eps": 12,
+        "total": 12,
         "type": "Anime",
         "category": "anime",
-        "status": "in progress"
+        "status": "completed"
     },
     {
         "imgSrc": "https://static.animesuge.to/i/b/b7/5a575a38afefb72fbef260b2c5cab50c.jpg",
@@ -317,7 +434,7 @@
     {
         "imgSrc": "https://static.animesuge.to/i/4/4e/9f0e7b6babcb6c4427b7a2f0ba814910.jpg",
         "title": "My Hero Academia Season 7",
-        "eps": 9,
+        "eps": 19,
         "total": 21,
         "type": "Anime",
         "category": "anime",
