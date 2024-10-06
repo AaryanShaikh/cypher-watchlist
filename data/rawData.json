@@ -1,5 +1,59 @@
 [
     {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1595/144074.jpg",
+        "title": "Bleach: Thousand-Year Blood War - The Conflict",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1584/144860.jpg",
+        "title": "Blue Lock vs. U-20 Japan",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1749/145922.jpg",
+        "title": "Orb: On the Movements of the Earth",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1617/144043.jpg",
+        "title": "Blue Exorcist: Beyond the Snow Saga",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1721/145335.jpg",
+        "title": "The Healer Who Was Banished From His Party, Is, in Fact, the Strongest",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1909/144684.jpg",
+        "title": "You Are Ms. Servant.",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Nobody_Wants_This_Season_1_%282024%29_poster.jpg/220px-Nobody_Wants_This_Season_1_%282024%29_poster.jpg",
         "title": "Nobody Wants This",
         "eps": 1,
@@ -11,7 +65,7 @@
     {
         "imgSrc": "https://cdn.myanimelist.net/images/anime/1667/145393.jpg",
         "title": "Demon Lord, Retry! R",
-        "eps": 1,
+        "eps": 2,
         "total": 0,
         "type": "Anime",
         "category": "anime",
