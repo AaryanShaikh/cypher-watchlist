@@ -1,5 +1,41 @@
 [
     {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1214/142185.jpg",
+        "title": "Haigakura",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1087/144583.jpg",
+        "title": "Seirei Gensouki: Spirit Chronicles Season 2",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1109/145389.jpg",
+        "title": "The Seven Deadly Sins: Four Knights of the Apocalypse Season 2",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
+        "imgSrc": "https://cdn.myanimelist.net/images/anime/1723/145231.jpg",
+        "title": "Dragon Ball Daima",
+        "eps": 1,
+        "total": 0,
+        "type": "Anime",
+        "category": "anime",
+        "status": "in progress"
+    },
+    {
         "imgSrc": "https://cdn.myanimelist.net/images/anime/1595/144074.jpg",
         "title": "Bleach: Thousand-Year Blood War - The Conflict",
         "eps": 1,
@@ -164,7 +200,7 @@
     {
         "imgSrc": "https://m.media-amazon.com/images/M/MV5BMDkwZGY3OTAtZWFhNi00YTFiLWFjYTktYzJhNWJkNzhmZTkyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
         "title": "Sword art online alternative: gun gale online season 2",
-        "eps": 1,
+        "eps": 2,
         "total": 12,
         "type": "Anime",
         "category": "anime",
