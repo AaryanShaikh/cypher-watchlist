@@ -1,5 +1,77 @@
 [
     {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/26/The_Mandalorian_season_3_poster.jpg",
+        "title": "The Mandalorian season 3",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Sooryavanshi_film_poster.jpg/220px-Sooryavanshi_film_poster.jpg",
+        "title": "Sooryavanshi",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/23/Bhool_Bhulaiyaa_2_film_poster.jpg",
+        "title": "Bhool Bhulaiyaa 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMTA1NmUxYzItZmVmNy00YmQxLTk4Y2UtZjVkMWUwMWQ5N2IxXkEyXkFqcGc@._V1_.jpg",
+        "title": "Stree 2",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/3/39/Munjya_2024.jpg",
+        "title": "Munjya",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYTIxYjUxMTAtNDM5Zi00ZWU1LThhZDMtNDU5ZjEwMzhjMzVmXkEyXkFqcGc@._V1_.jpg",
+        "title": "Bhediya",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://upload.wikimedia.org/wikipedia/en/3/3d/Nobody_Wants_This_Season_1_%282024%29_poster.jpg",
+        "title": "Nobody Wants This",
+        "eps": 10,
+        "total": 10,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BZjM2M2E3YzAtZDJjYy00MDhkLThiYmItOGZhNzQ3NTgyZmI0XkEyXkFqcGc@._V1_.jpg",
+        "title": "The Wild Robot",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://cdn.myanimelist.net/images/anime/1214/142185.jpg",
         "title": "Haigakura",
         "eps": 1,
