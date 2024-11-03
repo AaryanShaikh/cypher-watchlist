@@ -1,5 +1,32 @@
 [
     {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYzkxYjcxOWUtNWM5Zi00MzY3LTliYjAtNGYyNjE5OWY2MmU4XkEyXkFqcGc@._V1_.jpg",
+        "title": "The Acolyte",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BYWQ3NmQxZTEtNDc2MS00ODExLWE3ZDEtZTU2N2Y2NjAyNmY5XkEyXkFqcGc@._V1_.jpg",
+        "title": "Ahsoka",
+        "eps": 8,
+        "total": 8,
+        "type": "Series",
+        "category": "series",
+        "status": "completed"
+    },
+    {
+        "imgSrc": "https://m.media-amazon.com/images/M/MV5BMmFhN2EyZDYtNjkxMC00NTIyLTgxNjAtZjkxYmI2NWQzNzkzXkEyXkFqcGc@._V1_.jpg",
+        "title": "Haikyu!! The Dumpster Battle",
+        "eps": 1,
+        "total": 1,
+        "type": "Movies",
+        "category": "movies",
+        "status": "completed"
+    },
+    {
         "imgSrc": "https://upload.wikimedia.org/wikipedia/en/2/26/The_Mandalorian_season_3_poster.jpg",
         "title": "The Mandalorian season 3",
         "eps": 8,
